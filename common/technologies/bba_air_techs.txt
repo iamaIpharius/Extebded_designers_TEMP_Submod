@@ -1340,6 +1340,11 @@ technologies = {
 			flying_boat_large
 			rear_engine
 			top_engine
+			adi_observation_bay
+
+			hollow_part_small
+			hollow_part_medium
+			hollow_part_large
 		}
 		
 		research_cost = 1

@@ -719,6 +719,7 @@ equipment_modules = {
 	bomb_locks = {
 		abbreviation = "bol"
 		category = cas_weapon
+		gui_category = plane_suspended
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = cas
 
@@ -761,6 +762,7 @@ equipment_modules = {
 	rocket_rails = {
 		abbreviation = "rrl"
 		category = cas_weapon
+		gui_category = plane_suspended
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = cas
 
@@ -789,6 +791,7 @@ equipment_modules = {
 		abbreviation = "sbb"
 		category = cas_weapon
 		sfx = sfx_ui_sd_module_turret
+		gui_category = bomb_bays
 		add_equipment_type = { cas tactical_bomber }
 
 		add_stats = {
@@ -831,6 +834,7 @@ equipment_modules = {
 		abbreviation = "mbb"
 		category = tac_weapon
 		sfx = sfx_ui_sd_module_turret
+		gui_category = bomb_bays
 		add_equipment_type = { cas tactical_bomber }
 
 		add_stats = {
@@ -872,6 +876,7 @@ equipment_modules = {
 		abbreviation = "lbb"
 		category = strat_weapon
 		sfx = sfx_ui_sd_module_turret
+		gui_category = bomb_bays
 		add_equipment_type = strategic_bomber
 
 		add_stats = {
@@ -903,6 +908,33 @@ equipment_modules = {
 			}
 		}
 		dismantle_cost_ic = 12
+	}
+	
+	aircraft_cargo_bay = {
+		abbreviation = "lbb"
+		category = adi_cargo_bay
+		sfx = sfx_ui_sd_module_turret
+		gui_category = bomb_bays
+
+		add_stats = {
+			build_cost_ic = 5
+			weight = 2
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			paradrop
+			air_supply
+		}
+		mission_type_stats = {
+			limit = {
+				paradrop
+				air_supply
+			}
+			add_stats = {
+				weight = 6
+			}
+		}
+		dismantle_cost_ic = 8
 	}
 
 	tank_buster_1 = {
@@ -948,6 +980,7 @@ equipment_modules = {
 	torpedo_mounting = {
 		abbreviation = "tpm"
 		category = nav_bomber_weapon
+		gui_category = bomb_bays
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = { naval_bomber maritime_patrol_plane }
 
@@ -980,15 +1013,9 @@ equipment_modules = {
 	recon_camera = {
 		abbreviation = "rca"
 		category = recon_camera
+		gui_category = plane_special_observe
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = scout_plane
-		forbid_equipment_type_exact_match_for_category = {
-			fighter_weapon = scout_plane
-			cas_weapon = scout_plane
-			nav_bomber_weapon = scout_plane
-			tac_weapon = scout_plane
-			mine_warfare_offense = scout_plane
-		}
 
 		add_stats = {
 			build_cost_ic = 1
@@ -1020,6 +1047,7 @@ equipment_modules = {
 		abbreviation = "asm"
 		category = nav_bomber_weapon
 		sfx = sfx_ui_sd_module_turret
+		gui_category = bomb_bays
 		add_equipment_type = { naval_bomber maritime_patrol_plane }
 
 		add_stats = {	
@@ -1101,6 +1129,18 @@ equipment_modules = {
 		dismantle_cost_ic = 0.5
 	}
 
+	hollow_part_small = {
+		abbreviation = "adi_hps"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			reliability = 0.05
+			thrust = 1.5
+		}
+		xp_cost = 0
+		dismantle_cost_ic = 0.5
+	}
 
 	fuel_tanks_small = {
 		abbreviation = "fts"
@@ -1335,6 +1375,18 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
+	hollow_part_medium = {
+		abbreviation = "adi_hpm"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			reliability = 0.05
+			thrust = 1.5
+		}
+		xp_cost = 0
+		dismantle_cost_ic = 0.5
+	}
 
  ######  ########  ########  ######  ####    ###    ##          ##     ## ########   #######  ##     ## ##       ########  ######                ##          ###    ########   ######   ######## 
 ##    ## ##     ## ##       ##    ##  ##    ## ##   ##          ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ##               ##         ## ##   ##     ## ##    ##  ##       
@@ -1433,6 +1485,18 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		dismantle_cost_ic = 5
+	}
+	hollow_part_large = {
+		abbreviation = "adi_hpm"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			reliability = 0.05
+			thrust = 1.5
+		}
+		xp_cost = 0
+		dismantle_cost_ic = 0.5
 	}
 
 
@@ -1600,6 +1664,36 @@ equipment_modules = {
 			add_stats = {
 				night_penalty = -0.4
 			}
+		}
+		xp_cost = 0
+	}
+
+	adi_observation_bay = {
+		abbreviation = "obs_b"
+		category = plane_special_module_bomb_sights
+		gui_category = plane_special_observe
+		sfx = sfx_ui_sd_module_turret
+		
+		allow_mission_type = {
+			naval_patrol
+		}
+
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+				port_strike
+				strategic_bomber
+				naval_patrol
+			}
+			add_stats = {
+				air_bombing = 2
+				surface_detection = 4
+				sub_detection = 2
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 1
 		}
 		xp_cost = 0
 	}
@@ -2327,7 +2421,7 @@ equipment_modules = {
 			build_cost_ic = 12
 			fuel_consumption = 0.05
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2360,7 +2454,7 @@ equipment_modules = {
 			fuel_consumption = 0.07
 			reliability = 0.025
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2395,7 +2489,7 @@ equipment_modules = {
 			air_agility = -0.8
 			air_defence = -0.6
 		}
-		
+		xp_cost = 0
 	}
 	engine_pull_push = {
 		abbreviation = "eng_pull"
@@ -2408,7 +2502,7 @@ equipment_modules = {
 			build_cost_ic = 25
 			fuel_consumption = 0.1
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2442,7 +2536,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.06
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2476,7 +2570,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.1
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2511,7 +2605,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.06
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2544,7 +2638,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.03
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2577,7 +2671,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.07
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2611,7 +2705,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.03
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2644,7 +2738,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.1
 		}
-		
+		xp_cost = 0
 		allowed_module_categories = {
 			aircraft_nose = {
 				plane_nose_engine
@@ -2669,7 +2763,7 @@ equipment_modules = {
 		category = plane_engine_kind_reactor
 		sfx = sfx_ui_sd_module_engine
 		parent = engine_4_1x
-		
+		xp_cost = 0
 		add_stats = {
 			maximum_speed = 850
 			thrust = 23
@@ -2713,7 +2807,7 @@ equipment_modules = {
 		abbreviation = "re1"
 		category = plane_engine_kind_reactor
 		sfx = sfx_ui_sd_module_engine
-		
+		xp_cost = 0
 		add_stats = {
 			maximum_speed = 650
 			thrust = 18
@@ -2750,7 +2844,7 @@ equipment_modules = {
 		abbreviation = "re2"
 		category = plane_engine_kind_reactor
 		sfx = sfx_ui_sd_module_engine
-		
+		xp_cost = 0
 		add_stats = {
 			maximum_speed = 700
 			thrust = 20
@@ -2788,7 +2882,7 @@ equipment_modules = {
 		abbreviation = "re3"
 		category = plane_engine_kind_reactor
 		sfx = sfx_ui_sd_module_engine
-		
+		xp_cost = 0
 		add_stats = {
 			maximum_speed = 900
 			thrust = 20
