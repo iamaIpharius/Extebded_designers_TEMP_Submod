@@ -1961,4 +1961,142 @@ equipment_modules = {
 			naval_patrol
 		}
 	}
+
+	### TAC SIGHTS (ROLE) ###
+	sights_tac_0 = {
+		abbreviation = "st0"
+		category = sights_tac
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas tactical_bomber }
+
+		add_stats = {
+			air_ground_attack = 2
+			air_bombing = 2
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			strategic_bomber
+			port_strike
+		}
+	}
+
+	sights_tac_1 = {
+		abbreviation = "st1"
+		category = sights_tac
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas tactical_bomber }
+
+		add_stats = {
+			air_ground_attack = 4
+			air_bombing = 3
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			strategic_bomber
+			port_strike
+		}
+	}
+	
+	sights_tac_2 = {
+		abbreviation = "st2"
+		category = sights_tac
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas tactical_bomber }
+
+		add_stats = {
+			air_ground_attack = 6
+			air_bombing = 4
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			strategic_bomber
+			port_strike
+		}
+	}
+	sights_tac_3 = {
+		abbreviation = "st3"
+		category = sights_tac
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { cas tactical_bomber }
+
+		add_stats = {
+			air_ground_attack = 8
+			air_bombing = 5
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			strategic_bomber
+			port_strike
+		}
+	}
+
+	### STRAT SIGHTS (ROLE) ###
+	sights_strat_0 = {
+		abbreviation = "ss0"
+		category = sights_strat
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = strategic_bomber
+
+		add_stats = {	
+			air_ground_attack = 6
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+	}
+	sights_strat_1 = {
+		abbreviation = "ss1"
+		category = sights_strat
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = strategic_bomber
+
+		add_stats = {	
+			air_ground_attack = 8
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+	}
+	sights_strat_2 = {
+		abbreviation = "ss2"
+		category = sights_strat
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = strategic_bomber
+
+		add_stats = {	
+			air_ground_attack = 10
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+	}
+	sights_strat_3 = {
+		abbreviation = "ss3"
+		category = sights_strat
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = strategic_bomber
+
+		add_stats = {	
+			air_ground_attack = 12
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			strategic_bomber
+			port_strike
+		}
+	}
 }

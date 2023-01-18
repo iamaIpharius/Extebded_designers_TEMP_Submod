@@ -805,6 +805,8 @@ technologies = {
 			sights_fighter_1
 			sights_cas_1
 			sights_nav_1
+			sights_tac_1
+			sights_strat_1
 		}
 		
 		research_cost = 1
@@ -847,6 +849,8 @@ technologies = {
 			sights_fighter_2
 			sights_cas_2
 			sights_nav_2
+			sights_tac_2
+			sights_strat_2
 		}
 		
 		research_cost = 1
@@ -891,6 +895,8 @@ technologies = {
 			sights_fighter_3
 			sights_cas_3
 			sights_nav_3
+			sights_tac_3
+			sights_strat_3
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"

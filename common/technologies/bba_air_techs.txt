@@ -743,6 +743,8 @@ technologies = {
 			large_bomb_bay
 			sights_cas_0
 			sights_nav_0
+			sights_tac_0
+			sights_strat_0
 		}
 		
 		research_cost = 1

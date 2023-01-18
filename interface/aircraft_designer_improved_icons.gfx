@@ -350,4 +350,112 @@ spriteTypes = {
 		name = "GFX_modern_aircraft_construction_medium"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/technologies/aircraft_construction_modern.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_fighter"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_fighter_0.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_fighter_0"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_fighter_0.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_fighter_1"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_fighter_1.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_fighter_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_fighter_2.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_fighter_3"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_fighter_3.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_cas"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_cas_0.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_cas_0"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_cas_0.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_cas_1"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_cas_1.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_cas_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_cas_2.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_cas_3"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_cas_3.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_nav"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_nav_0.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_nav_0"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_nav_0.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_nav_1"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_nav_1.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_nav_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_nav_2.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_nav_3"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_nav_3.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_tac"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_tac_0.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_tac_0"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_tac_0.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_tac_1"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_tac_1.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_tac_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_tac_2.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_tac_3"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_tac_3.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_strat"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_strat_0.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sights_strat_0"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_strat_0.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_strat_1"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_strat_1.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_strat_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_strat_2.dds" 
+	}
+	spriteType = {
+		name = "GFX_SMI_sights_strat_3"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/modules/sights_strat_3.dds" 
+	}
 }
