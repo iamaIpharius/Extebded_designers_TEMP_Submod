@@ -1764,5 +1764,201 @@ equipment_modules = {
 		}
 		xp_cost = 1
 	}
+	
+	### TEMP SUBMOD STUFF###
+	### FIGHTER SIGHTS (ROLE) ###
+	sights_fighter_0 = {
+		abbreviation = "sf0"
+		category = sights_fighter
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
 
+		add_stats = {
+			air_attack = 4
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+	}
+
+	sights_fighter_1 = {
+		abbreviation = "sf1"
+		category = sights_fighter
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
+
+		add_stats = {
+			air_attack = 8
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+	}
+
+	sights_fighter_2 = {
+		abbreviation = "sf2"
+		category = sights_fighter
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
+
+		add_stats = {
+			air_attack = 12
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+	}
+
+	sights_fighter_3 = {
+		abbreviation = "sf3"
+		category = sights_fighter
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
+
+		add_stats = {
+			air_attack = 16
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+	}
+	### CAS SIGHTS (ROLE) ###
+	sights_cas_0 = {
+		abbreviation = "sc0"
+		category = sights_cas
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 2
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			naval_bomber
+		}
+	}
+
+	sights_cas_1 = {
+		abbreviation = "sc1"
+		category = sights_cas
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 4
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			naval_bomber
+		}
+	}
+
+	sights_cas_2 = {
+		abbreviation = "sc2"
+		category = sights_cas
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 6
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			naval_bomber
+		}
+	}
+
+	sights_cas_3 = {
+		abbreviation = "sc3"
+		category = sights_cas
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {
+			air_ground_attack = 8
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			cas
+			attack_logistics
+			naval_bomber
+		}
+	}
+
+	### NAVAL SIGHTS (ROLE) ###
+	sights_nav_0 = {
+		abbreviation = "sn0"
+		category = sights_nav
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { naval_bomber maritime_patrol_plane }
+
+		add_stats = {
+			naval_strike_targetting = 2
+		}
+		xp_cost = 0
+		allow_mission_type = {
+			naval_bomber
+			port_strike
+			naval_patrol
+		}
+	}
+	sights_nav_1 = {
+		abbreviation = "sn1"
+		category = sights_nav
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { naval_bomber maritime_patrol_plane }
+		xp_cost = 0
+		add_stats = {
+			naval_strike_targetting = 4
+		}
+		allow_mission_type = {
+			naval_bomber
+			port_strike
+			naval_patrol
+		}
+	}
+	sights_nav_2 = {
+		abbreviation = "sn2"
+		category = sights_nav
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { naval_bomber maritime_patrol_plane }
+		xp_cost = 0
+		add_stats = {
+			naval_strike_targetting = 6
+		}
+		allow_mission_type = {
+			naval_bomber
+			port_strike
+			naval_patrol
+		}
+	}
+	sights_nav_3 = {
+		abbreviation = "sn3"
+		category = sights_nav
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { naval_bomber maritime_patrol_plane }
+		xp_cost = 0
+		add_stats = {
+			naval_strike_targetting = 8
+		}
+		allow_mission_type = {
+			naval_bomber
+			port_strike
+			naval_patrol
+		}
+	}
 }
