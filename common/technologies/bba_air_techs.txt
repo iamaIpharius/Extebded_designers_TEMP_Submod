@@ -956,6 +956,7 @@ technologies = {
 		enable_equipment_modules = {
 			aircraft_cannon_1_1x
 			aircraft_cannon_1_2x
+			nose_engine_canon
 		}
 		
 		research_cost = 1
@@ -1003,6 +1004,7 @@ technologies = {
 			aircraft_cannon_2_2x
 			cannon_defense_turret
 			cannon_defense_turret_2x
+			adi_schraege_musik
 		}
 		
 		research_cost = 1.5
@@ -1043,11 +1045,14 @@ technologies = {
 	engines_1 = {
 
 		enable_equipment_modules = {
-			engine_1_1x
-			engine_1_2x
-			engine_1_3x
-			engine_1_4x
-			engine_1_6x	
+			engine_inline
+			engine_motor_rotary
+			engine_pull_push
+			
+			nose_engine
+			wing_engine
+			fuselage_high_wing
+			fuselage_biplane
 		}
 		
 		research_cost = 1
@@ -1115,11 +1120,11 @@ technologies = {
 	engines_2 = {
 
 		enable_equipment_modules = {
-			engine_2_1x
-			engine_2_2x
-			engine_2_3x
-			engine_2_4x
-			engine_2_6x	
+			engine_radial
+			engine_V
+			flying_boat_large
+			fuselage_monoplane
+			floats
 		}
 		
 		research_cost = 1
@@ -1169,11 +1174,10 @@ technologies = {
 	engines_3 = {
 
 		enable_equipment_modules = {
-			engine_3_1x
-			engine_3_2x
-			engine_3_3x
-			engine_3_4x
-			engine_3_6x	
+			engine_radial_1
+			engine_V_1
+			engine_V_protected
+			fuselage_twin
 		}
 		
 		research_cost = 1.5
@@ -1223,11 +1227,12 @@ technologies = {
 	engines_4 = {
 
 		enable_equipment_modules = {
-			engine_4_1x
-			engine_4_2x
-			engine_4_3x
-			engine_4_4x
-			engine_4_6x	
+			engine_turbo_prop
+			fuselage_flying_wing
+			fuselage_swept_wing
+			adi_t_tail
+			adi_twin_boom
+			adi_twin_tail
 		}
 		
 		research_cost = 1.5
@@ -1333,6 +1338,8 @@ technologies = {
 			flying_boat_medium
 			non_strategic_materials_large
 			flying_boat_large
+			rear_engine
+			top_engine
 		}
 		
 		research_cost = 1
