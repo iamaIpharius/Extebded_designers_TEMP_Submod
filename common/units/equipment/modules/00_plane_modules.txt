@@ -1211,24 +1211,6 @@ equipment_modules = {
 		xp_cost = 0
 	}
 
-	floats = { 
-		abbreviation = "flo"
-		category = plane_special_module_small
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1
-			weight = 1
-			air_agility = -5
-			surface_detection = 5
-			sub_detection = 3
-		}
-		multiply_stats = {
-			maximum_speed = -0.3
-		}
-		dismantle_cost_ic = 2.5
-		xp_cost = 0
-	}
 
  ######  ########  ########  ######  ####    ###    ##          ##     ##  #######  ########  ##     ## ##       ########  ######                ##     ## ######## ########  #### ##     ## ##     ## 
 ##    ## ##     ## ##       ##    ##  ##    ## ##   ##          ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ##               ###   ### ##       ##     ##  ##  ##     ## ###   ### 
