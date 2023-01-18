@@ -1211,35 +1211,6 @@ equipment_modules = {
 		xp_cost = 0
 	}
 
-	dive_brakes_small = {
-		abbreviation = "dbs"
-		category = plane_special_module_small
-		sfx = sfx_ui_sd_module_turret
-
-		forbid_module_categories = {
-			nav_bomber_weapon
-		}
-
-		add_stats = {
-			build_cost_ic = 1
-			weight = 1
-		}
-
-		mission_type_stats = {
-			limit = {
-				cas
-				naval_bomber
-				port_strike
-			}
-			add_stats = {
-				naval_strike_targetting = 6
-				air_defence = 4
-			}
-		}
-		dismantle_cost_ic = 2 #you essentially have to redesign part of the wing
-		xp_cost = 0
-	}
-
 	floats = { 
 		abbreviation = "flo"
 		category = plane_special_module_small
@@ -1470,22 +1441,6 @@ equipment_modules = {
 		xp_cost = 0
 	}
 
-	flying_boat_large = { 
-		abbreviation = "flbl"
-		category = plane_special_module_large
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 4
-			surface_detection = 12
-			sub_detection = 5
-		}
-		multiply_stats = {
-			maximum_speed = -0.4
-		}
-		xp_cost = 0
-		dismantle_cost_ic = 5
-	}
 	hollow_part_large = {
 		abbreviation = "adi_hpm"
 		category = plane_special_module_large
@@ -2818,7 +2773,7 @@ equipment_modules = {
 		multiply_stats = {
 			air_range = -0.9
 		}
-		buiplane_rear_engineld_cost_resources = {
+		biplane_rear_engineld_cost_resources = {
 			tungsten = 3
 		}
 		dismantle_cost_ic = 5
