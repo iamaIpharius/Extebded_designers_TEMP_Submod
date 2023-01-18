@@ -37,6 +37,9 @@
  EQ_MOD_SLOT_aircraft_middle_TITLE:0 "Plane middle"
  EQ_MOD_SLOT_aircraft_empennage_TITLE:0 "Empennage"
  EQ_MOD_SLOT_aircraft_designer_role_TITLE:0 "Aircraft mission"
+ EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "Aircraft mission"
+
+
  
  engine_inline:0 "Inline engine"
  engine_inline_desc:0 "An engine with a single piston line placed one behind the other. Its thin profile allows it to take up little space and make the aircraft more aerodynamic"
@@ -167,4 +170,4 @@
  sights_strat_1:0 "Basic Strat Bomber's Sight"
  sights_strat_2:0 "Improved Strat Bomber's Sight"
  sights_strat_3:0 "Advanced Strat Bomber's Sight"
- EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "Aircraft mission"
+

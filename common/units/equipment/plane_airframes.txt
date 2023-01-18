@@ -212,7 +212,6 @@ equipments = {
 					sights_fighter
 					sights_cas
 					sights_nav
-					sights_kamikaze
 				}
 			}
 
@@ -635,7 +634,6 @@ equipments = {
 					sights_fighter
 					sights_cas
 					sights_nav
-					sights_kamikaze
 				}
 			}
 
@@ -871,6 +869,7 @@ equipments = {
 			tactical_bomber
 			fighter
 			scout_plane
+			maritime_patrol_plane
 		}
 		allow_mission_type = training
 		group_by = archetype
@@ -1063,6 +1062,7 @@ equipments = {
 				allowed_module_categories = {
 					sights_fighter
 					sights_tac
+					sights_nav
 				}
 			}
 		}
