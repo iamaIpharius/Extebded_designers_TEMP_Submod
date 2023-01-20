@@ -44,7 +44,7 @@ equipments = {
 		}
 
 		module_slots = {
-			fixed_main_weapon_slot = {            #Wing Tip
+			fixed_main_slot = {            #Wing Tip
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -61,7 +61,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = {	#Mid Wing
+			fixed_slot_1 = {	#Mid Wing
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -76,7 +76,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_2 = {	#Wing tip
+			fixed_slot_2 = {	#Wing tip
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -91,7 +91,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_3 = {	#Wing flaps
+			fixed_slot_3 = {	#Wing flaps
 				required = no
 				allowed_module_categories = {
 					plane_flaps_cat
@@ -100,7 +100,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_4 = {	#Fuselage
+			fixed_slot_4 = {	#Fuselage
 				required = yes
 				allowed_module_categories = {
 					adi_fuselage_kind
@@ -307,8 +307,8 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_main_weapon_slot = empty
-			fixed_auxiliary_weapon_slot_1 = empty
+			fixed_main_slot = empty
+			fixed_slot_1 = empty
 			engine_type_slot = engine_1_1x
 			special_type_slot_1 = empty
 			special_type_slot_2 = empty
@@ -474,7 +474,7 @@ equipments = {
 		}
 
 		module_slots = {
-			fixed_main_weapon_slot = {            #Wing Tip
+			fixed_main_slot = {            #Wing Tip
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -490,7 +490,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = {	#Mid Wing
+			fixed_slot_1 = {	#Mid Wing
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -504,7 +504,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_2 = {	#Wing tip
+			fixed_slot_2 = {	#Wing tip
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -518,7 +518,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_3 = {	#Wing flaps
+			fixed_slot_3 = {	#Wing flaps
 				required = no
 				allowed_module_categories = {
 					plane_flaps_cat
@@ -527,7 +527,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_4 = {	#Fuselage
+			fixed_slot_4 = {	#Fuselage
 				required = yes
 				allowed_module_categories = {
 					adi_fuselage_kind
@@ -730,8 +730,8 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_main_weapon_slot = empty
-			fixed_auxiliary_weapon_slot_1 = empty
+			fixed_main_slot = empty
+			fixed_slot_1 = empty
 			engine_type_slot = engine_1_1x
 			special_type_slot_1 = empty
 			special_type_slot_2 = empty
@@ -891,7 +891,7 @@ equipments = {
 		}
 
 		module_slots = {
-			fixed_main_weapon_slot = {            #Wing Tip
+			fixed_main_slot = {            #Wing Tip
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -908,7 +908,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = {	#Mid Wing
+			fixed_slot_1 = {	#Mid Wing
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -922,7 +922,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_2 = {	#Wing tip
+			fixed_slot_2 = {	#Wing tip
 				required = no
 				allowed_module_categories = {
 					fighter_weapon
@@ -936,7 +936,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_3 = {	#Wing flaps
+			fixed_slot_3 = {	#Wing flaps
 				required = no
 				allowed_module_categories = {
 					plane_flaps_cat
@@ -945,7 +945,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_4 = {	#Fuselage
+			fixed_slot_4 = {	#Fuselage
 				required = yes
 				allowed_module_categories = {
 					adi_fuselage_kind
@@ -1151,8 +1151,8 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_main_weapon_slot = empty
-			fixed_auxiliary_weapon_slot_1 = empty
+			fixed_main_slot = empty
+			fixed_slot_1 = empty
 			engine_type_slot = engine_1_2x
 			special_type_slot_1 = empty
 			special_type_slot_2 = empty
@@ -1313,7 +1313,7 @@ equipments = {
 		}
 
 		module_slots = {
-			fixed_main_weapon_slot = {            #Wing Tip
+			fixed_main_slot = {            #Wing Tip
 				required = no
 				allowed_module_categories = {
 					plane_special_module_air_ground_radar
@@ -1326,7 +1326,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = {	#Mid Wing
+			fixed_slot_1 = {	#Mid Wing
 				required = no
 				allowed_module_categories = {
 					
@@ -1338,7 +1338,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_2 = {	#Wing tip
+			fixed_slot_2 = {	#Wing tip
 				required = no
 				allowed_module_categories = {
 					
@@ -1350,7 +1350,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_3 = {	#Wing flaps
+			fixed_slot_3 = {	#Wing flaps
 				required = no
 				allowed_module_categories = {
 
@@ -1358,7 +1358,7 @@ equipments = {
 				}
 			}
 			
-			fixed_auxiliary_weapon_slot_4 = {	#Fuselage
+			fixed_slot_4 = {	#Fuselage
 				required = yes
 				allowed_module_categories = {
 					adi_fuselage_kind
@@ -1537,8 +1537,8 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_main_weapon_slot = empty
-			fixed_auxiliary_weapon_slot_1 = empty
+			fixed_main_slot = empty
+			fixed_slot_1 = empty
 			engine_type_slot = engine_1_4x
 			special_type_slot_1 = empty
 			special_type_slot_2 = empty

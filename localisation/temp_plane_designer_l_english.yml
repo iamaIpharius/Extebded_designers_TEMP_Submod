@@ -24,11 +24,11 @@
  EQ_MOD_CAT_plane_special_module_medium_TITLE:0 "Internal composition"
  EQ_MOD_CAT_plane_special_module_large_TITLE:0 "Internal composition"
  
- EQ_MOD_SLOT_fixed_main_weapon_slot_TITLE:0 "Wing root"
- EQ_MOD_SLOT_fixed_auxiliary_weapon_slot_1_TITLE:0 "Mid-wing"
- EQ_MOD_SLOT_fixed_auxiliary_weapon_slot_2_TITLE:0 "Wing tip"
- EQ_MOD_SLOT_fixed_auxiliary_weapon_slot_3_TITLE:0 "Flaps"
- EQ_MOD_SLOT_fixed_auxiliary_weapon_slot_4_TITLE:0 "Fuselage"
+ EQ_MOD_SLOT_fixed_main_slot_TITLE:0 "Wing root"
+ EQ_MOD_SLOT_fixed_slot_1_TITLE:0 "Mid-wing"
+ EQ_MOD_SLOT_fixed_slot_2_TITLE:0 "Wing tip"
+ EQ_MOD_SLOT_fixed_slot_3_TITLE:0 "Flaps"
+ EQ_MOD_SLOT_fixed_slot_4_TITLE:0 "Fuselage"
  
  EQ_MOD_SLOT_engine_kind_slot_TITLE:0 "Engine kind"
  EQ_MOD_SLOT_aircraft_nose_TITLE:0 "Aircraft nose"

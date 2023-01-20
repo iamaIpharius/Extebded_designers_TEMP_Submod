@@ -2363,13 +2363,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2396,13 +2396,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2444,13 +2444,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2478,13 +2478,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2512,13 +2512,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2547,13 +2547,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2580,13 +2580,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2613,13 +2613,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2647,13 +2647,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2680,13 +2680,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2725,13 +2725,13 @@ equipment_modules = {
 			aircraft_nose = {
 				plane_nose_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 			aircraft_cockpit_rear = {
@@ -2764,13 +2764,13 @@ equipment_modules = {
 			aircraft_middle = {
 				
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 		}
@@ -2803,13 +2803,13 @@ equipment_modules = {
 			aircraft_middle = {
 				plane_rear_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 		}
@@ -2840,13 +2840,13 @@ equipment_modules = {
 			aircraft_middle = {
 				plane_rear_engine
 			}
-			fixed_main_weapon_slot = {
+			fixed_main_slot = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_1 = {
+			fixed_slot_1 = {
 				plane_wing_engine
 			}
-			fixed_auxiliary_weapon_slot_2 = {
+			fixed_slot_2 = {
 				plane_wing_engine
 			}
 		}

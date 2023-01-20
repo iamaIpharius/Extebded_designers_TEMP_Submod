@@ -1,26 +1,26 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_EMSI_fixed_main_weapon_slot"
+		name = "GFX_EMSI_fixed_main_slot"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/plane_module_wing_slot_3.dds" 
 	} 
 	
 	spriteType = {
-		name = "GFX_EMSI_fixed_auxiliary_weapon_slot_1"
+		name = "GFX_EMSI_fixed_slot_1"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/plane_module_wing_slot_2.dds" 
 	}
 	
 	spriteType = {
-		name = "GFX_EMSI_fixed_auxiliary_weapon_slot_2"
+		name = "GFX_EMSI_fixed_slot_2"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/plane_module_wing_slot_1.dds" 
 	}
 	
 	spriteType = {
-		name = "GFX_EMSI_fixed_auxiliary_weapon_slot_3"
+		name = "GFX_EMSI_fixed_slot_3"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/plane_module_wing_slot_4.dds" 
 	}
 	
 	spriteType = {
-		name = "GFX_EMSI_fixed_auxiliary_weapon_slot_4"
+		name = "GFX_EMSI_fixed_slot_4"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules_slot/plane_module_slot_wings.dds" 
 	}
 	
