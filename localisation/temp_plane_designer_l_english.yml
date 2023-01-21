@@ -3,6 +3,7 @@
  EQ_MOD_CAT_aircraft_role_2_TITLE:0 "Medium aircraft role"
  EQ_MOD_CAT_aircraft_role_3_TITLE:0 "Heavy aircraft role"
  EQ_MOD_CAT_adi_fuselage_kind_TITLE:0 "Fuselage"
+ EQ_MOD_CAT_adi_fuselage_kind_fboat_TITLE:0 "Fuselage Boat"
  EQ_MOD_CAT_plane_engine_kind_TITLE:0 "Piston engine"
  EQ_MOD_CAT_plane_engine_kind_reactor_TITLE:0 "Jet engine"
  EQ_MOD_CAT_plane_nose_engine_TITLE:0 "Front engine"

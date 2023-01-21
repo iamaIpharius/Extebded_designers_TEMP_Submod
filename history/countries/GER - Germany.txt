@@ -1,5 +1,4 @@
 ﻿capital = 64
-
 if = {
 	limit = {
 		NOT = {
@@ -8,6 +7,7 @@ if = {
 	}
 	set_oob = "GER_1936"
 }
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -16,21 +16,23 @@ if = {
 }
 
 if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "GER_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			aa_cannon_1 = 1
-			engines_1 = 1
-			engines_2 = 1
-			early_bombs = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-			basic_small_airframe = 1
-			iw_medium_airframe = 1
-			basic_medium_airframe = 1
-			iw_large_airframe = 1
-		}
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "GER_1936_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		aa_cannon_1 = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		basic_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_medium_airframe = 1
+		iw_large_airframe = 1
+	}
 	else = {
 		set_air_oob = "GER_1936_air_legacy"
 		set_technology = {
@@ -47,15 +49,13 @@ if = {
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
-
 # starting_truck_buffer = 0.8
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -69,9 +69,12 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
+
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
@@ -80,6 +83,7 @@ if = {
 		basic_heavy_tank = 1
 	}
 }
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -92,9 +96,12 @@ if = {
 		engine_tech_1 = 1
 	}
 }
+
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
+		not = {
+			has_dlc = "Man the Guns"
+		}
 	}
 	set_technology = {
 		early_submarine = 1
@@ -112,6 +119,7 @@ if = {
 	}
 	set_naval_oob = "GER_1936_naval"
 }
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -142,6 +150,7 @@ if = {
 	}
 	set_naval_oob = "GER_1936_naval_mtg"
 }
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -151,29 +160,40 @@ if = {
 	}
 }
 
-set_variable = { var = ger_gateway_to_europe_influence value = 0 }
+set_variable = {
+	var = ger_gateway_to_europe_influence
+	value = 0
+}
 
-set_variable = { var = wehrmacht_anger value = 0 }
-set_variable = { var = ss_anger value = 0 }
+set_variable = {
+	var = wehrmacht_anger
+	value = 0
+}
+
+set_variable = {
+	var = ss_anger
+	value = 0
+}
+
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.75 
+set_stability = 0.75
 set_war_support = 0.3
-
 #Trade
 create_import = {
-		resource = tungsten
-		factories = 1
-		exporter = SWE
+	resource = tungsten
+	factories = 1
+	exporter = SWE
 }
 
 1939.1.1 = {
-	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
+	add_named_threat = {
+		threat = 40
+		name = 1939_bookmark_threat
+	}
 	set_war_support = 0.7
-
 	add_political_power = 1197
 	add_command_power = 100
-	
 	#adding ministers
 	add_ideas = {
 		henschel
@@ -183,58 +203,71 @@ create_import = {
 		ludwig_beck
 		gerd_von_rundstedt
 		GER_autarky_idea
-
 		#laws
 		war_economy
 		extensive_conscription
 	}
-	
-	
-	
 	set_autonomy = {
 		target = SLO
 		autonomous_state = autonomy_puppet
 	}
-	
 	give_military_access = SLO
 	create_wargoal = {
 		type = take_state_focus
 		target = POL
-		generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
+		generator = {
+			72
+			88
+			90
+			87
+			86
+		}
+		# Zaolzie Krakow Kielce Lodz Poznan
 	}
-
-#Trade
+	#Trade
 	create_import = {
-			resource = oil
-			factories = 2
-			exporter = SOV
+		resource = oil
+		factories = 2
+		exporter = SOV
 	}
-
 	#MR pact effect, Also has a part scripted in soviet history file
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = fascism 
+			has_government = fascism
 		}
-		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+		add_opinion_modifier = {
+			target = GER
+			modifier = MR_pact_fascists
+		}
 	}
-	diplomatic_relation = { country = SOV relation = non_aggression_pact }
-	add_opinion_modifier = { target = SOV modifier = MR_pact }
+	diplomatic_relation = {
+		country = SOV
+		relation = non_aggression_pact
+	}
+	add_opinion_modifier = {
+		target = SOV
+		modifier = MR_pact
+	}
 	#MR pact end
-
 	#Soviet treaty
 	unlock_national_focus = GER_soviet_treaty
 	add_tech_bonus = {
-		bonus = 1.0
+		bonus = 1
 		uses = 2
 		category = armor
 	}
 	SOV = {
-		add_opinion_modifier = { target = GER modifier = sov_ger_treaty }
-		add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
+		add_opinion_modifier = {
+			target = GER
+			modifier = sov_ger_treaty
+		}
+		add_opinion_modifier = {
+			target = GER
+			modifier = sov_ger_treaty_trade
+		}
 	}
 	#Soviet treaty end
-	
 	unlock_national_focus = GER_rhineland
 	unlock_national_focus = GER_anschluss
 	unlock_national_focus = GER_demand_sudetenland
@@ -244,10 +277,12 @@ create_import = {
 	unlock_national_focus = GER_four_year_plan
 	unlock_national_focus = GER_autarky
 	unlock_national_focus = GER_synthetic_rubber
-
 	set_global_flag = end_of_czechoslovakia
 	set_global_flag = olympics_1936
-	set_variable = { var = GER_mefo_bill_counter value = 90 }
+	set_variable = {
+		var = GER_mefo_bill_counter
+		value = 90
+	}
 	complete_national_focus = GER_autobahn
 	complete_national_focus = GER_west_wall
 	complete_national_focus = GER_army_innovation
@@ -255,10 +290,7 @@ create_import = {
 	complete_national_focus = GER_kdf_wagen
 	complete_national_focus = GER_coal_liquidization
 	complete_national_focus = GER_extra_tech_slot
-
 	#BUILDINGS
-	
-
 	set_technology = {
 		interwar_artillery = 1
 		interwar_antitank = 1
@@ -267,8 +299,6 @@ create_import = {
 		support_weapons = 1
 		support_weapons2 = 1
 		paratroopers = 1
-		
-
 		#doctrines
 		delay = 1
 		elastic_defence = 1
@@ -279,10 +309,9 @@ create_import = {
 		unrestricted_submarine_warfare = 1
 		raider_patrols = 1
 		#air
-		formation_flying = 1		
+		formation_flying = 1
 		dive_bombing = 1
 		direct_ground_support = 1
-
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
@@ -292,7 +321,6 @@ create_import = {
 		computing_machine = 1
 		basic_encryption = 1
 		basic_decryption = 1
-
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
@@ -307,9 +335,7 @@ create_import = {
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
-
 	}
-
 	if = {
 		limit = {
 			NOT = {
@@ -317,18 +343,16 @@ create_import = {
 			}
 		}
 		set_technology = {
-			basic_medium_tank = 1 
+			basic_medium_tank = 1
 		}
 		set_oob = "GER_1939"
 	}
 	if = {
 		limit = {
-			
 			has_dlc = "No Step Back"
-			
 		}
 		set_technology = {
-			basic_medium_tank_chassis = 1 
+			basic_medium_tank_chassis = 1
 		}
 		set_oob = "GER_1939_nsb"
 	}
@@ -363,8 +387,10 @@ create_import = {
 		set_naval_oob = "GER_1939_naval_mtg"
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "GER_1939_air_bba"
+		limit = {
+			has_dlc = "By Blood Alone"
+		}
+		set_air_oob = "GER_1939_air_bba"
 		else = {
 			set_air_oob = "GER_1939_air_legacy"
 			set_technology = {
@@ -381,6 +407,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 20
 	fascism = 60
@@ -389,8 +416,6 @@ set_popularities = {
 
 create_faction = Axis
 add_to_faction = GER
-
-
 add_ideas = {
 	sour_loser
 	general_staff
@@ -398,10 +423,9 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
+
 add_ideas = GER_mefo_bills_1
-
 activate_mission = GER_mefo_bills_mission
-
 recruit_character = GER_wilhelm_pieck
 recruit_character = GER_konrad_adenauer
 recruit_character = GER_adolf_hitler
@@ -455,10 +479,8 @@ recruit_character = GER_werner_von_fritsch
 recruit_character = GER_wilhelm_keitel
 recruit_character = GER_wilhelm_list
 recruit_character = GER_wilhelm_marschall
-
 recruit_character = GER_wilhelm_ritter_von_leeb
 recruit_character = GER_wolfram_von_richthofen
-
 recruit_character = GER_heinrich_himmler
 recruit_character = GER_walther_funk
 recruit_character = GER_hjalmar_schacht
@@ -480,10 +502,7 @@ recruit_character = GER_wilhelm_ii
 recruit_character = GER_wilhelm_iii
 recruit_character = GER_victoria
 recruit_character = GER_august_von_mackensen
-
-recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
-
-
+recruit_character = GER_alexander_von_falkenhausen#Not visible unless recalled from China
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"
@@ -498,33 +517,47 @@ if = {
 	create_operative_leader = {
 		name = "Otto Skorzeny"
 		GFX = GFX_portrait_otto_skorenzy
-		traits = { operative_commando }
+		traits = {
+			operative_commando
+		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GER }
+		nationalities = {
+			GER
+		}
 	}
-
 	create_operative_leader = {
 		name = "Nikolaus Ritter"
 		GFX = GFX_portrait_nikolaus_ritter
-		traits = { operative_safe_cracker }
+		traits = {
+			operative_safe_cracker
+		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GER }
+		nationalities = {
+			GER
+		}
 	}
 	create_operative_leader = {
 		name = "Eleysa Bazna"
 		GFX = GFX_portrait_eleysa_bazna
-		traits = { operative_infiltrator }
+		traits = {
+			operative_infiltrator
+		}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GER TUR }
+		nationalities = {
+			GER
+			TUR
+		}
 	}
 }
 
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
+		not = {
+			has_dlc = "Man the Guns"
+		}
 	}
 	### Ship Variants ###
 	## 1936 Start ##
@@ -554,6 +587,7 @@ if = {
 		}
 	}
 }
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -636,15 +670,18 @@ if = {
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	create_equipment_variant = {
 		name = "Deutschland Class"
 		type = ship_hull_cruiser_panzerschiff
 		name_group = GER_CA_HISTORICAL
 		parent_version = 0
 		modules = {
-        	fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
@@ -652,7 +689,7 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			rear_1_custom_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_airplane_launcher_1
-    	}
+		}
 	}
 	create_equipment_variant = {
 		name = "Type 24 Class"
@@ -830,7 +867,7 @@ if = {
 			fixed_ship_armor_slot = ship_armor_bc_1
 			front_1_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
 			rear_1_custom_slot = ship_heavy_battery_2
 		}
 	}
@@ -854,6 +891,7 @@ if = {
 		obsolete = yes
 	}
 }
+
 if = {
 	limit = {
 		NOT = {
@@ -871,7 +909,6 @@ if = {
 		}
 		obsolete = yes
 	}
-	
 	create_equipment_variant = {
 		name = "Do 17"
 		type = tac_bomber_equipment_0
@@ -884,24 +921,20 @@ if = {
 		obsolete = yes
 	}
 }
+
 if = {
 	limit = {
 		has_dlc = "By Blood Alone"
 	}
-
 	create_equipment_variant = {
 		name = "Do 23"
 		type = medium_plane_airframe_0
 		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = empty
-			fixed_auxiliary_weapon_slot_2 = empty
-			fixed_auxiliary_weapon_slot_3 = empty
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = empty
-			special_type_slot_2 = empty
-			special_type_slot_3 = empty
-			special_type_slot_4 = empty
+			fixed_main_slot = wing_engine
+			engine_kind_slot = engine_radial
+			aircraft_cockpit_rear = medium_bomb_bay
+			special_type_slot_6 = sights_tac_0
+			fixed_slot_4 = fuselage_monoplane
 		}
 		obsolete = yes
 	}
@@ -909,54 +942,50 @@ if = {
 		name = "Ju 86"
 		type = medium_plane_airframe_0
 		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = empty
-			fixed_auxiliary_weapon_slot_2 = empty
-			fixed_auxiliary_weapon_slot_3 = empty
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = lmg_defense_turret_2x
-			special_type_slot_2 = fuel_tanks_medium
-			special_type_slot_3 = empty
-			special_type_slot_4 = empty
+			fixed_main_slot = wing_engine
+			engine_kind_slot = engine_radial
+			aircraft_cockpit_rear = medium_bomb_bay
+			special_type_slot_6 = sights_tac_0
+			fixed_slot_4 = fuselage_monoplane
+			aircraft_middle = lmg_defense_turret_2x
 		}
 		obsolete = yes
 	}
-
 	create_equipment_variant = {
 		name = "He 111"
 		type = medium_plane_airframe_1
 		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_2 = empty
-			fixed_auxiliary_weapon_slot_3 = empty
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = lmg_defense_turret_2x
-			special_type_slot_2 = lmg_defense_turret_2x
-			special_type_slot_3 = empty
-			special_type_slot_4 = empty
+			aircraft_cockpit_rear = medium_bomb_bay
+			fixed_main_slot = wing_engine
+			special_type_slot_6 = sights_tac_0
+			engine_kind_slot = engine_radial
+			aircraft_middle = lmg_defense_turret_2x
+			fixed_slot_4 = fuselage_monoplane
 		}
 		icon = "GFX_GER_tactical_bomber1_medium"
 	}
-	
 	create_equipment_variant = {
 		name = "Do 17"
 		type = small_plane_cas_airframe_0
 		modules = {
-			fixed_main_weapon_slot = small_bomb_bay
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = lmg_defense_turret_2x
+			aircraft_middle = small_bomb_bay
+			engine_kind_slot = engine_radial
+			aircraft_nose = nose_engine
+			aircraft_cockpit_rear = lmg_defense_turret_2x
+			fixed_slot_4 = fuselage_monoplane
+			special_type_slot_6 = sights_cas_0
 		}
 		icon = "GFX_GER_medium_plane_1_medium"
 	}
-
 	create_equipment_variant = {
-		name = "He 51" #also covers Ar 68
+		name = "He 51"		#also covers Ar 68
 		type = small_plane_airframe_0
 		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
+			aircraft_cockpit_front = light_mg_2x
+			engine_kind_slot = engine_radial
+			aircraft_nose = nose_engine
+			special_type_slot_6 = sights_fighter_0
+			fixed_slot_4 = fuselage_biplane
 		}
 		obsolete = yes
 	}
@@ -964,9 +993,12 @@ if = {
 		name = "Hs 123"
 		type = small_plane_cas_airframe_0
 		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
+			fixed_main_slot = bomb_locks
+			aircraft_cockpit_front = light_mg_2x
+			engine_kind_slot = engine_radial
+			aircraft_nose = nose_engine
+			special_type_slot_6 = sights_cas_0
+			fixed_slot_4 = fuselage_biplane
 		}
 		obsolete = yes
 	}
@@ -974,9 +1006,11 @@ if = {
 		name = "Bf 109 D"
 		type = small_plane_airframe_1
 		modules = {
-			fixed_main_weapon_slot = light_mg_4x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
+			aircraft_cockpit_front = light_mg_4x
+			engine_kind_slot = engine_radial
+			aircraft_nose = nose_engine
+			special_type_slot_6 = sights_fighter_0
+			fixed_slot_4 = fuselage_monoplane
 		}
 		icon = "GFX_GER_fighter1_medium"
 	}
@@ -984,10 +1018,13 @@ if = {
 		name = "Ju 87"
 		type = small_plane_cas_airframe_1
 		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = lmg_defense_turret
-			special_type_slot_2 = dive_brakes_small
+			fixed_main_slot = bomb_locks
+			engine_kind_slot = engine_radial
+			aircraft_nose = nose_engine
+			special_type_slot_6 = sights_cas_0
+			fixed_slot_4 = fuselage_monoplane
+			aircraft_cockpit_rear = lmg_defense_turret
+			fixed_slot_3 = dive_brakes_small
 		}
 		icon = "GFX_GER_CAS1_medium"
 	}
@@ -995,10 +1032,13 @@ if = {
 		name = "Do 22"
 		type = small_plane_naval_bomber_airframe_1
 		modules = {
-			fixed_main_weapon_slot = torpedo_mounting
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = lmg_defense_turret
-			special_type_slot_2 = floats
+			aircraft_middle = torpedo_mounting
+			engine_kind_slot = engine_radial
+			aircraft_nose = nose_engine
+			aircraft_cockpit_rear = lmg_defense_turret
+			fixed_main_slot = floats
+			special_type_slot_6 = sights_nav_0
+			fixed_slot_4 = fuselage_monoplane
 		}
 		icon = "GFX_GER_naval_bomber1_medium"
 	}
@@ -1008,7 +1048,9 @@ if = {
 1939.1.1 = {
 	if = {
 		limit = {
-			not = { has_dlc = "Man the Guns" }
+			not = {
+				has_dlc = "Man the Guns"
+			}
 		}
 		# Submarines #
 		create_equipment_variant = {
@@ -1069,7 +1111,7 @@ if = {
 				fixed_ship_armor_slot = ship_armor_bb_2
 				front_1_custom_slot = ship_anti_air_1
 				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = ship_secondaries_2
+				mid_2_custom_slot = empty
 				rear_1_custom_slot = ship_heavy_battery_3
 			}
 		}
@@ -1176,18 +1218,21 @@ if = {
 				tank_nsb_engine_upgrade = 3
 				tank_nsb_armor_upgrade = 3
 			}
-			
 			icon = "GFX_CZE_basic_main_tank"
 		}
 	}
 	if = {
-		limit = { NOT = { has_dlc = "By Blood Alone" } }
+		limit = {
+			NOT = {
+				has_dlc = "By Blood Alone"
+			}
+		}
 		create_equipment_variant = {
 			name = "He 112"
 			type = fighter_equipment_1
 			upgrades = {
 				plane_gun_upgrade = 1
-				plane_range_upgrade = 1  
+				plane_range_upgrade = 1
 				plane_engine_upgrade = 0
 				plane_reliability_upgrade = 2
 			}
@@ -1197,7 +1242,7 @@ if = {
 			type = fighter_equipment_1
 			upgrades = {
 				plane_gun_upgrade = 2
-				plane_range_upgrade = 1  
+				plane_range_upgrade = 1
 				plane_engine_upgrade = 2
 				plane_reliability_upgrade = 4
 			}
