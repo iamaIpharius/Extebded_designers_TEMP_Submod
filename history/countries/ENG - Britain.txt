@@ -1284,7 +1284,7 @@ if = {
 			fixed_main_slot = light_mg_2x
 			engine_type_slot = engine_inline
 			aircraft_nose = nose_engine
-			special_type_slot_6 = sights_fighter
+			special_type_slot_6 = sights_fighter_0
 			fixed_slot_4 = fuselage_biplane
 		}
 		obsolete = yes

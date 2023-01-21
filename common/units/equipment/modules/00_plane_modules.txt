@@ -2125,7 +2125,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 300
-			thrust = 2
+			thrust = 8
 			build_cost_ic = 12
 			fuel_consumption = 0.05
 		}
@@ -2154,7 +2154,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 275
-			thrust = 2
+			thrust = 6
 			build_cost_ic = 8
 			fuel_consumption = 0.07
 			reliability = 0.025
@@ -2200,7 +2200,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 325
-			thrust = 7
+			thrust = 11
 			build_cost_ic = 25
 			fuel_consumption = 0.1
 		}
@@ -2229,7 +2229,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 325
-			thrust = 5
+			thrust = 9
 			build_cost_ic = 11
 			fuel_consumption = 0.1
 			reliability = 0.03
@@ -2262,7 +2262,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 360
-			thrust = 13
+			thrust = 16
 			build_cost_ic = 13
 			fuel_consumption = 0.15
 			reliability = 0.05
@@ -2295,7 +2295,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 325
-			thrust = 5
+			thrust = 9
 			build_cost_ic = 13
 			fuel_consumption = 0.1
 			reliability = 0.05
@@ -2329,7 +2329,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 350
-			thrust = 5
+			thrust = 10
 			build_cost_ic = 15
 			fuel_consumption = 0.06
 		}
@@ -2361,7 +2361,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 400
-			thrust = 13
+			thrust = 16
 			build_cost_ic = 17
 			fuel_consumption = 0.1
 		}
@@ -2393,7 +2393,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			maximum_speed = 350
-			thrust = 5
+			thrust = 10
 			build_cost_ic = 17
 			fuel_consumption = 0.06
 			air_defence = 5
@@ -2599,10 +2599,12 @@ equipment_modules = {
 		abbreviation = "eng_nos"
 		category = plane_nose_engine
 		sfx = sfx_ui_sd_module_engine
+		multiply_stats = {
+			thrust = 1
+		}
 		add_stats = {
 			build_cost_ic = 5
 			fuel_consumption = 0.05
-			thrust = 10
 			maximum_speed = 50
 		}
 		xp_cost = 0
@@ -2611,10 +2613,12 @@ equipment_modules = {
 		abbreviation = "eng_nos_g"
 		category = plane_nose_engine
 		sfx = sfx_ui_sd_module_engine
+		multiply_stats = {
+			thrust = 1
+		}
 		add_stats = {
 			build_cost_ic = 9
 			fuel_consumption = 0.05
-			thrust = 8
 			maximum_speed = 50
 			air_attack = 8
 		}
@@ -2624,10 +2628,12 @@ equipment_modules = {
 		abbreviation = "eng_wing"
 		category = plane_wing_engine
 		sfx = sfx_ui_sd_module_engine
+		multiply_stats = {
+			thrust = 1.5
+		}
 		add_stats = {
 			build_cost_ic = 10
 			fuel_consumption = 0.1
-			thrust = 15
 		}
 		xp_cost = 0
 	}
@@ -2635,10 +2641,12 @@ equipment_modules = {
 		abbreviation = "eng_rear"
 		category = plane_rear_engine
 		sfx = sfx_ui_sd_module_engine
+		multiply_stats = {
+			thrust = 1
+		}
 		add_stats = {
 			build_cost_ic = 5
 			fuel_consumption = 0.05
-			thrust = 10
 			maximum_speed = 50
 		}
 		xp_cost = 0
@@ -2647,10 +2655,12 @@ equipment_modules = {
 		abbreviation = "eng_top"
 		category = plane_top_engine
 		sfx = sfx_ui_sd_module_engine
+		multiply_stats = {
+			thrust = 1
+		}
 		add_stats = {
 			build_cost_ic = 5
 			fuel_consumption = 0.05
-			thrust = 10
 			maximum_speed = 50
 		}
 		xp_cost = 0

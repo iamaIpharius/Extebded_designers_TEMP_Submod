@@ -65,13 +65,13 @@ duplicate_archetypes = {
 		}
 	}
 
-	light_tank_airlift_chassis = {
-		archetype = light_tank_chassis
-		type = { armor airlift }
-		for_each = {
-			variant_name = { find_and_replace = { "chassis" "equipment" } }
-		}
-	}
+	# light_tank_airlift_chassis = {
+	# 	archetype = light_tank_chassis
+	# 	type = { airlift }
+	# 	for_each = {
+	# 		variant_name = { find_and_replace = { "chassis" "equipment" } }
+	# 	}
+	# }
 
 	# medium_tank
 
