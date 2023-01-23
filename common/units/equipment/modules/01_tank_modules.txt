@@ -109,10 +109,9 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		add_stats = {
-			defense = 1
-			breakthrough = 1
 		}
 		multiply_stats = {
+			build_cost_ic = -0.05
 		}
 	}
 	car_semi_flat_armor = {
@@ -121,11 +120,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 0
 		add_stats = {
-			build_cost_ic = 0.25
-			defense = 1
-			armor_value = 1.5
 		}
 		multiply_stats = {
+			armor_value = 0.3
+			build_cost_ic = 0.05
 		}
 	}
 	car_sloped_armor = {
@@ -136,8 +134,8 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			armor_value = 0.15
-			build_cost_ic = 0.075
+			armor_value = 0.6
+			build_cost_ic = 0.15
 		}
 	}
 	###Turret Mods 
@@ -146,13 +144,14 @@ equipment_modules = {
 		category = car_turret_design_mod
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
+			reliability = -0.15
 			breakthrough = 2
-			defense = 2
-			build_cost_ic = 0.5
+			fuel_consumption = -0.2
+			build_cost_ic = 2.5
 		}
 		xp_cost = 0
 		multiply_stats = {
-			armor_value = -0.05
+			armor_value = -0.25
 		}
 	}
 	car_open_top_turret = {
