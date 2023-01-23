@@ -7,9 +7,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			reliability = 0.05
-			breakthrough = 1.5
+			reliability = 0.02
+			breakthrough = 0.5
 			armor_value = 1
+			build_cost_ic = 0.7
 		}
 		multiply_stats = {
 		}
@@ -23,9 +24,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			reliability = 0.075
-			breakthrough = 2.25
-			armor_value = 2
+			reliability = 0.03
+			breakthrough = 0.7
+			armor_value = 1
+			build_cost_ic = 0.7
 		}
 		multiply_stats = {
 		}
@@ -39,9 +41,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			reliability = 0.1
-			breakthrough = 3
-			armor_value = 3
+			reliability = 0.05
+			breakthrough = 1
+			armor_value = 1
+			build_cost_ic = 0.7
 		}
 		multiply_stats = {
 		}
@@ -55,9 +58,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			reliability = 0.125
-			breakthrough = 4
-			armor_value = 4
+			reliability = 0.07
+			breakthrough = 1.2
+			armor_value = 1
+			build_cost_ic = 0.7
 		}
 		multiply_stats = {
 		}
@@ -72,9 +76,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
+			build_cost_ic = 0.7
 		}
 		multiply_stats = {
-			defense = 0.05
 			maximum_speed = 0.1
 		}
 		build_cost_resources = {
@@ -87,9 +91,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
+			build_cost_ic = 0.7
 		}
 		multiply_stats = {
-			defense = 0.1
 			maximum_speed = 0.15
 		}
 		build_cost_resources = {
@@ -102,9 +106,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
+			build_cost_ic = 0.7
 		}
 		multiply_stats = {
-			defense = 0.15
 			maximum_speed = 0.2
 		}
 		build_cost_resources = {
@@ -118,10 +122,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			reliability = 0.075
-			breakthrough = 1.5
-			defense = 0.75
+			reliability = 0.03
+			breakthrough = 0.5
 			armor_value = 1
+			build_cost_ic = 1
 		}
 		multiply_stats = {
 			maximum_speed = 0.05
@@ -137,10 +141,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			reliability = 0.125
-			breakthrough = 2
-			defense = 1
-			armor_value = 2
+			reliability = 0.05
+			breakthrough = 1
+			armor_value = 1
+			build_cost_ic = 1
 		}
 		multiply_stats = {
 			maximum_speed = 0.075
@@ -156,10 +160,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			reliability = 0.15
-			breakthrough = 3.25
-			defense = 2
-			armor_value = 3
+			reliability = 0.07
+			breakthrough = 1.2
+			armor_value = 1
+			build_cost_ic = 1
 		}
 		multiply_stats = {
 			maximum_speed = 0.1
@@ -176,7 +180,7 @@ equipment_modules = {
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 2
 			fuel_consumption = 2
 			maximum_speed = 0.5
 		}
@@ -189,7 +193,7 @@ equipment_modules = {
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 2
 			fuel_consumption = 2
 			reliability = 0.25
 		}
@@ -202,7 +206,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			fuel_consumption = 2
-			build_cost_ic = 2
+			build_cost_ic = 3
 			reliability = -0.5
 			breakthrough = 2
 			defense = 2
@@ -218,7 +222,7 @@ equipment_modules = {
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
-			build_cost_ic = 3
+			build_cost_ic = 4
 			fuel_consumption = 4
 			reliability = -0.1
 			maximum_speed = 1
@@ -233,7 +237,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		add_stats = {
 			fuel_consumption = 1.5
-			build_cost_ic = 3
+			build_cost_ic = 4
 			reliability = -0.2
 		}
 		multiply_stats = {
@@ -247,9 +251,6 @@ equipment_modules = {
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			#soft_attack = 1 # that's when rivets shoot back because they got dislodged by the shock. That was in fact the first reactive armor.
-			defense = 2
-			breakthrough = 2
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -262,12 +263,10 @@ equipment_modules = {
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			defense = 2
-			breakthrough = 2
 		}
 		xp_cost = 0
 		multiply_stats = {
-			#build_cost_ic = 0.10
+			build_cost_ic = 0.1
 			armor_value = 0.4
 		}
 	}
@@ -279,7 +278,7 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			#build_cost_ic = 0.10
+			build_cost_ic = 0.1
 			armor_value = 0.45
 		}
 	}
@@ -289,8 +288,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 0
 		add_stats = {
-			defense = 4
-			breakthrough = 4
 		}
 		multiply_stats = {
 			armor_value = 0.5
@@ -333,7 +330,7 @@ equipment_modules = {
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 2
 			breakthrough = 4
 			reliability = -0.1
 		}
@@ -358,8 +355,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 			build_cost_ic = 2
-			defense = 3.5
-			breakthrough = 3.5
+			defense = 2.5
+			breakthrough = 2.5
 		}
 		multiply_stats = {
 		}
@@ -399,9 +396,6 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		add_stats = {
-			build_cost_ic = 0.25
-			defense = 2
-			breakthrough = 2
 		}
 		multiply_stats = {
 		}
@@ -415,12 +409,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		add_stats = {
-			build_cost_ic = 0.5
-			defense = 1
-			breakthrough = 1
 		}
 		multiply_stats = {
 			armor_value = 0.1
+			build_cost_ic = 0.05
 		}
 	}
 	sloped_armor = {
@@ -433,7 +425,7 @@ equipment_modules = {
 		xp_cost = 0
 		multiply_stats = {
 			armor_value = 0.2
-			#build_cost_ic = 0.075
+			build_cost_ic = 0.15
 		}
 	}
 	sloped_armor_zwei = {
@@ -445,12 +437,11 @@ equipment_modules = {
 		}
 		xp_cost = 0
 		add_stats = {
-			defense = -3
-			breakthrough = -3
 			reliability = -0.2
 		}
 		multiply_stats = {
 			armor_value = 0.4
+			build_cost_ic = 0.3
 		}
 	}
 	###Turret Mods 
@@ -460,7 +451,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			armor_value = 3
-			build_cost_ic = 0.25
+			build_cost_ic = 0.5
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -471,14 +462,14 @@ equipment_modules = {
 		category = turret_design_mod
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			reliability = -0.05
+			reliability = -0.15
 			breakthrough = 3
 			fuel_consumption = -0.2
-			build_cost_ic = 0.5
+			build_cost_ic = 2.5
 		}
 		xp_cost = 0
 		multiply_stats = {
-			armor_value = -0.05
+			armor_value = -0.25
 		}
 	}
 	open_top_turret = {
@@ -486,8 +477,8 @@ equipment_modules = {
 		category = turret_design_mod
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			breakthrough = -1
-			defense = -1
+			breakthrough = -2
+			defense = -2
 			maximum_speed = 0.5
 		}
 		xp_cost = 0
