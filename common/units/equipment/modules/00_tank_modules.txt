@@ -398,6 +398,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
+			build_cost_ic = -0.05
 		}
 	}
 	semi_flat_armor = {
