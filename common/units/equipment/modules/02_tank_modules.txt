@@ -1,13 +1,10 @@
 equipment_modules = {
-### Mechanized
-
-###Engine Types
-
+	### Mechanized
+	###Engine Types
 	mech_gasoline_engine = {
-        abbreviation = "mgas" #I have no idea what this means, and im too scared to ask...
+		abbreviation = "mgas"		#I have no idea what this means, and im too scared to ask...
 		category = mech_engine_type
 		sfx = sfx_ui_sd_module_engine
-
 		add_stats = {
 			build_cost_ic = 1
 			maximum_speed = 3.45
@@ -15,81 +12,70 @@ equipment_modules = {
 		multiply_stats = {
 			maximum_speed = 0.25
 		}
-
 	}
-
 	mech_diesel_engine = {
 		abbreviation = "mdis"
 		category = mech_engine_type
 		sfx = sfx_ui_sd_module_engine
-
 		add_stats = {
-		maximum_speed = 1
+			maximum_speed = 1
 			build_cost_ic = 1
 			reliability = 0.2
 		}
-		multiply_stats = {  }
+		multiply_stats = {
+		}
 	}
-
-###Armor Types
-
+	###Armor Types
 	mech_riveted_armor = {
 		abbreviation = "mechriv"
 		category = mech_armor_type
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
+			hardness = -0.05
 		}
 		xp_cost = 0
 		multiply_stats = {
+			build_cost_ic = -0.1
 		}
 	}
-
 	mech_rolled_homo_armor = {
 		abbreviation = "homo"
 		category = mech_armor_type
 		sfx = sfx_ui_sd_module_sonar
-
-		add_stats = {
-			hardness = 0.05
-		}
-		xp_cost = 0
-		multiply_stats = {
-			build_cost_ic = 0.1
-			armor_value = 0.2
-		}
-	}
-
-	mech_high_hardness_rolled_armor = {
-		abbreviation = "homo"
-		category = mech_armor_type
-		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			hardness = 0.1
 		}
 		xp_cost = 0
 		multiply_stats = {
-			build_cost_ic = 0.15
+			build_cost_ic = 0.05
+			armor_value = 0.2
+		}
+	}
+	mech_high_hardness_rolled_armor = {
+		abbreviation = "homo"
+		category = mech_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			hardness = 0.15
+		}
+		xp_cost = 0
+		multiply_stats = {
+			build_cost_ic = 0.1
 			armor_value = 0.25
 		}
 	}
-
 	###Suspension Types
-
 	###Fully Wheeled
-
 	mech_4x4_suspension = {
 		abbreviation = "m4x4"
 		category = mech_fully_wheeled
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 0.25
 			hardness = -0.15
 			reliability = -0.175
 		}
-		multiply_stats =  {
+		multiply_stats = {
 			defense = -0.2
 			breakthrough = -0.3
 			maximum_speed = 0.25
@@ -99,18 +85,16 @@ equipment_modules = {
 			rubber = 1
 		}
 	}
-
 	mech_6x6_suspension = {
 		abbreviation = "m6x6"
 		category = mech_fully_wheeled
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 0.5
-			hardness = -0.10
+			hardness = -0.1
 			reliability = -0.1
 		}
-		multiply_stats =  {
+		multiply_stats = {
 			defense = -0.15
 			breakthrough = -0.25
 			maximum_speed = 0.15
@@ -119,18 +103,16 @@ equipment_modules = {
 			rubber = 1
 		}
 	}
-
 	mech_8x8_suspension = {
 		abbreviation = "m8x8"
 		category = mech_fully_wheeled
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 0.75
 			hardness = -0.05
 			reliability = -0.075
 		}
-		multiply_stats =  {
+		multiply_stats = {
 			defense = -0.1
 			breakthrough = -0.2
 			maximum_speed = 0.1
@@ -139,111 +121,94 @@ equipment_modules = {
 			rubber = 1
 		}
 	}
-
 	###Mixed
-
 	half_interleaf_suspension = {
 		abbreviation = "suck"
 		category = mech_half
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 2
 			defense = 2
 			breakthrough = 4
 			hardness = 0.05
 		}
-		multiply_stats =  {
+		multiply_stats = {
 		}
 		build_cost_resources = {
 			rubber = 1
 		}
 	}
-
 	half_boogie_suspension = {
 		abbreviation = "suck"
 		category = mech_half
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 1.25
 			defense = 1
 			breakthrough = 1
 			reliability = 0.1
 		}
-		multiply_stats =  {
+		multiply_stats = {
 		}
 		build_cost_resources = {
 			rubber = 1
 		}
 	}
-
 	###Fully Tracked
-
 	interleaf_suspension = {
 		abbreviation = "susck"
 		category = mech_track
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 3
 			breakthrough = 4
 			hardness = 0.15
 			reliability = -0.1
 		}
-		multiply_stats =  {
+		multiply_stats = {
 			maximum_speed = -0.2
 		}
 		build_cost_resources = {
 			steel = 1
 		}
 	}
-
 	boogie_suspension = {
 		abbreviation = "susck"
 		category = mech_track
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 3
 			hardness = 0.1
 			reliability = 0.1
 		}
-		multiply_stats =  {
+		multiply_stats = {
 			maximum_speed = -0.2
 		}
 		build_cost_resources = {
 			steel = 1
 		}
 	}
-
 	christie_suspension = {
 		abbreviation = "susck"
 		category = mech_track
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
 			build_cost_ic = 3
 			hardness = 0.1
 		}
-		multiply_stats =  {
+		multiply_stats = {
 		}
 		build_cost_resources = {
 			steel = 1
 		}
 	}
-
 	###Hull Mod ### Shell type
-
 	###Turret Mods 
-
 	###secondary guns
-
 	mech_sex_machine_gun = {
 		abbreviation = "mg"
 		category = mech_small_secondary_armament
 		sfx = sfx_ui_sd_module_turret
-
 		add_stats = {
 			soft_attack = 1
 			hard_attack = 0.1
@@ -252,12 +217,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	mech_sex_heavy_machine_gun = {
 		abbreviation = "hhmg"
 		category = mech_small_secondary_armament
 		sfx = sfx_ui_sd_module_turret
-
 		add_stats = {
 			soft_attack = 2
 			hard_attack = 0.2
@@ -266,14 +229,11 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	###Weapons
-
 	mech_machine_gun = {
 		abbreviation = "mg"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-
 		add_stats = {
 			soft_attack = 1.5
 			hard_attack = 0.2
@@ -282,12 +242,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	mech_heavy_machine_gun = {
 		abbreviation = "hhmg"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-
 		add_stats = {
 			soft_attack = 3
 			hard_attack = 0.3
@@ -296,13 +254,11 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
-	mech_flamethrower = { 
+	mech_flamethrower = {
 		abbreviation = "flt"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		#allow_equipment_type = flame
-
 		add_stats = {
 			soft_attack = 5
 			build_cost_ic = 1.5
@@ -310,12 +266,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	mech_auto_cannon = {
 		abbreviation = "cac1"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-
 		add_stats = {
 			soft_attack = 6
 			hard_attack = 0.3
@@ -326,12 +280,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	mech_auto_cannon_2 = {
 		abbreviation = "cac2"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-	
 		add_stats = {
 			soft_attack = 8
 			hard_attack = 0.4
@@ -342,12 +294,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	mech_small_cannon = {
 		abbreviation = "csc1"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-
 		add_stats = {
 			soft_attack = 2
 			hard_attack = 1
@@ -358,12 +308,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	mech_small_cannon_2 = {
 		abbreviation = "csc2"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-	
 		add_stats = {
 			soft_attack = 5
 			hard_attack = 1.8
@@ -374,7 +322,6 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	mech_infantry_support_gun = {
 		abbreviation = "ccs"
 		category = mech_small_main_armament
@@ -392,15 +339,12 @@ equipment_modules = {
 		build_cost_resources = {
 			tungsten = 1
 		}
-
 	}
-
 	mech_mortar_1 = {
 		abbreviation = "cmc1"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		#allow_equipment_type = anti_tank
-
 		add_stats = {
 			soft_attack = 10
 			build_cost_ic = 4.5
@@ -412,14 +356,11 @@ equipment_modules = {
 			tungsten = 1
 		}
 	}
-
 	mech_mortar_2 = {
 		abbreviation = "cmc2"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		#allow_equipment_type = anti_tank
-
-
 		add_stats = {
 			soft_attack = 12
 			hard_attack = 0.3
@@ -433,14 +374,12 @@ equipment_modules = {
 			tungsten = 2
 		}
 	}
-
 	mech_aa = {
 		abbreviation = "mechaa1"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type_exact_match = armor
-
 		add_stats = {
 			soft_attack = 2
 			build_cost_ic = 3
@@ -453,14 +392,12 @@ equipment_modules = {
 			#tungsten = 1
 		}
 	}
-
 	mech_aa2 = {
 		abbreviation = "mechaa2"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type_exact_match = armor
-
 		add_stats = {
 			soft_attack = 2.5
 			build_cost_ic = 3.5
@@ -473,15 +410,11 @@ equipment_modules = {
 			tungsten = 1
 		}
 	}
-
 	###Special
-
 	troop_carrier = {
 		abbreviation = "ttc"
 		category = mech_special
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			defense = 8.5
 			breakthrough = 1
@@ -491,13 +424,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	troop_carrier_special = {
 		abbreviation = "ttc"
 		category = mech_special_1
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			defense = 10
 			breakthrough = 1
@@ -505,13 +435,10 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	troop_carrier_special2 = {
 		abbreviation = "ttc23"
 		category = mech_special_3
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			defense = 10
 			breakthrough = 1
@@ -521,81 +448,63 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	engnieers = {
 		abbreviation = "enuu1"
 		category = mech_special_2
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			entrenchment = 0.5
 			defense = 2
 			breakthrough = 1
 			build_cost_ic = 1
 		}
-		xp_cost = 02
+		xp_cost = 2
 	}
-
 	reconi = {
 		abbreviation = "eru2"
 		category = mech_special_2
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			recon = 0.1
 			build_cost_ic = 1
 		}
-		xp_cost = 02
+		xp_cost = 2
 	}
-
 	police = {
 		abbreviation = "eru3"
 		category = mech_special_2
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			suppression = 0.1
 			build_cost_ic = 1
 		}
-		xp_cost = 02
+		xp_cost = 2
 	}
-
 	maintain = {
 		abbreviation = "eru4"
 		category = mech_special_2
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			reliability = 0.1
 			build_cost_ic = 1
 		}
-		xp_cost = 02
+		xp_cost = 2
 	}
-
 	logi = {
 		abbreviation = "eru5"
 		category = mech_special_2
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			fuel_consumption = -0.8
 			fuel_capacity = 60
 			build_cost_ic = 1
 		}
-		xp_cost = 02
+		xp_cost = 2
 	}
-
 	signal = {
 		abbreviation = "eru6"
 		category = mech_special_2
 		sfx = sfx_ui_sd_module_sonar
-		
-
 		add_stats = {
 			build_cost_ic = 1
 		}
@@ -603,7 +512,6 @@ equipment_modules = {
 			defense = 0.1
 			breakthrough = 0.1
 		}
-		xp_cost = 02
+		xp_cost = 2
 	}
-
 }
