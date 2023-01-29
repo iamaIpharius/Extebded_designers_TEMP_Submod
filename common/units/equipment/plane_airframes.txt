@@ -60,7 +60,7 @@ equipments = {
 					fighter_weapon
 					kamikaze_bomber_weapon
 					adi_at_gun
-					plane_special_module_medium
+					plane_special_module_small
 					plane_suspended
 					adi_float
 					cas_weapon
@@ -115,7 +115,7 @@ equipments = {
 					fighter_weapon
 					adi_at_gun
 					kamikaze_bomber_weapon
-					plane_special_module_large
+					plane_special_module_small
 				}
 			}
 			aircraft_cockpit_front = {
@@ -133,7 +133,7 @@ equipments = {
 					cas_weapon
 					fighter_weapon
 					kamikaze_bomber_weapon
-					plane_special_module_large
+					plane_special_module_small
 				}
 			}
 			aircraft_cockpit_rear = {
@@ -164,7 +164,7 @@ equipments = {
 					cas_weapon
 					schraege_cat
 					kamikaze_bomber_weapon
-					plane_special_module_medium
+					plane_special_module_small
 				}
 			}
 			aircraft_empennage = {
@@ -253,6 +253,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = plane_special_module_defense_turret
+			count < 2
+		}
+		module_count_limit = {
+			category = hollow_part_small
 			count < 2
 		}
 		default_modules = {
@@ -429,7 +433,7 @@ equipments = {
 					fighter_weapon
 					kamikaze_bomber_weapon
 					adi_at_gun
-					plane_special_module_medium
+					plane_special_module_small
 					plane_suspended
 					cas_weapon
 				}
@@ -482,7 +486,7 @@ equipments = {
 					fighter_weapon
 					adi_at_gun
 					kamikaze_bomber_weapon
-					plane_special_module_large
+					plane_special_module_small
 				}
 			}
 			aircraft_cockpit_front = {
@@ -499,7 +503,7 @@ equipments = {
 					plane_suspended
 					cas_weapon
 					kamikaze_bomber_weapon
-					plane_special_module_large
+					plane_special_module_small
 				}
 			}
 			aircraft_cockpit_rear = {
@@ -528,7 +532,7 @@ equipments = {
 					plane_suspended
 					cas_weapon
 					kamikaze_bomber_weapon
-					plane_special_module_medium
+					plane_special_module_small
 				}
 			}
 			aircraft_empennage = {
@@ -617,6 +621,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = plane_special_module_defense_turret
+			count < 2
+		}
+		module_count_limit = {
+			category = hollow_part_small
 			count < 2
 		}
 		default_modules = {
@@ -775,7 +783,7 @@ equipments = {
 					plane_special_module_air_ground_radar
 					plane_special_module_air_air_radar
 					adi_at_gun
-					plane_special_module_small
+					plane_special_module_medium
 					plane_suspended
 					adi_float
 					cas_weapon
@@ -799,7 +807,7 @@ equipments = {
 				allowed_module_categories = {
 					fighter_weapon
 					adi_at_gun
-					plane_special_module_small
+					plane_special_module_medium
 					plane_suspended
 					adi_float
 					cas_weapon
@@ -810,7 +818,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_flaps_cat
-					plane_special_module_small
+					plane_special_module_medium
 				}
 			}
 			fixed_slot_4 = {
@@ -842,7 +850,7 @@ equipments = {
 					plane_special_module_bomb_sights
 					fighter_weapon
 					adi_at_gun
-					plane_special_module_large
+					plane_special_module_medium
 				}
 			}
 			aircraft_cockpit_front = {
@@ -864,7 +872,7 @@ equipments = {
 					adi_float
 					cas_weapon
 					fighter_weapon
-					plane_special_module_large
+					plane_special_module_medium
 				}
 			}
 			aircraft_cockpit_rear = {
@@ -882,7 +890,7 @@ equipments = {
 					adi_float
 					cas_weapon
 					schraege_cat
-					plane_special_module_small
+					plane_special_module_medium
 				}
 			}
 			aircraft_middle = {
@@ -984,6 +992,10 @@ equipments = {
 		module_count_limit = {
 			category = plane_special_module_defense_turret
 			count < 3
+		}
+		module_count_limit = {
+			category = hollow_part_medium
+			count < 2
 		}
 		default_modules = {
 			fixed_main_slot = empty
@@ -1139,7 +1151,7 @@ equipments = {
 				allowed_module_categories = {
 					plane_special_module_air_ground_radar
 					plane_special_module_air_air_radar
-					plane_special_module_small
+					plane_special_module_large
 					plane_suspended
 					adi_float
 				}
@@ -1148,7 +1160,7 @@ equipments = {
 				#Mid Wing
 				required = no
 				allowed_module_categories = {
-					plane_special_module_medium
+					plane_special_module_large
 					plane_suspended
 					adi_float
 					cas_weapon
@@ -1158,7 +1170,7 @@ equipments = {
 				#Wing tip
 				required = no
 				allowed_module_categories = {
-					plane_special_module_small
+					plane_special_module_large
 					plane_suspended
 					adi_float
 					cas_weapon
@@ -1168,7 +1180,7 @@ equipments = {
 				#Wing flaps
 				required = no
 				allowed_module_categories = {
-					plane_special_module_small
+					plane_special_module_large
 				}
 			}
 			fixed_slot_4 = {
@@ -1234,7 +1246,7 @@ equipments = {
 					mine_warfare_offense
 					plane_suspended
 					adi_float
-					plane_special_module_small
+					plane_special_module_large
 				}
 			}
 			aircraft_middle = {
@@ -1249,7 +1261,7 @@ equipments = {
 					mine_warfare_offense
 					plane_suspended
 					adi_float
-					plane_special_module_medium
+					plane_special_module_large
 				}
 			}
 			aircraft_empennage = {
@@ -1321,6 +1333,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = plane_special_module_air_air_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = hollow_part_large
 			count < 2
 		}
 		default_modules = {
