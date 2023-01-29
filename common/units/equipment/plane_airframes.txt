@@ -255,10 +255,6 @@ equipments = {
 			category = plane_special_module_defense_turret
 			count < 2
 		}
-		module_count_limit = {
-			category = hollow_part_small
-			count < 2
-		}
 		default_modules = {
 			fixed_main_slot = empty
 			fixed_slot_1 = empty
@@ -621,10 +617,6 @@ equipments = {
 		}
 		module_count_limit = {
 			category = plane_special_module_defense_turret
-			count < 2
-		}
-		module_count_limit = {
-			category = hollow_part_small
 			count < 2
 		}
 		default_modules = {
@@ -993,10 +985,6 @@ equipments = {
 			category = plane_special_module_defense_turret
 			count < 3
 		}
-		module_count_limit = {
-			category = hollow_part_medium
-			count < 2
-		}
 		default_modules = {
 			fixed_main_slot = empty
 			fixed_slot_1 = empty
@@ -1333,10 +1321,6 @@ equipments = {
 		}
 		module_count_limit = {
 			category = plane_special_module_air_air_radar
-			count < 2
-		}
-		module_count_limit = {
-			category = hollow_part_large
 			count < 2
 		}
 		default_modules = {
