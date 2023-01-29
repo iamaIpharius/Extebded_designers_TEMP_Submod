@@ -81,6 +81,7 @@ equipment_modules = {
 			maximum_speed = 0.25
 			armor_value = -0.2
 		}
+		xp_cost = 0
 		build_cost_resources = {
 			rubber = 1
 		}
@@ -99,6 +100,7 @@ equipment_modules = {
 			breakthrough = -0.25
 			maximum_speed = 0.15
 		}
+		xp_cost = 0
 		build_cost_resources = {
 			rubber = 1
 		}
@@ -117,6 +119,7 @@ equipment_modules = {
 			breakthrough = -0.2
 			maximum_speed = 0.1
 		}
+		xp_cost = 0
 		build_cost_resources = {
 			rubber = 1
 		}
@@ -134,6 +137,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 		}
+		xp_cost = 0
 		build_cost_resources = {
 			rubber = 1
 		}
@@ -150,6 +154,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 		}
+		xp_cost = 0
 		build_cost_resources = {
 			rubber = 1
 		}
@@ -165,6 +170,7 @@ equipment_modules = {
 			hardness = 0.15
 			reliability = -0.1
 		}
+		xp_cost = 0
 		multiply_stats = {
 			maximum_speed = -0.2
 		}
@@ -181,6 +187,7 @@ equipment_modules = {
 			hardness = 0.1
 			reliability = 0.1
 		}
+		xp_cost = 0
 		multiply_stats = {
 			maximum_speed = -0.2
 		}
@@ -198,6 +205,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 		}
+		xp_cost = 0
 		build_cost_resources = {
 			steel = 1
 		}
