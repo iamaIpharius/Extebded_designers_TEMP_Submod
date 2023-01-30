@@ -31,7 +31,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			build_cost_ic = -0.1
 			armor_value = -0.3
@@ -43,7 +43,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			armor_value = 0.1
 		}
@@ -57,7 +57,7 @@ equipment_modules = {
 			build_cost_ic = 0.75
 			hardness = -0.2
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			#maximum_speed = 0.2
 			build_cost_ic = -0.05
@@ -75,7 +75,7 @@ equipment_modules = {
 			breakthrough = 2
 			suppression = 0.15
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			soft_attack = 0.1
 			reliability = 0.05
@@ -94,7 +94,7 @@ equipment_modules = {
 			hardness = 0.15
 			armor_value = 5
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			hard_attack = 0.15
 			ap_attack = 0.15
@@ -110,7 +110,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 		}
-		xp_cost = 0
+		 
 		add_stats = {
 		}
 		multiply_stats = {
@@ -122,7 +122,7 @@ equipment_modules = {
 		abbreviation = "csfla"
 		category = car_hull_mod
 		sfx = sfx_ui_sd_module_turret
-		xp_cost = 0
+		 
 		add_stats = {
 		}
 		multiply_stats = {
@@ -136,7 +136,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			armor_value = 0.6
 			build_cost_ic = 0.15
@@ -153,7 +153,7 @@ equipment_modules = {
 			fuel_consumption = -0.2
 			build_cost_ic = 2.5
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			armor_value = -0.25
 		}
@@ -168,7 +168,7 @@ equipment_modules = {
 			maximum_speed = 0.5
 			hardness = -0.15
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			armor_value = -0.1
 			build_cost_ic = -0.1
@@ -183,7 +183,7 @@ equipment_modules = {
 			build_cost_ic = 0.25
 			breakthrough = 4
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			#breakthrough = -0.5
 		}
@@ -196,7 +196,7 @@ equipment_modules = {
 			build_cost_ic = 0.5
 			breakthrough = 7
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			#breakthrough = -0.5
 		}
@@ -209,7 +209,7 @@ equipment_modules = {
 			build_cost_ic = 1
 			breakthrough = 10
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 			#breakthrough = -0.5
 		}
@@ -224,7 +224,7 @@ equipment_modules = {
 				car_medium_main_armament
 			}
 		}
-		xp_cost = 0
+		 
 		add_stats = {
 			build_cost_ic = 0.5
 			breakthrough = 5
@@ -244,7 +244,7 @@ equipment_modules = {
 			ap_attack = 6
 			build_cost_ic = 0.5
 		}
-		xp_cost = 0
+		 
 	}
 	car_flamethrower = {
 		#Hans, hol den Flammenwerfer!
@@ -257,7 +257,7 @@ equipment_modules = {
 			build_cost_ic = 0.5
 			reliability = -0.05
 		}
-		xp_cost = 0
+		 
 	}
 	car_auto_cannon = {
 		abbreviation = "cac1"
@@ -270,7 +270,7 @@ equipment_modules = {
 			build_cost_ic = 1.25
 			reliability = -0.1
 		}
-		xp_cost = 0
+		 
 	}
 	car_auto_cannon_2 = {
 		abbreviation = "cac2"
@@ -284,7 +284,7 @@ equipment_modules = {
 			build_cost_ic = 1.5
 			reliability = -0.1
 		}
-		xp_cost = 0
+		 
 	}
 	car_small_cannon = {
 		abbreviation = "csc1"
@@ -298,7 +298,7 @@ equipment_modules = {
 			maximum_speed = -0.5
 			reliability = -0.1
 		}
-		xp_cost = 0
+		 
 	}
 	car_small_cannon_2 = {
 		abbreviation = "csc2"
@@ -313,7 +313,7 @@ equipment_modules = {
 			maximum_speed = -1
 			reliability = -0.1
 		}
-		xp_cost = 0
+		 
 	}
 	car_infantry_support_gun = {
 		abbreviation = "ccs"
@@ -328,7 +328,7 @@ equipment_modules = {
 			maximum_speed = -1.5
 			reliability = -0.2
 		}
-		xp_cost = 0
+		 
 	}
 	car_medium_cannon = {
 		abbreviation = "cmc1"
@@ -343,7 +343,7 @@ equipment_modules = {
 			maximum_speed = -1.5
 			reliability = -0.2
 		}
-		xp_cost = 0
+		 
 	}
 	car_medium_cannon_2 = {
 		abbreviation = "cmc2"
@@ -359,7 +359,7 @@ equipment_modules = {
 			maximum_speed = -2
 			reliability = -0.2
 		}
-		xp_cost = 0
+		 
 		build_cost_resources = {
 			tungsten = 1
 		}
@@ -376,7 +376,7 @@ equipment_modules = {
 			maximum_speed = -3
 			reliability = -0.25
 		}
-		xp_cost = 0
+		 
 		build_cost_resources = {
 			tungsten = 1
 		}
@@ -394,7 +394,7 @@ equipment_modules = {
 			maximum_speed = -1
 			reliability = -0.15
 		}
-		xp_cost = 0
+		 
 		build_cost_resources = {
 			tungsten = 1
 		}
@@ -412,7 +412,7 @@ equipment_modules = {
 			maximum_speed = -1.5
 			reliability = -0.2
 		}
-		xp_cost = 0
+		 
 		build_cost_resources = {
 			tungsten = 2
 		}
@@ -427,7 +427,7 @@ equipment_modules = {
 			maximum_speed = -3
 			reliability = -0.25
 		}
-		xp_cost = 0
+		 
 		build_cost_resources = {
 			tungsten = 1
 		}
@@ -441,7 +441,7 @@ equipment_modules = {
 			build_cost_ic = 0.75
 			recon = 0.15
 		}
-		xp_cost = 0
+		 
 	}
 	car_stabilizer = {
 		abbreviation = "cstab"
@@ -452,7 +452,7 @@ equipment_modules = {
 			breakthrough = 2.5
 			reliability = -0.1
 		}
-		xp_cost = 0
+		 
 	}
 	car_smoke_launchers = {
 		abbreviation = "csmok"
@@ -464,7 +464,7 @@ equipment_modules = {
 			breakthrough = 1
 			reliability = -0.05
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 		}
 	}
@@ -477,7 +477,7 @@ equipment_modules = {
 			breakthrough = 1.5
 			defense = 3
 		}
-		xp_cost = 0
+		 
 	}
 	car_wet_ammo_storage = {
 		abbreviation = "cwet"
@@ -487,7 +487,7 @@ equipment_modules = {
 			reliability = 0.1
 			build_cost_ic = 0.5
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 		}
 	}
@@ -499,7 +499,7 @@ equipment_modules = {
 			reliability = 0.1
 			build_cost_ic = 1
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 		}
 	}
@@ -512,7 +512,7 @@ equipment_modules = {
 			breakthrough = 3
 			defense = 4.5
 		}
-		xp_cost = 0
+		 
 	}
 	car_easy_maintenance = {
 		abbreviation = "ceasy"
@@ -521,7 +521,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.1
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 		}
 	}
@@ -535,7 +535,7 @@ equipment_modules = {
 			build_cost_ic = 0.25
 			reliability = -0.02
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 		}
 	}
@@ -549,7 +549,7 @@ equipment_modules = {
 			build_cost_ic = 0.35
 			reliability = -0.04
 		}
-		xp_cost = 0
+		 
 		multiply_stats = {
 		}
 	}

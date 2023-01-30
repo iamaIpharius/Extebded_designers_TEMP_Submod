@@ -1,4 +1,7 @@
 version="1"
+dependencies={
+	"TEMP Mod"
+}
 tags={
 	"Technologies"
 }

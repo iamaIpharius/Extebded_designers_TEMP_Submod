@@ -12,7 +12,7 @@ equipment_modules = {
 			build_cost_ic = 0.5
 			breakthrough = 7
 		}
-		xp_cost = 2
+		 
 		multiply_stats = {
 			
 		}
@@ -34,7 +34,7 @@ equipment_modules = {
 			tank_medium_main_armament = armor
 		}
 
-		xp_cost = 2
+		 
 		add_stats = {
 			build_cost_ic = 0.75
 			reliability = 0.2
