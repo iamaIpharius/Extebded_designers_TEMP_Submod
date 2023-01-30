@@ -255,7 +255,7 @@ equipment_modules = {
 		xp_cost = 0
 		multiply_stats = {
 			build_cost_ic = -0.1
-			#armor_value = -0.3
+			armor_value = -0.2
 		}
 	}
 	tank_welded_armor = {
@@ -399,6 +399,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			build_cost_ic = -0.05
+			armor_value = -0.1
 		}
 	}
 	semi_flat_armor = {
