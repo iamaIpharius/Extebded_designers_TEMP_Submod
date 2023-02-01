@@ -802,11 +802,6 @@ technologies = {
 
 		enable_equipment_modules = { 
 			ship_fire_control_system_1
-			sights_fighter_1
-			sights_cas_1
-			sights_nav_1
-			sights_tac_1
-			sights_strat_1
 		}
 		
 		research_cost = 1
@@ -846,11 +841,6 @@ technologies = {
 
 		enable_equipment_modules = { 
 			ship_fire_control_system_2
-			sights_fighter_2
-			sights_cas_2
-			sights_nav_2
-			sights_tac_2
-			sights_strat_2
 		}
 		
 		research_cost = 1
@@ -892,11 +882,6 @@ technologies = {
 
 		enable_equipment_modules = { 
 			ship_fire_control_system_3
-			sights_fighter_3
-			sights_cas_3
-			sights_nav_3
-			sights_tac_3
-			sights_strat_3
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -942,8 +927,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
-		start_year = 1943
+		research_cost = 1
+		start_year = 1942
 		
 		folder = {
 			name = electronics_folder
@@ -1001,7 +986,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1942
 		
 		folder = {
 			name = electronics_folder
@@ -1040,6 +1025,8 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_2
+			guided_anti_ship_missile
+			aa_rocket_rails
 		}
 		
 		rocket_artillery = {
@@ -1060,8 +1047,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
-		start_year = 1945
+		research_cost = 1
+		start_year = 1943
 		
 		folder = {
 			name = electronics_folder
@@ -1095,7 +1082,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_3
-			guided_anti_ship_missile
 		}
 		
 		rocket_artillery = {
@@ -1111,8 +1097,8 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		research_cost = 1.5
-		start_year = 1946
+		research_cost = 2
+		start_year = 1945
 		
 		folder = {
 			name = electronics_folder
@@ -1135,11 +1121,14 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		start_year = 1944
-		research_cost = 2
+		start_year = 1942
+		research_cost = 1
 		enable_equipment_modules = {
 			tank_gas_turbine_engine
 			jet_engine_1x
+			jet_engine_2x
+			jet_engine_4x
+			jet_engine_6x
 		}
 		folder = {
 			name = air_techs_folder
