@@ -5,7 +5,6 @@ equipment_modules = {
 		abbreviation = "tr1"
 		category = tank_track_type
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			reliability = 0.02
 			breakthrough = 0.5
@@ -22,7 +21,6 @@ equipment_modules = {
 		abbreviation = "tr2"
 		category = tank_track_type
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			reliability = 0.03
 			breakthrough = 0.7
@@ -39,7 +37,6 @@ equipment_modules = {
 		abbreviation = "tr3"
 		category = tank_track_type
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			reliability = 0.05
 			breakthrough = 1
@@ -56,7 +53,6 @@ equipment_modules = {
 		abbreviation = "tr4"
 		category = tank_track_type
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			reliability = 0.07
 			breakthrough = 1.2
@@ -74,7 +70,6 @@ equipment_modules = {
 		abbreviation = "rr2"
 		category = tank_track_type_rubber
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			build_cost_ic = 0.7
 		}
@@ -89,7 +84,6 @@ equipment_modules = {
 		abbreviation = "rr3"
 		category = tank_track_type_rubber
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			build_cost_ic = 0.7
 		}
@@ -104,7 +98,6 @@ equipment_modules = {
 		abbreviation = "rr4"
 		category = tank_track_type_rubber
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			build_cost_ic = 0.7
 		}
@@ -120,7 +113,6 @@ equipment_modules = {
 		abbreviation = "pr1"
 		category = tank_track_type_padded
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			reliability = 0.03
 			breakthrough = 0.5
@@ -139,7 +131,6 @@ equipment_modules = {
 		abbreviation = "pr2"
 		category = tank_track_type_padded
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			reliability = 0.05
 			breakthrough = 1
@@ -158,7 +149,6 @@ equipment_modules = {
 		abbreviation = "pr3"
 		category = tank_track_type_padded
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 			reliability = 0.07
 			breakthrough = 1.2
@@ -252,10 +242,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 		}
-		 
 		multiply_stats = {
 			build_cost_ic = -0.1
-			armor_value = -0.2
+			armor_value = -0.15
 		}
 	}
 	tank_welded_armor = {
@@ -264,10 +253,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 		}
-		 
 		multiply_stats = {
 			build_cost_ic = 0.1
-			armor_value = 0.4
+			armor_value = 0.2
 		}
 	}
 	tank_hh_welded_armor = {
@@ -276,22 +264,20 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 		}
-		 
 		multiply_stats = {
 			build_cost_ic = 0.1
-			armor_value = 0.45
+			armor_value = 0.25
 		}
 	}
 	tank_cast_armor = {
 		abbreviation = "cas"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
-		 
 		add_stats = {
 		}
 		multiply_stats = {
-			armor_value = 0.5
-			build_cost_ic = 0.2
+			armor_value = 0.4
+			build_cost_ic = 0.15
 		}
 	}
 	###Suspension Types
@@ -394,7 +380,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 		}
-		 
 		add_stats = {
 		}
 		multiply_stats = {
@@ -409,11 +394,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 		}
-		 
 		add_stats = {
 		}
 		multiply_stats = {
-			armor_value = 0.1
+			armor_value = 0.05
 			build_cost_ic = 0.05
 		}
 	}
@@ -424,10 +408,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 		}
-		 
 		multiply_stats = {
-			armor_value = 0.2
-			build_cost_ic = 0.15
+			armor_value = 0.15
+			build_cost_ic = 0.1
 		}
 	}
 	sloped_armor_zwei = {
@@ -437,13 +420,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 		}
-		 
 		add_stats = {
 			reliability = -0.2
 		}
 		multiply_stats = {
-			armor_value = 0.4
-			build_cost_ic = 0.3
+			armor_value = 0.2
+			build_cost_ic = 0.15
 		}
 	}
 	###Turret Mods 
@@ -455,7 +437,6 @@ equipment_modules = {
 			armor_value = 3
 			build_cost_ic = 0.5
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -469,7 +450,6 @@ equipment_modules = {
 			fuel_consumption = -0.2
 			build_cost_ic = 2.5
 		}
-		 
 		multiply_stats = {
 			armor_value = -0.25
 		}
@@ -483,7 +463,6 @@ equipment_modules = {
 			defense = -2
 			maximum_speed = 0.5
 		}
-		 
 		multiply_stats = {
 			armor_value = -0.1
 			build_cost_ic = -0.05
@@ -499,7 +478,6 @@ equipment_modules = {
 			defense = 2
 			build_cost_ic = 0.75
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -526,7 +504,6 @@ equipment_modules = {
 			defense = 3
 			build_cost_ic = 0.75
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -539,7 +516,6 @@ equipment_modules = {
 			build_cost_ic = 2.75
 			breakthrough = 7
 		}
-		 
 		multiply_stats = {
 			soft_attack = 0.09
 			hard_attack = 0.09
@@ -555,7 +531,6 @@ equipment_modules = {
 			build_cost_ic = 3
 			breakthrough = 10
 		}
-		 
 		multiply_stats = {
 			soft_attack = 0.09
 			hard_attack = 0.09
@@ -571,7 +546,6 @@ equipment_modules = {
 			build_cost_ic = 4
 			breakthrough = 14
 		}
-		 
 		multiply_stats = {
 			soft_attack = 0.12
 			hard_attack = 0.12
@@ -587,7 +561,6 @@ equipment_modules = {
 			build_cost_ic = 4.5
 			breakthrough = 16
 		}
-		 
 		multiply_stats = {
 			soft_attack = 0.12
 			hard_attack = 0.12
@@ -603,7 +576,6 @@ equipment_modules = {
 			build_cost_ic = 6
 			breakthrough = 20
 		}
-		 
 		multiply_stats = {
 			soft_attack = 0.15
 			hard_attack = 0.15
@@ -619,7 +591,6 @@ equipment_modules = {
 			build_cost_ic = 18
 			breakthrough = 20
 		}
-		 
 		multiply_stats = {
 			soft_attack = 0.15
 			hard_attack = 0.15
@@ -642,7 +613,6 @@ equipment_modules = {
 			build_cost_ic = 0.25
 			breakthrough = 4
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -661,7 +631,6 @@ equipment_modules = {
 			breakthrough = 7
 			reliability = -0.05
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -675,7 +644,6 @@ equipment_modules = {
 			build_cost_ic = 0.5
 			breakthrough = 7
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -687,7 +655,6 @@ equipment_modules = {
 			build_cost_ic = 0.75
 			breakthrough = 10
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -700,7 +667,6 @@ equipment_modules = {
 			maximum_speed = -0.25
 			breakthrough = 14
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -719,7 +685,6 @@ equipment_modules = {
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
 		}
-		 
 		add_stats = {
 			build_cost_ic = 0.25
 			reliability = 0.2
@@ -741,7 +706,6 @@ equipment_modules = {
 			build_cost_ic = 1
 			breakthrough = 8
 		}
-		 
 		multiply_stats = {
 			hard_attack = -0.1
 			soft_attack = -0.1
@@ -755,7 +719,6 @@ equipment_modules = {
 			build_cost_ic = 1.5
 			breakthrough = 16
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -768,7 +731,6 @@ equipment_modules = {
 			maximum_speed = -0.25
 			breakthrough = 24
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -786,7 +748,6 @@ equipment_modules = {
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
 		}
-		 
 		add_stats = {
 			build_cost_ic = 1.5
 			reliability = 0.2
@@ -805,7 +766,6 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
-		 
 		add_stats = {
 			build_cost_ic = 5
 			breakthrough = 18
@@ -822,7 +782,6 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
-		 
 		add_stats = {
 			build_cost_ic = 5.5
 			maximum_speed = -0.25
@@ -844,7 +803,6 @@ equipment_modules = {
 		forbid_equipment_type_exact_match_for_category = {
 			tank_super_heavy_main_armament = armor
 		}
-		 
 		add_stats = {
 			build_cost_ic = 5
 			reliability = 0.2
@@ -864,7 +822,6 @@ equipment_modules = {
 			maximum_speed = -0.2
 			breakthrough = 24
 		}
-		 
 		multiply_stats = {
 			hard_attack = -0.1
 		}
@@ -879,7 +836,6 @@ equipment_modules = {
 			maximum_speed = -0.5
 			breakthrough = 35
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -891,7 +847,6 @@ equipment_modules = {
 			build_cost_ic = 8
 			breakthrough = 24
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -910,7 +865,6 @@ equipment_modules = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 1
 		}
-		 
 	}
 	flamethrower = {
 		#Hans, hol den Flammenwerfer!
@@ -927,7 +881,6 @@ equipment_modules = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 1
 		}
-		 
 	}
 	tank_auto_cannon = {
 		abbreviation = "ac1"
@@ -941,7 +894,6 @@ equipment_modules = {
 			maximum_speed = -0.1
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 2
@@ -960,7 +912,6 @@ equipment_modules = {
 			maximum_speed = -0.1
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 2.5
@@ -980,7 +931,6 @@ equipment_modules = {
 			build_cost_ic = 2
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 3
@@ -1001,7 +951,6 @@ equipment_modules = {
 			build_cost_ic = 3
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 4
@@ -1026,7 +975,6 @@ equipment_modules = {
 			build_cost_ic = 4
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 5
@@ -1049,7 +997,6 @@ equipment_modules = {
 			maximum_speed = -0.15
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 2
@@ -1068,7 +1015,6 @@ equipment_modules = {
 			maximum_speed = -0.2
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 4
@@ -1087,7 +1033,6 @@ equipment_modules = {
 			maximum_speed = -0.2
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 5
@@ -1112,7 +1057,6 @@ equipment_modules = {
 			reliability = -0.15
 			breakthrough = 2
 		}
-		 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 4
@@ -1137,7 +1081,6 @@ equipment_modules = {
 			reliability = -0.15
 			breakthrough = 4
 		}
-		 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 5
@@ -1162,7 +1105,6 @@ equipment_modules = {
 			maximum_speed = -0.3
 			reliability = -0.2
 		}
-		 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 5
@@ -1187,7 +1129,6 @@ equipment_modules = {
 			maximum_speed = -0.4
 			reliability = -0.2
 		}
-		 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 6.5
@@ -1212,7 +1153,6 @@ equipment_modules = {
 			maximum_speed = -0.1
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 5
@@ -1238,7 +1178,6 @@ equipment_modules = {
 			maximum_speed = -0.2
 			reliability = -0.1
 		}
-		 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 5.5
@@ -1262,7 +1201,6 @@ equipment_modules = {
 			maximum_speed = -0.1
 			reliability = -0.05
 		}
-		 
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 3
@@ -1285,7 +1223,6 @@ equipment_modules = {
 			maximum_speed = -0.3
 			reliability = -0.175
 		}
-		 
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 6
@@ -1309,7 +1246,6 @@ equipment_modules = {
 			maximum_speed = -0.4
 			reliability = -0.2
 		}
-		 
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
 			convert_cost_ic = 8
@@ -1333,7 +1269,6 @@ equipment_modules = {
 			maximum_speed = -0.3
 			reliability = -0.25
 		}
-		 
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
 			convert_cost_ic = 6.5
@@ -1358,7 +1293,6 @@ equipment_modules = {
 			maximum_speed = -0.4
 			reliability = -0.25
 		}
-		 
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
 			convert_cost_ic = 8
@@ -1383,7 +1317,6 @@ equipment_modules = {
 			maximum_speed = -0.5
 			reliability = -0.3
 		}
-		 
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
 			convert_cost_ic = 9
@@ -1408,7 +1341,6 @@ equipment_modules = {
 			reliability = -0.3
 			breakthrough = -4
 		}
-		 
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
 			convert_cost_ic = 8
@@ -1432,7 +1364,6 @@ equipment_modules = {
 			maximum_speed = -0.6
 			reliability = -0.35
 		}
-		 
 		build_cost_resources = {
 			tungsten = 5
 			chromium = 2
@@ -1446,7 +1377,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.5
 		}
-		 
 		multiply_stats = {
 			defense = 0.2
 			breakthrough = 0.15
@@ -1473,7 +1403,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2.5
 		}
-		 
 		multiply_stats = {
 			defense = 0.6
 			breakthrough = 0.4
@@ -1493,7 +1422,6 @@ equipment_modules = {
 			build_cost_ic = 2
 			reliability = -0.15
 		}
-		 
 		multiply_stats = {
 			build_cost_ic = 0.1
 		}
@@ -1506,7 +1434,6 @@ equipment_modules = {
 			build_cost_ic = 1.5
 			soft_attack = 4
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1521,7 +1448,6 @@ equipment_modules = {
 			reliability = -0.1
 			breakthrough = 2
 		}
-		 
 		multiply_stats = {
 			armor_value = -0.05
 		}
@@ -1534,7 +1460,6 @@ equipment_modules = {
 			build_cost_ic = 2
 			breakthrough = 5
 		}
-		 
 	}
 	smoke_launchers = {
 		abbreviation = "smok"
@@ -1545,7 +1470,6 @@ equipment_modules = {
 			defense = 2
 			breakthrough = 1
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1558,7 +1482,6 @@ equipment_modules = {
 			breakthrough = 2
 			defense = 4
 		}
-		 
 	}
 	wet_ammo_storage = {
 		abbreviation = "wet"
@@ -1568,7 +1491,6 @@ equipment_modules = {
 			reliability = 0.15
 			build_cost_ic = 1
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1580,7 +1502,6 @@ equipment_modules = {
 			reliability = 0.05
 			build_cost_ic = 0.1
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1590,7 +1511,6 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 		}
-		 
 		multiply_stats = {
 			ap_attack = 0.1
 		}
@@ -1607,7 +1527,6 @@ equipment_modules = {
 			breakthrough = 3
 			build_cost_ic = 1.5
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1619,7 +1538,6 @@ equipment_modules = {
 			entrenchment = 1
 			build_cost_ic = 1
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1632,7 +1550,6 @@ equipment_modules = {
 			breakthrough = 4
 			defense = 4
 		}
-		 
 	}
 	easy_maintenance = {
 		abbreviation = "easy"
@@ -1641,7 +1558,6 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.1
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1654,7 +1570,6 @@ equipment_modules = {
 			air_attack = 1
 			build_cost_ic = 0.5
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1668,7 +1583,6 @@ equipment_modules = {
 			build_cost_ic = 0.5
 			reliability = -0.02
 		}
-		 
 		multiply_stats = {
 		}
 	}
@@ -1679,7 +1593,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 0.25
 		}
-		 
 		multiply_stats = {
 		}
 	}

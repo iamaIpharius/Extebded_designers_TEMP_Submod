@@ -380,6 +380,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_EMI_car_hh_welded_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_welded_armor2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_EMI_tank_close_support_gun"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_close_support_gun.dds"
 		legacy_lazy_load = no

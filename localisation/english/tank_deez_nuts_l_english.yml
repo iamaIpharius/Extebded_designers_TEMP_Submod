@@ -365,3 +365,6 @@
 
  tank_hh_welded_armor:0 "High Hardness Welded Armor"
  tank_hh_welded_armor_desc:0 "Welded armor that has underwent a tempering process, making the plates more resilient to armor piercing projectiles. However, if penetration is achieved the armor is even more prone to shattering."
+
+ car_hh_welded_armor:0 "High Hardness Welded Armor"
+ car_hh_welded_armor_desc:0 "Welded armor that has underwent a tempering process, making the plates more resilient to armor piercing projectiles. However, if penetration is achieved the armor is even more prone to shattering."
