@@ -1,8 +1,10 @@
 technologies = {
 	@1918 = 0
+	@1934 = 2
+	@1935 = 3
 	@1936 = 4
 	@1937 = 5
-	@1938 = 6
+	@1938 = 5
 	@1939 = 7
 	@1940 = 7
 	@1941 = 8
@@ -1056,6 +1058,10 @@ technologies = {
 			leads_to_tech = armor_tech_2
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = turret_tank_tech_1
+			research_cost_coeff = 1
+		}
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_1_tt
 		}
@@ -1065,8 +1071,8 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = {
-				x = 3
-				y = @1936
+				x = 21
+				y = @1935
 			}
 		}
 		ai_will_do = {
@@ -1116,7 +1122,7 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = {
-				x = 3
+				x = 21
 				y = @1938
 			}
 		}
@@ -1164,7 +1170,7 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = {
-				x = 3
+				x = 21
 				y = @1941
 			}
 		}
@@ -1201,7 +1207,7 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = {
-				x = 3
+				x = 21
 				y = @1944
 			}
 		}
@@ -1253,7 +1259,7 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = {
-				x = 4
+				x = 23
 				y = 5
 			}
 		}
@@ -1283,7 +1289,7 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = {
-				x = 4
+				x = 23
 				y = 8
 			}
 		}
@@ -1308,7 +1314,7 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = {
-				x = 4
+				x = 23
 				y = 11
 			}
 		}
@@ -1346,10 +1352,6 @@ technologies = {
 			leads_to_tech = engine_tech_2
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = turret_tank_tech_1
-			research_cost_coeff = 1
-		}
 		enable_equipment_modules = {
 			ostketten
 		}
@@ -1363,7 +1365,7 @@ technologies = {
 			name = nsb_armour_folder
 			position = {
 				x = 2
-				y = @1936
+				y = @1935
 			}
 		}
 		ai_will_do = {
