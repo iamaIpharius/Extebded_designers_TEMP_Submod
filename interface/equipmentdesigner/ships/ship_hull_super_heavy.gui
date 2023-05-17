@@ -691,6 +691,708 @@ guiTypes = {
 					}
 				}
 			}
+			containerWindowType = {
+				name = "mid_4_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_5_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_6_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_7_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_8_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_9_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_10_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_11_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "mid_12_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air"
+						position = { x=225 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid1_anti_air@highlight"
+						position = { x=225 y=0 }
+					}
+				}
+
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries"
+						position = { x=220 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_mid_secondaries@highlight"
+						position = { x=220 y=0 }
+					}
+				}
+			}
 
 			
 			

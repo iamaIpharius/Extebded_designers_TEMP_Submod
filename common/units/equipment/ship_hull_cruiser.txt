@@ -45,31 +45,51 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_cruiser_armor }	
 			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_light_battery
+					dp_light_battery 
+					ship_medium_battery
+					ship_secondaries
+					ship_airplane_launcher
+					ship_mine_layer
+					ship_depth_charge
+				}
+			}
+			
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
 					ship_anti_air
 					ship_light_battery
-					dp_light_battery
-					ship_light_medium_battery
+					dp_light_battery 
+					ship_light_medium_battery		  
 					ship_medium_battery
-					ship_airplane_launcher
-					ship_mine_layer
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
-					ship_light_medium_battery
-					ship_medium_battery
+					ship_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
 					ship_depth_charge
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			mid_4_custom_slot = mid_1_custom_slot
+			mid_5_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_layer
+					ship_anti_air
+					ship_airplane_launcher
+					ship_depth_charge
+					ship_light_battery
+					ship_medium_battery
+					dp_light_battery
+					ship_light_medium_battery
 				}
 			}
 		}
@@ -112,7 +132,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 15
-		naval_speed = 27
+		naval_speed = 20
 		reliability = 0.80
 		
 		naval_range = 2500
@@ -122,12 +142,12 @@ equipments = {
 
 		fuel_consumption = 20
 		
-		build_cost_ic = 1800
+		build_cost_ic = 1600
 		resources = {
 			steel = 1
 		}
 		
-		manpower = 600
+		manpower = 500
 
 		naval_supremacy_factor = 2.3
 	}
@@ -150,10 +170,10 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		parent = ship_hull_cruiser_1
-		manpower = 800
+		manpower = 700
 		naval_speed = 30
 		reliability = 0.85
-		build_cost_ic = 1900
+		build_cost_ic = 1700
 		naval_range = 3000
 		max_strength = 110
 		resources = {
@@ -170,11 +190,17 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
 					ship_light_battery
+					ship_dp_secondaries		  
 					dp_light_battery
 					ship_light_medium_battery
 					ship_medium_battery
-					ship_anti_air
+					ship_secondaries
+					ship_airplane_launcher
+					ship_mine_layer
+					ship_depth_charge
 				}
 			}
 			
@@ -187,11 +213,20 @@ equipments = {
 					dp_light_battery
 					ship_light_medium_battery
 					ship_medium_battery
+					ship_secondaries
+					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					ship_depth_charge
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			mid_4_custom_slot = mid_1_custom_slot
+			mid_5_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = mid_1_custom_slot
+			mid_7_custom_slot = mid_1_custom_slot
+			mid_8_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -200,32 +235,33 @@ equipments = {
 					ship_airplane_launcher
 					ship_depth_charge
 					ship_light_battery
-					dp_light_battery
+					ship_dp_secondaries 
 					ship_light_medium_battery
 					ship_medium_battery
+					dp_light_battery
 				}
 			}
 		}
 
 		default_modules = {
 			front_1_custom_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2									 
 		}
 	}
 
 	ship_hull_cruiser_3 = {
-		abbreviation = "hbc"
+		abbreviation = "hbc"			  
 		year = 1940
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900
 		parent = ship_hull_cruiser_2
 		naval_speed = 32
-		build_cost_ic = 2000
+		build_cost_ic = 1800
 		reliability = 0.90
 		max_strength = 120
 		naval_range = 4000
-		manpower = 1200
+		manpower = 1000
 		resources = {
 			steel = 2
 		}
@@ -240,11 +276,16 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_torpedo
 					ship_anti_air
 					ship_light_battery
 					dp_light_battery
 					ship_light_medium_battery
 					ship_medium_battery
+					ship_secondaries
+					ship_airplane_launcher
+					ship_mine_layer
+					ship_depth_charge
 				}
 			}
 			
@@ -257,10 +298,22 @@ equipments = {
 					dp_light_battery
 					ship_light_medium_battery
 					ship_medium_battery
+					ship_secondaries
+					ship_dp_secondaries
 					ship_airplane_launcher
+					ship_mine_layer
+					ship_depth_charge
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			mid_4_custom_slot = mid_1_custom_slot
+			mid_5_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = mid_1_custom_slot
+			mid_7_custom_slot = mid_1_custom_slot
+			mid_8_custom_slot = mid_1_custom_slot
+			mid_9_custom_slot = mid_1_custom_slot
+			mid_10_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -274,19 +327,7 @@ equipments = {
 					ship_medium_battery
 				}
 			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_mine_layer
-					ship_anti_air
-					ship_airplane_launcher
-					ship_depth_charge
-					ship_light_battery
-					dp_light_battery
-					ship_light_medium_battery
-					ship_medium_battery
-				}
-			}
+			rear_2_custom_slot = rear_1_custom_slot	
 		}
 
 		default_modules = {
@@ -305,8 +346,8 @@ equipments = {
 		parent = ship_hull_cruiser_3
 		naval_speed = 33
 		reliability = 0.95
-		manpower = 1400
-		build_cost_ic = 2100
+		manpower = 1200
+		build_cost_ic = 1900
 		naval_range = 4500
 		max_strength = 130
 		resources = {
@@ -323,11 +364,16 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_torpedo
 					ship_anti_air
 					ship_light_battery
 					dp_light_battery
 					ship_light_medium_battery
 					ship_medium_battery
+					ship_secondaries
+					ship_airplane_launcher
+					ship_mine_layer
+					ship_depth_charge
 				}
 			}
 			
@@ -340,14 +386,30 @@ equipments = {
 					dp_light_battery
 					ship_light_medium_battery
 					ship_medium_battery
+					ship_secondaries
+					ship_dp_secondaries
 					ship_airplane_launcher
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			mid_4_custom_slot = mid_1_custom_slot
+			mid_5_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = mid_1_custom_slot
+			mid_7_custom_slot = mid_1_custom_slot
+			mid_8_custom_slot = mid_1_custom_slot
+			mid_9_custom_slot = mid_1_custom_slot
+			mid_10_custom_slot = mid_1_custom_slot
+			mid_11_custom_slot = mid_1_custom_slot
+			mid_12_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_mine_layer
+					ship_mine_warfare
 					ship_anti_air
 					ship_airplane_launcher
 					ship_depth_charge
@@ -358,6 +420,7 @@ equipments = {
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
+
 		}
 
 		default_modules = {
@@ -406,9 +469,9 @@ equipments = {
 
 		
 		surface_detection = 15
-		sub_detection = 5
+		sub_detection = 20
 		surface_visibility = 15
-		naval_speed = 25
+		naval_speed = 28
 		reliability = 0.8
 		resources = {
 			#oil = 1
@@ -444,7 +507,7 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 5
+		sub_detection = 25
 		naval_speed = 30
 		reliability = 0.85
 
@@ -461,7 +524,7 @@ equipments = {
 		build_cost_ic = 1650
 		resources = {
 			#oil = 1
-			steel = 3
+			steel = 1
 		}
 		manpower = 800
 	}
@@ -494,9 +557,9 @@ equipments = {
 		armor_value = 7
 
 		
-		surface_detection = 30
-		sub_detection = 10
-		naval_speed = 33
+		surface_detection = 50
+		sub_detection = 50
+		naval_speed = 32
 		reliability = 0.90
 
 		naval_range = 4000
@@ -546,9 +609,9 @@ equipments = {
 		armor_value = 8
 
 		
-		surface_detection = 40
-		sub_detection = 10
-		naval_speed = 35
+		surface_detection = 70
+		sub_detection = 60
+		naval_speed = 34
 		reliability = 0.92
 
 		naval_range = 4500
@@ -564,7 +627,7 @@ equipments = {
 		build_cost_ic = 2000
 		resources = {
 			#oil = 2
-			steel = 4
+			steel = 2
 			chromium = 1
 		}
 		manpower = 1140
@@ -608,6 +671,8 @@ equipments = {
 					dp_light_battery
 					ship_medium_battery
 					ship_light_medium_battery
+					ship_secondaries
+					ship_dp_secondaries
 					ship_airplane_launcher
 				}
 			}
@@ -646,7 +711,7 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_medium_battery_1
 		}
@@ -679,7 +744,7 @@ equipments = {
 		build_cost_ic = 2200
 		resources = {
 			#oil = 1
-			steel = 3
+			steel = 2
 		}
 		
 		manpower = 1500
@@ -699,7 +764,7 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_2
 			mid_2_custom_slot = ship_anti_air_3
 			rear_1_custom_slot = ship_medium_battery_2
 		}
@@ -729,7 +794,7 @@ equipments = {
 		build_cost_ic = 2600
 		resources = {
 			#oil = 1
-			steel = 4
+			steel = 2
 		}		
 		manpower = 1700
 	}
@@ -748,7 +813,7 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_2
 			mid_2_custom_slot = ship_anti_air_4
 			rear_1_custom_slot = ship_medium_battery_3
 			rear_2_custom_slot = ship_anti_air_4
@@ -779,7 +844,7 @@ equipments = {
 		build_cost_ic = 3000
 		resources = {
 			#oil = 2
-			steel = 4
+			steel = 2
 		}		
 		manpower = 1900
 	}
@@ -799,8 +864,8 @@ equipments = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			front_1_custom_slot = ship_anti_air_4
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			mid_1_custom_slot = dp_ship_secondaries_3
+			mid_2_custom_slot = dp_ship_secondaries_3
 			rear_1_custom_slot = ship_medium_battery_4
 			rear_2_custom_slot = ship_anti_air_4
 		}
@@ -830,7 +895,7 @@ equipments = {
 		build_cost_ic = 3400
 		resources = {
 			#oil = 2
-			steel = 5
+			steel = 3
 			chromium = 1
 		}		
 		manpower = 2200
@@ -900,7 +965,6 @@ equipments = {
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {	
-					ship_torpedo
 				}
 			}
 			rear_2_custom_slot = {
@@ -918,6 +982,16 @@ equipments = {
 			front_1_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = ship_torpedo_2
 			mid_2_custom_slot = ship_torpedo_2
+			mid_3_custom_slot = mid_2_custom_slot
+			mid_4_custom_slot = mid_2_custom_slot
+			mid_5_custom_slot = mid_2_custom_slot
+			mid_6_custom_slot = mid_2_custom_slot
+			mid_7_custom_slot = mid_2_custom_slot
+			mid_8_custom_slot = mid_2_custom_slot
+			mid_9_custom_slot = mid_2_custom_slot
+			mid_10_custom_slot = mid_2_custom_slot
+			mid_11_custom_slot = mid_2_custom_slot
+			mid_12_custom_slot = mid_2_custom_slot
 			rear_1_custom_slot = ship_torpedo_1
 			rear_2_custom_slot = ship_anti_air_1
 		}
@@ -932,9 +1006,9 @@ equipments = {
 
 		
 		surface_detection = 40
-		sub_detection = 10
+		sub_detection = 50
 		surface_visibility = 15
-		naval_speed = 25
+		naval_speed = 32
 		reliability = 0.9
 		
 		naval_range = 4000
@@ -943,13 +1017,13 @@ equipments = {
 		
 
 		
-		build_cost_ic = 1700
+		build_cost_ic = 1500
 		resources = {
 			#oil = 2
 			steel = 2
 		}
 		
-		manpower = 960
+		manpower = 800
 	}
 
 	###special snowflake hulls
@@ -1025,7 +1099,7 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 1
+		sub_detection = 20
 		surface_visibility = 15
 		naval_speed = 30
 		reliability = 0.9
@@ -1045,7 +1119,7 @@ equipments = {
 		manpower = 960
 	}
 	ship_hull_cruiser_panzerschiff = {
-		abbreviation = "hbf"
+		abbreviation = "hbf"			  
 		year = 1929
 		visual_level = 0
 		archetype = ship_hull_cruiser
@@ -1106,7 +1180,7 @@ equipments = {
 		}
 	}
 	ship_hull_cruiser_coastal_defense_ship = {
-		abbreviation = "hbg"
+		abbreviation = "hbg"			  
 		year = 1929
 		visual_level = 0
 		archetype = ship_hull_cruiser
