@@ -143,8 +143,8 @@ guiTypes = {
 			@fixed_btn_mod_col_6 = 438
 			@fixed_btn_mod_row = 300
 
-			@custom_btn_mod_row = 0
-			@custom_btn_mod_row_1= 48
+			@fixed_btn_mod_row_2 = 0
+			@fixed_btn_mod_row_1 = 254
 
 			# Position used to check if module is in top or bottom row 
 			# to anchor tooltip so it doesnt cover the highlight effect in gui
@@ -155,37 +155,37 @@ guiTypes = {
 
 			positionType = {
 				name = "pos_custom_module_slot_window_0"
-				position = { x=@fixed_btn_mod_col_0 y=@custom_btn_mod_row }
+				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_2 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_1"
-				position = { x=@fixed_btn_mod_col_1 y=@custom_btn_mod_row }
+				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_2 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_2"
-				position = { x=@fixed_btn_mod_col_2 y=@custom_btn_mod_row }
+				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_2 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_3"
-				position = { x=@fixed_btn_mod_col_3 y=@custom_btn_mod_row }
+				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_2 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_4"
-				position = { x=@fixed_btn_mod_col_4 y=@custom_btn_mod_row }
+				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_2 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_5"
-				position = { x=@fixed_btn_mod_col_5 y=@custom_btn_mod_row }
+				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_2 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_6"
-				position = { x=@fixed_btn_mod_col_6 y=@custom_btn_mod_row }
+				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_2 }
 			}
 
 			positionType = {
@@ -225,124 +225,40 @@ guiTypes = {
 			
 			positionType = {
 				name = "pos_custom_module_slot_window_7"
-				position = { x=@fixed_btn_mod_col_0 y=@custom_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_8"
-				position = { x=@fixed_btn_mod_col_1 y=@custom_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_9"
-				position = { x=@fixed_btn_mod_col_2 y=@custom_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_1 }
 			}
 
 
 			positionType = {
 				name = "pos_custom_module_slot_window_10"
-				position = { x=@fixed_btn_mod_col_3 y=@custom_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_11"
-				position = { x=@fixed_btn_mod_col_4 y=@custom_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_12"
-				position = { x=@fixed_btn_mod_col_5 y=@custom_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_13"
-				position = { x=@fixed_btn_mod_col_6 y=@custom_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_1 }
 			}
-			# ######################################################################
-			# # Equipment upgrades
-			# ######################################################################
-			# containerWindowType = {
-			# 	name = "equipment_upgrade_1"
-			# 	position = { x = 285 y = 240 }
-			# 	size = { width = 130 height = 50 } 
 
-			# 	buttonType = {
-			# 		name = "btn_dec"
-			# 		quadTextureSprite ="GFX_naval_decrease_amount"
-			# 		position = { x = 36 y = 17 }
-			# 		clicksound = "ui_tank_designer_decrease"
-			# 	}
-
-			# 	buttonType = {
-			# 		name = "btn_inc"
-			# 		quadTextureSprite ="GFX_naval_increase_amount"
-			# 		position = { x = 96 y = 17 }
-			# 		clicksound = "ui_tank_designer_increase"
-			# 	}
-
-			# 	instantTextboxType = {
-			# 		name = "name"
-			# 		position = { x = 37 y = 3 }
-			# 		font = "hoi_16mbs"
-			# 		maxWidth = 90
-			# 		maxHeight = 20
-			# 		format = center
-			# 		text = "_armor_"
-			# 	}
-
-			# 	instantTextboxType = {
-			# 		name = "level"
-			# 		position = { x = 68 y = 18 }
-			# 		font = "hoi_16mbs"
-			# 		maxWidth = 29
-			# 		maxHeight = 30
-			# 		format = center
-			# 		vertical_alignment = center
-			# 		text = "99"
-			# 	}
-			# }
-
-			# containerWindowType = {
-			# 	name = "equipment_upgrade_2"
-			# 	position = { x = 380 y = 240 }
-			# 	size = { width = 130 height = 50 } 
-
-			# 	buttonType = {
-			# 		name = "btn_dec"
-			# 		quadTextureSprite ="GFX_naval_decrease_amount"
-			# 		position = { x = 36 y = 17 }
-			# 		clicksound = "ui_tank_designer_decrease"
-			# 	}
-
-			# 	buttonType = {
-			# 		name = "btn_inc"
-			# 		quadTextureSprite ="GFX_naval_increase_amount"
-			# 		position = { x = 96 y = 17 }
-			# 		clicksound = "ui_tank_designer_increase"
-			# 	}
-
-			# 	instantTextboxType = {
-			# 		name = "name"
-			# 		position = { x = 37 y = 3 }
-			# 		font = "hoi_16mbs"
-			# 		maxWidth = 90
-			# 		maxHeight = 20
-			# 		format = center
-			# 		text = "_engine_"
-			# 	}
-
-			# 	instantTextboxType = {
-			# 		name = "level"
-			# 		position = { x = 68 y = 18 }
-			# 		font = "hoi_16mbs"
-			# 		maxWidth = 29
-			# 		maxHeight = 30
-			# 		format = center
-			# 		vertical_alignment = center
-			# 		text = "99"
-			# 	}
-
-			# }
 			
 		}
 
