@@ -71,7 +71,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_deck_space
 					ship_carrier_armor
 					ship_secondaries
 					ship_dp_secondaries
@@ -81,7 +80,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_deck_space
 					ship_carrier_armor
 					ship_secondaries
 				}
@@ -92,13 +90,20 @@ equipments = {
 			mid_5_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		module_count_limit = {
 			category = ship_radar
@@ -112,10 +117,6 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
-			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -150,7 +151,57 @@ equipments = {
 		visual_tech_level_addition = 2
 		archetype = ship_hull_carrier
 		priority = 1000
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_deck_slot_1 = inherit
+			fixed_ship_deck_slot_2 = inherit
+			fixed_ship_deck_slot_3 = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_deck_space
+					ship_carrier_armor
+					ship_secondaries
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_deck_space
+					ship_carrier_armor
+					ship_secondaries
+				}
+			}
+			mid_2_custom_slot = {
+			}
+			mid_3_custom_slot = {
+			}
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
+			rear_1_custom_slot = {
+			}
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
+		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
 		}
@@ -190,23 +241,29 @@ equipments = {
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = mid_1_custom_slot
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
 			fixed_ship_engine_slot = carrier_ship_engine_3
 		}
 		naval_range = 4000
@@ -268,29 +325,23 @@ equipments = {
 			mid_5_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
-			mid_4_custom_slot = ship_deck_space
-			mid_5_custom_slot = ship_deck_space
-			mid_6_custom_slot = ship_deck_space
-			mid_7_custom_slot = ship_deck_space
-			mid_8_custom_slot = empty
-			mid_9_custom_slot = empty
-			mid_10_custom_slot = empty
-			mid_11_custom_slot = empty
-			mid_12_custom_slot = empty
-			mid_13_custom_slot = empty
 		}
 		naval_range = 5000
 		reliability = 0.8
@@ -327,7 +378,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_deck_space
 					ship_carrier_armor
 					ship_secondaries
 				}
@@ -337,7 +387,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_dp_secondaries
-					ship_deck_space
 					ship_carrier_armor
 					ship_secondaries
 				}
@@ -347,7 +396,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_secondaries
 					ship_dp_secondaries
-					ship_deck_space
 					ship_carrier_armor
 					ship_anti_air
 				}
@@ -357,23 +405,23 @@ equipments = {
 			mid_5_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
-			mid_4_custom_slot = ship_deck_space
-			mid_5_custom_slot = ship_deck_space
-			mid_6_custom_slot = ship_deck_space
-			mid_7_custom_slot = ship_deck_space
 		}
 		naval_range = 4000
 		reliability = 0.65
@@ -411,7 +459,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_deck_space
 					ship_carrier_armor
 					ship_secondaries
 				}
@@ -421,7 +468,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_dp_secondaries
-					ship_deck_space
 					ship_carrier_armor
 					ship_secondaries
 				}
@@ -431,7 +477,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_secondaries
 					ship_dp_secondaries
-					ship_deck_space
 					ship_carrier_armor
 					ship_anti_air
 				}
@@ -441,23 +486,23 @@ equipments = {
 			mid_5_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = ship_deck_space
-			mid_2_custom_slot = ship_deck_space
-			mid_3_custom_slot = ship_deck_space
-			mid_4_custom_slot = ship_deck_space
-			mid_5_custom_slot = ship_deck_space
-			mid_6_custom_slot = ship_deck_space
-			mid_7_custom_slot = ship_deck_space
 		}
 		naval_range = 4000
 		max_strength = 125

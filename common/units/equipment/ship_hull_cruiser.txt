@@ -76,44 +76,51 @@ equipments = {
 				}
 			}
 			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
-					ship_light_medium_battery
-					ship_medium_battery
-					ship_secondaries
-					ship_airplane_launcher
-					ship_mine_layer
-					ship_depth_charge
-				}
+				# required = no
+				# allowed_module_categories = {
+				# 	ship_torpedo
+				# 	ship_anti_air
+				# 	ship_light_battery
+				# 	dp_light_battery
+				# 	ship_light_medium_battery
+				# 	ship_medium_battery
+				# 	ship_secondaries
+				# 	ship_airplane_launcher
+				# 	ship_mine_layer
+				# 	ship_depth_charge
+				# }
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
 			mid_4_custom_slot = mid_1_custom_slot
 			mid_5_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_mine_layer
-					ship_anti_air
-					ship_airplane_launcher
-					ship_depth_charge
-					ship_light_battery
-					ship_medium_battery
-					dp_light_battery
-					ship_light_medium_battery
-				}
+				# required = no
+				# allowed_module_categories = {
+				# 	ship_mine_layer
+				# 	ship_anti_air
+				# 	ship_airplane_launcher
+				# 	ship_depth_charge
+				# 	ship_light_battery
+				# 	ship_medium_battery
+				# 	dp_light_battery
+				# 	ship_light_medium_battery
+				# }
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		module_count_limit = {
 			category = ship_radar
@@ -227,10 +234,14 @@ equipments = {
 					ship_depth_charge
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+			}
+			mid_3_custom_slot = {
+			}
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -245,13 +256,20 @@ equipments = {
 					dp_light_battery
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -315,8 +333,10 @@ equipments = {
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = mid_1_custom_slot
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -330,13 +350,20 @@ equipments = {
 					ship_medium_battery
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -417,13 +444,20 @@ equipments = {
 					ship_medium_battery
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -651,19 +685,6 @@ equipments = {
 					ship_light_medium_battery
 				}
 			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_mine_layer
-					ship_anti_air
-					ship_airplane_launcher
-					ship_depth_charge
-					ship_light_battery
-					dp_light_battery
-					ship_medium_battery
-					ship_light_medium_battery
-				}
-			}
 		}
 		default_modules = {
 			fixed_ship_battery_slot = ship_medium_battery_1
@@ -883,15 +904,23 @@ equipments = {
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_torpedo
 				}
 			}
-			mid_6_custom_slot = mid_2_custom_slot
-			mid_7_custom_slot = mid_2_custom_slot
-			mid_8_custom_slot = mid_2_custom_slot
-			mid_9_custom_slot = mid_2_custom_slot
-			mid_10_custom_slot = mid_2_custom_slot
-			mid_11_custom_slot = mid_2_custom_slot
-			mid_12_custom_slot = mid_2_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -966,13 +995,20 @@ equipments = {
 					ship_torpedo
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -1043,8 +1079,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_secondaries
-					ship_dp_secondaries
 					ship_airplane_launcher
 				}
 			}
@@ -1061,14 +1095,20 @@ equipments = {
 					ship_torpedo
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
-
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = ship_anti_air_1
@@ -1137,14 +1177,20 @@ equipments = {
 					ship_light_medium_battery
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
-
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty

@@ -73,41 +73,47 @@ equipments = {
 				}
 			}
 			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
-				}
+				# required = no
+				# allowed_module_categories = {
+				# 	ship_torpedo
+				# 	ship_mine_warfare
+				# 	ship_mine_layer
+				# 	ship_depth_charge
+				# 	ship_anti_air
+				# 	ship_light_battery
+				# 	dp_light_battery
+				# }
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
 			mid_4_custom_slot = mid_1_custom_slot
 			mid_5_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
-				}
+				# required = no
+				# allowed_module_categories = {
+				# 	ship_torpedo
+				# 	ship_mine_warfare
+				# 	ship_mine_layer
+				# 	ship_depth_charge
+				# 	ship_anti_air
+				# 	ship_light_battery
+				# 	dp_light_battery
+				# }
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
-
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		module_count_limit = {
 			category = ship_radar
@@ -197,10 +203,14 @@ equipments = {
 					dp_light_battery
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = mid_1_custom_slot
+			mid_2_custom_slot = {
+			}
+			mid_3_custom_slot = {
+			}
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -212,14 +222,20 @@ equipments = {
 					ship_light_battery
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
-
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		default_modules = {
 			mid_1_custom_slot = empty
@@ -277,8 +293,10 @@ equipments = {
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = mid_1_custom_slot
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -291,14 +309,20 @@ equipments = {
 					dp_light_battery
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
-
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		resources = {
 			steel = 3
@@ -372,14 +396,20 @@ equipments = {
 					dp_light_battery
 				}
 			}
-			mid_6_custom_slot = mid_1_custom_slot
-			mid_7_custom_slot = mid_1_custom_slot
-			mid_8_custom_slot = mid_1_custom_slot
-			mid_9_custom_slot = mid_1_custom_slot
-			mid_10_custom_slot = mid_1_custom_slot
-			mid_11_custom_slot = mid_1_custom_slot
-			mid_12_custom_slot = mid_1_custom_slot
-
+			mid_6_custom_slot = {
+			}
+			mid_7_custom_slot = {
+			}
+			mid_8_custom_slot = {
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+			mid_12_custom_slot = {
+			}
 		}
 		surface_detection = 20
 		reliability = 0.92
