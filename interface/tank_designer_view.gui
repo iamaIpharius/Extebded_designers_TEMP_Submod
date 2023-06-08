@@ -181,16 +181,6 @@ guiTypes = {
 				position = { x= 220 y= 300 }
 			}
 
-			positionType = {
-				name = "pos_custom_module_slot_window_12"
-				position = { x=@fixed_btn_mod_col_3 y= 50 }
-			}
-
-			positionType = {
-				name = "pos_custom_module_slot_window_13"
-				position = { x=@fixed_btn_mod_col_4 y= 50 }
-			}
-
 			######################################################################
 			# Equipment upgrades
 			######################################################################

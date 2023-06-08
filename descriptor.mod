@@ -9,5 +9,5 @@ tags={
 	"Military"
 }
 name="Extended Designers TEMP Submod"
-supported_version="1.12.10"
+supported_version="1.12.14"
 remote_file_id="2921372191"
