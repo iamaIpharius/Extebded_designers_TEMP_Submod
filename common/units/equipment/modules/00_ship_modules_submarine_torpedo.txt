@@ -1,0 +1,1919 @@
+equipment_modules = {
+	nrm_submarine_TRP_18_1_x1 = {
+		category = nrm_submarine_TRP_18_x1
+		gui_category = nrm_submarine_TRP_18
+
+
+		manpower = 2
+		add_stats = {
+			build_cost_ic = 10
+			max_strength = 0.2
+			torpedo_attack = 2
+			sub_visibility = 0.025
+			naval_torpedo_hit_chance_factor = -0.1
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			reliability = -0.00225
+			naval_speed = -0.005
+			fuel_consumption = 0.01
+			
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 30
+
+	}
+	nrm_submarine_TRP_18_1_x2 = {
+		category = nrm_submarine_TRP_18_x2
+		gui_category = nrm_submarine_TRP_18
+
+
+		manpower = 3
+		add_stats = {
+
+			build_cost_ic = 20
+			max_strength = 0.4
+			torpedo_attack = 3.74
+			sub_visibility = 0.05
+			naval_torpedo_hit_chance_factor = -0.05
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			reliability = -0.004
+			naval_speed = -0.01
+			fuel_consumption = 0.02
+			sub_visibility = 0.005
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 39
+
+	}
+	nrm_submarine_TRP_18_1_x3 = {
+		category = nrm_submarine_TRP_18_x3
+		gui_category = nrm_submarine_TRP_18
+
+
+		manpower = 5
+		add_stats = {
+			build_cost_ic = 30
+			max_strength = 0.6
+			torpedo_attack = 5.5
+			sub_visibility = 0.07
+			naval_torpedo_hit_chance_factor = -0.025
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			reliability = -0.007
+			naval_speed = -0.015
+			fuel_consumption = 0.036
+			sub_visibility = 0.007	
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 49
+
+	}
+	nrm_submarine_TRP_18_1_x4 = {
+		category = nrm_submarine_TRP_18_x4
+		gui_category = nrm_submarine_TRP_18
+
+
+		manpower = 6
+		add_stats = {
+			build_cost_ic = 40
+			max_strength = 0.8
+			torpedo_attack = 7.1
+			sub_visibility = 0.1
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			reliability = -0.009
+			naval_speed = -0.02
+			fuel_consumption = 0.048
+			sub_visibility = 0.01
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 59
+
+	}
+	nrm_submarine_TRP_18_1_x5 = {
+		category = nrm_submarine_TRP_18_x5
+		gui_category = nrm_submarine_TRP_18
+
+
+		manpower = 8
+		add_stats = {
+			build_cost_ic = 50
+			max_strength = 1
+			torpedo_attack = 8.65
+			sub_visibility = 0.12
+			naval_torpedo_hit_chance_factor = 0.02
+
+			
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.001
+			reliability = -0.011
+			naval_speed = -0.025
+			fuel_consumption = 0.06
+			sub_visibility = 0.012
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 69
+
+	}
+	nrm_submarine_TRP_18_1_x6 = {
+		category = nrm_submarine_TRP_18_x6
+		gui_category = nrm_submarine_TRP_18
+
+
+		manpower = 10
+		add_stats = {
+			build_cost_ic = 60
+			max_strength = 1.2
+			torpedo_attack = 10
+			sub_visibility = 0.15
+			naval_torpedo_hit_chance_factor = 0.035
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			reliability = -0.0135
+			naval_speed = -0.03
+			fuel_consumption = 0.072
+			sub_visibility = 0.015
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 78
+
+	}
+	nrm_submarine_TRP_18_1_x8 = {
+		category = nrm_submarine_TRP_18_x8
+		gui_category = nrm_submarine_TRP_18
+
+
+		manpower = 13
+		add_stats = {
+			build_cost_ic = 80
+			max_strength = 1.6
+			torpedo_attack = 12.55
+			sub_visibility = 0.2
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			reliability = -0.018
+			naval_speed = -0.04
+			fuel_consumption = 0.096
+			sub_visibility = 0.02
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 98
+
+	}
+	nrm_submarine_TRP_18_1_x10 = {
+		category = nrm_submarine_TRP_18_x10
+		gui_category = nrm_submarine_TRP_18
+		
+		
+		manpower = 15
+		add_stats = {
+			build_cost_ic = 100
+			max_strength = 2
+			torpedo_attack = 14.6
+			sub_visibility = 0.25
+			naval_torpedo_hit_chance_factor = 0.075
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			reliability = -0.0225
+			naval_speed = -0.05
+			fuel_consumption = 0.12
+			sub_visibility = 0.025
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 108
+		
+	}
+	nrm_submarine_TRP_18_1_x12 = {
+		category = nrm_submarine_TRP_18_x12
+		gui_category = nrm_submarine_TRP_18
+		
+		
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 120
+			max_strength = 2.4
+			torpedo_attack = 16.22
+			sub_visibility = 0.3
+			naval_torpedo_hit_chance_factor = 0.1
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			reliability = -0.027
+			naval_speed = -0.06
+			fuel_consumption = 0.12
+			sub_visibility = 0.03
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 120
+		
+	}
+	nrm_submarine_TRP_18_2_x1 = {
+		category = nrm_submarine_TRP_18_x1
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_1_x1
+
+
+		manpower = 2
+		add_stats = {
+			build_cost_ic = 10
+			max_strength = 0.2
+			torpedo_attack = 2.5
+			sub_visibility = 0.025
+			naval_torpedo_hit_chance_factor = -0.1
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+		    reliability = -0.002
+			naval_speed = -0.005
+			fuel_consumption = 0.012
+			sub_visibility = 0.002
+		
+			
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 30
+
+	}
+	nrm_submarine_TRP_18_2_x2 = {
+		category = nrm_submarine_TRP_18_x2
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_1_x2
+
+
+			manpower = 3
+		   add_stats = {
+			build_cost_ic = 20
+			max_strength = 0.4
+			torpedo_attack = 4.73
+			sub_visibility = 0.05
+			naval_torpedo_hit_chance_factor = -0.05
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0004
+			reliability = -0.0004
+			naval_speed = -0.01
+			fuel_consumption = 0.024
+			sub_visibility = 0.005
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 39
+
+	}
+	nrm_submarine_TRP_18_2_x3 = {
+		category = nrm_submarine_TRP_18_x3
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_1_x3
+
+
+	manpower = 5
+		add_stats = {
+			build_cost_ic = 30
+			max_strength = 0.6
+			torpedo_attack = 6.89
+			sub_visibility = 0.07
+			naval_torpedo_hit_chance_factor = -0.025
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0006
+			reliability = -0.00675
+			naval_speed = -0.015
+			fuel_consumption = 0.036
+			sub_visibility = 0.0075
+
+
+			
+			
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 49
+
+	}
+	nrm_submarine_TRP_18_2_x4 = {
+		category = nrm_submarine_TRP_18_x4
+		gui_category = nrm_submarine_TRP_18
+
+		parent = nrm_submarine_TRP_18_1_x4
+
+
+		manpower = 6
+		add_stats = {
+			build_cost_ic = 40
+			max_strength = 0.8
+			torpedo_attack = 8.92
+			sub_visibility = 0.1
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0008
+			reliability = -0.009
+			naval_speed = -0.02
+			fuel_consumption = 0.048
+			sub_visibility = 0.01
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 59
+
+	}
+	nrm_submarine_TRP_18_2_x5 = {
+		category = nrm_submarine_TRP_18_x5
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_1_x5
+
+
+		manpower = 8
+		add_stats = {
+			build_cost_ic = 50
+			max_strength = 1
+			torpedo_attack = 10.81
+			sub_visibility = 0.12
+			naval_torpedo_hit_chance_factor = 0.02
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.001
+
+			reliability = -0.01125
+			naval_speed = -0.025
+			fuel_consumption = 0.06
+			sub_visibility = 0.013
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 69
+
+	}
+	nrm_submarine_TRP_18_2_x6 = {
+		category = nrm_submarine_TRP_18_x6
+		gui_category = nrm_submarine_TRP_18
+
+		parent = nrm_submarine_TRP_18_1_x6
+
+
+		manpower = 10
+		add_stats = {
+			build_cost_ic = 60
+			max_strength = 1.2
+			torpedo_attack = 12.57
+			sub_visibility = 0.15
+			naval_torpedo_hit_chance_factor = 0.035
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0012
+			reliability = -0.0135
+			naval_speed = -0.03
+			fuel_consumption = 0.072
+			sub_visibility = 0.015
+
+			
+			
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 78
+
+	}
+	nrm_submarine_TRP_18_2_x8 = {
+		category = nrm_submarine_TRP_18_x8
+		gui_category = nrm_submarine_TRP_18
+
+		parent = nrm_submarine_TRP_18_1_x8
+
+
+		manpower = 13
+		add_stats = {
+			build_cost_ic = 80
+			max_strength = 1.6
+			torpedo_attack = 15.68
+			sub_visibility = 0.2
+			naval_torpedo_hit_chance_factor = 0.05
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+		build_cost_ic = 0.0016
+			reliability = -0.018
+			naval_speed = -0.04
+			fuel_consumption = 0.096
+			sub_visibility = 0.02
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 98
+
+	}
+	nrm_submarine_TRP_18_2_x10 = {
+		category = nrm_submarine_TRP_18_x10
+		gui_category = nrm_submarine_TRP_18
+		
+		
+		manpower = 15
+		add_stats = {
+			build_cost_ic = 100
+			max_strength = 2
+			torpedo_attack = 18.25
+			sub_visibility = 0.25
+			naval_torpedo_hit_chance_factor = 0.075
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.002
+			reliability = -0.0225
+			naval_speed = -0.05
+			fuel_consumption = 0.12
+			sub_visibility = 0.025
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 108
+		
+	}
+	nrm_submarine_TRP_18_2_x12 = {
+		category = nrm_submarine_TRP_18_x12
+		gui_category = nrm_submarine_TRP_18
+		
+		
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 120
+			max_strength = 2.4
+			torpedo_attack = 20.28
+			sub_visibility = 0.3
+			naval_torpedo_hit_chance_factor = 0.1
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0024
+			reliability = -0.027
+			naval_speed = -0.06
+			fuel_consumption = 0.12
+			sub_visibility = 0.03
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 120
+		
+	}
+	nrm_submarine_TRP_18_3_x1 = {
+		category = nrm_submarine_TRP_18_x1
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_2_x1
+
+
+		manpower = 2
+		add_stats = {
+			build_cost_ic = 10
+			max_strength = 0.2
+			torpedo_attack = 3
+			sub_visibility = 0.025
+			naval_torpedo_hit_chance_factor = -0.1
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0002
+			reliability = -0.00225
+			naval_speed = -0.005
+			fuel_consumption = 0.012
+			sub_visibility = 0.0025
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 30
+
+	}
+	nrm_submarine_TRP_18_3_x2 = {
+		category = nrm_submarine_TRP_18_x2
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_2_x2
+
+
+		manpower = 3
+		add_stats = {
+			build_cost_ic = 20
+			max_strength = 0.4
+			torpedo_attack = 5.67
+			sub_visibility = 0.05
+			naval_torpedo_hit_chance_factor = -0.05
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0004
+			reliability = -0.0004
+			naval_speed = -0.01
+			fuel_consumption = 0.024
+			sub_visibility = 0.005
+
+			
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 39
+
+	}
+	nrm_submarine_TRP_18_3_x3 = {
+		category = nrm_submarine_TRP_18_x3
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_2_x3
+
+
+		manpower = 5
+		add_stats = {
+			build_cost_ic = 30
+			max_strength = 0.6
+			torpedo_attack = 8.27
+			sub_visibility = 0.07
+			naval_torpedo_hit_chance_factor = -0.025
+
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0006
+			reliability = -0.00675
+			naval_speed = -0.015
+			fuel_consumption = 0.036
+			sub_visibility = 0.0075
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 49
+
+	}
+	nrm_submarine_TRP_18_3_x4 = {
+		category = nrm_submarine_TRP_18_x4
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_2_x4
+
+
+		manpower = 6
+		add_stats = {
+			build_cost_ic = 40
+			max_strength = 0.8
+			torpedo_attack = 10.7
+			sub_visibility = 0.1
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0008
+			reliability = -0.009
+			naval_speed = -0.02
+			fuel_consumption = 0.048
+			sub_visibility = 0.01
+
+			
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 59
+
+	}
+	nrm_submarine_TRP_18_3_x5 = {
+		category = nrm_submarine_TRP_18_x5
+		gui_category = nrm_submarine_TRP_18
+
+		parent = nrm_submarine_TRP_18_2_x5
+
+        manpower = 8
+		add_stats = {
+			build_cost_ic = 50
+			max_strength = 1
+			torpedo_attack = 12.97
+			sub_visibility = 0.12
+			naval_torpedo_hit_chance_factor = 0.02
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.001
+			reliability = -0.01125
+			naval_speed = -0.025
+			fuel_consumption = 0.06
+			sub_visibility = 0.0125
+
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 69
+
+	}
+	nrm_submarine_TRP_18_3_x6 = {
+		category = nrm_submarine_TRP_18_x6
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_2_x6
+
+
+		manpower = 10
+		add_stats = {
+			build_cost_ic = 60
+			max_strength = 1.2
+			torpedo_attack = 15.08
+			sub_visibility = 0.15
+			naval_torpedo_hit_chance_factor = 0.035
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0012
+			reliability = -0.0135
+			naval_speed = -0.03
+			fuel_consumption = 0.072
+			sub_visibility = 0.015
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 78
+
+	}
+	nrm_submarine_TRP_18_3_x8 = {
+		category = nrm_submarine_TRP_18_x8
+		gui_category = nrm_submarine_TRP_18
+		parent = nrm_submarine_TRP_18_2_x8
+
+
+		manpower = 13
+		add_stats = {
+			build_cost_ic = 80
+			max_strength = 1.6
+			torpedo_attack = 18.81
+			sub_visibility = 0.2
+			naval_torpedo_hit_chance_factor = 0.05
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+		build_cost_ic = 0.0016
+			reliability = -0.018
+			naval_speed = -0.04
+			fuel_consumption = 0.096
+			sub_visibility = 0.02
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 98
+
+	}
+	nrm_submarine_TRP_18_3_x10 = {
+		category = nrm_submarine_TRP_18_x10
+		gui_category = nrm_submarine_TRP_18
+		
+		
+		manpower = 15
+		add_stats = {
+			build_cost_ic = 100
+			max_strength = 2
+			torpedo_attack = 21.9
+			sub_visibility = 0.25
+			naval_torpedo_hit_chance_factor = 0.075
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.002
+			reliability = -0.0225
+			naval_speed = -0.05
+			fuel_consumption = 0.12
+			sub_visibility = 0.025
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 108
+		
+	}
+	nrm_submarine_TRP_18_3_x12 = {
+		category = nrm_submarine_TRP_18_x12
+		gui_category = nrm_submarine_TRP_18
+		
+		
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 120
+			max_strength = 2.4
+			torpedo_attack = 24.33
+			sub_visibility = 0.3
+			naval_torpedo_hit_chance_factor = 0.1
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0024
+			reliability = -0.027
+			naval_speed = -0.06
+			fuel_consumption = 0.12
+			sub_visibility = 0.03
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 120
+		
+	}
+
+	nrm_submarine_TRP_21_1_x1 = {
+		category = nrm_submarine_TRP_21_x1
+		gui_category = nrm_submarine_TRP_21
+
+
+		manpower = 2
+		add_stats = {
+			build_cost_ic = 20
+			max_strength = 0.4
+			torpedo_attack = 3.5
+			sub_visibility = 0.03
+			naval_torpedo_hit_chance_factor = -0.1
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0006
+			reliability = -0.003
+			naval_speed = -0.0075
+			fuel_consumption = 0.018
+			sub_visibility = 0.003
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 35
+
+	}
+	nrm_submarine_TRP_21_1_x2 = {
+		category = nrm_submarine_TRP_21_x2
+		gui_category = nrm_submarine_TRP_21
+
+
+		manpower = 4
+		add_stats = {
+			build_cost_ic = 40
+			max_strength = 0.8
+			torpedo_attack = 6.62
+			sub_visibility = 0.06
+			naval_torpedo_hit_chance_factor = -0.05
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0012
+			reliability = -0.006
+			naval_speed = -0.015
+			fuel_consumption = 0.036
+			sub_visibility = 0.006
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 51
+
+	}
+	nrm_submarine_TRP_21_1_x3 = {
+		category = nrm_submarine_TRP_21_x3
+		gui_category = nrm_submarine_TRP_21
+
+
+		manpower = 7
+		add_stats = {
+			build_cost_ic = 60
+			max_strength = 1.2
+			torpedo_attack = 9.65
+			sub_visibility = 0.09
+			naval_torpedo_hit_chance_factor = -0.025
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0018
+			reliability = -0.009
+			naval_speed = -0.0225
+			fuel_consumption = 0.054
+			sub_visibility = 0.009
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 66
+
+	}
+	nrm_submarine_TRP_21_1_x4 = {
+		category = nrm_submarine_TRP_21_x4
+		gui_category = nrm_submarine_TRP_21
+
+
+		manpower = 9
+		add_stats = {
+			build_cost_ic = 80
+			max_strength = 1.6
+			torpedo_attack = 12.48
+			sub_visibility = 0.12
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0024
+			reliability = -0.012
+			naval_speed = -0.03
+			fuel_consumption = 0.072
+			sub_visibility = 0.012
+
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 82
+
+	}
+	nrm_submarine_TRP_21_1_x5 = {
+		category = nrm_submarine_TRP_21_x5
+		gui_category = nrm_submarine_TRP_21
+
+
+		manpower = 11
+		add_stats = {
+			build_cost_ic = 100
+			max_strength = 2
+			torpedo_attack = 15.13
+			sub_visibility = 0.15
+			naval_torpedo_hit_chance_factor = 0.02
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.003
+			reliability = -0.015
+			naval_speed = -0.0375
+			fuel_consumption = 0.09
+			sub_visibility = 0.015
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 97
+
+	}
+	nrm_submarine_TRP_21_1_x6 = {
+		category = nrm_submarine_TRP_21_x6
+		gui_category = nrm_submarine_TRP_21
+
+
+		manpower = 13
+		add_stats = {
+			build_cost_ic = 120
+			max_strength = 2.4
+
+		torpedo_attack = 17.6
+			sub_visibility = 0.18
+			naval_torpedo_hit_chance_factor = 0.035
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0036
+			reliability = -0.018
+			naval_speed = -0.0445
+			fuel_consumption = 0.108
+			sub_visibility = 0.0018
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 113
+
+	}
+	nrm_submarine_TRP_21_1_x8 = {
+		category = nrm_submarine_TRP_21_x8
+		gui_category = nrm_submarine_TRP_21
+
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 160
+			max_strength = 3.2
+			torpedo_attack = 21.95
+			sub_visibility = 0.24
+			naval_torpedo_hit_chance_factor = 0.05
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.00246
+			reliability = -0.024
+			naval_speed = -0.06
+			fuel_consumption = 0.144
+			sub_visibility = 0.024
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 143
+
+	}
+	nrm_submarine_TRP_21_1_x10 = {
+		category = nrm_submarine_TRP_21_x10
+		gui_category = nrm_submarine_TRP_21
+
+		parent = nrm_submarine_TRP_21_1_x1
+
+
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 200
+			max_strength = 4
+			torpedo_attack = 25.55
+			sub_visibility = 0.3
+			naval_torpedo_hit_chance_factor = 0.075
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.006
+			reliability = -0.03
+			naval_speed = -0.075
+			fuel_consumption = 0.18
+			sub_visibility = 0.03
+
+			
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 165
+		
+	}
+	nrm_submarine_TRP_21_1_x12 = {
+		category = nrm_submarine_TRP_21_x12
+		gui_category = nrm_submarine_TRP_21
+		
+		
+		manpower = 26
+		add_stats = {
+			build_cost_ic = 240
+			max_strength = 4.8
+			torpedo_attack = 28.39
+			sub_visibility = 0.36
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0072
+			reliability = -0.036
+			naval_speed = -0.09
+			fuel_consumption = 0.216
+			sub_visibility = 0.036
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 190
+		
+	}
+		nrm_submarine_TRP_21_2_x1 = {
+		category = nrm_submarine_TRP_21_x1
+		gui_category = nrm_submarine_TRP_21
+		
+		
+		manpower = 2
+		add_stats = {
+			build_cost_ic = 20
+			max_strength = 0.4
+			torpedo_attack = 4.375
+			sub_visibility = 0.03
+			naval_torpedo_hit_chance_factor = -0.1
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0006
+			reliability = -0.003
+			naval_speed = -0.0075
+			fuel_consumption = 0.018
+			sub_visibility = 0.003
+			
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 35
+
+	}
+	nrm_submarine_TRP_21_2_x2 = {
+		category = nrm_submarine_TRP_21_x2
+		gui_category = nrm_submarine_TRP_21
+		parent = nrm_submarine_TRP_21_1_x2
+
+
+
+		manpower = 4
+		add_stats = {
+			build_cost_ic = 40
+			max_strength = 0.8
+			torpedo_attack = 8.27
+			sub_visibility = 0.06
+			naval_torpedo_hit_chance_factor = -0.05
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0012
+			reliability = -0.006
+			naval_speed = -0.015
+			fuel_consumption = 0.036
+			sub_visibility = 0.006
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 51
+
+	}
+	nrm_submarine_TRP_21_2_x3 = {
+		category = nrm_submarine_TRP_21_x3
+		gui_category = nrm_submarine_TRP_21
+		parent = nrm_submarine_TRP_21_1_x3
+
+
+
+		manpower = 7
+		add_stats = {
+			build_cost_ic = 60
+			max_strength = 1.2
+			torpedo_attack = 12.06
+			sub_visibility = 0.09
+			naval_torpedo_hit_chance_factor = -0.025
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0018
+			reliability = -0.009
+			naval_speed = -0.0225
+			fuel_consumption = 0.054
+			sub_visibility = 0.009
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 66
+
+	}
+	nrm_submarine_TRP_21_2_x4 = {
+		category = nrm_submarine_TRP_21_x4
+		gui_category = nrm_submarine_TRP_21
+		parent = nrm_submarine_TRP_21_1_x4
+
+
+
+		manpower = 9
+		add_stats = {
+			build_cost_ic = 80
+			max_strength = 1.6
+			torpedo_attack = 15.61
+			sub_visibility = 0.12
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0024
+			reliability = -0.012
+			naval_speed = -0.03
+			fuel_consumption = 0.072
+			sub_visibility = 0.012
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 82
+
+	}
+	nrm_submarine_TRP_21_2_x5 = {
+		category = nrm_submarine_TRP_21_x5
+		gui_category = nrm_submarine_TRP_21
+		parent = nrm_submarine_TRP_21_1_x5
+
+
+
+		manpower = 11
+		add_stats = {
+			build_cost_ic = 100
+			max_strength = 2
+			torpedo_attack = 18.92
+			sub_visibility = 0.15
+			naval_torpedo_hit_chance_factor = 0.02
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+		build_cost_ic = 0.003
+			reliability = -0.015
+			naval_speed = -0.0375
+			fuel_consumption = 0.09
+			sub_visibility = 0.015
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 97
+
+	}
+	nrm_submarine_TRP_21_2_x6 = {
+		category = nrm_submarine_TRP_21_x6
+		gui_category = nrm_submarine_TRP_21
+
+		parent = nrm_submarine_TRP_21_1_x6
+
+		manpower = 13
+		add_stats = {
+			build_cost_ic = 120
+			max_strength = 2.4
+			torpedo_attack = 22
+			sub_visibility = 0.18
+			naval_torpedo_hit_chance_factor = 0.035
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0036
+			reliability = -0.018
+			naval_speed = -0.0445
+			fuel_consumption = 0.108
+			sub_visibility = 0.0018
+
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 113
+
+	}
+	nrm_submarine_TRP_21_2_x8 = {
+		category = nrm_submarine_TRP_21_x8
+		gui_category = nrm_submarine_TRP_21
+
+		parent = nrm_submarine_TRP_21_1_x8
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 160
+			max_strength = 3.2
+			torpedo_attack = 27.44
+			sub_visibility = 0.24
+			naval_torpedo_hit_chance_factor = 0.05
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+		build_cost_ic = 0.00246
+			reliability = -0.024
+			naval_speed = -0.06
+			fuel_consumption = 0.144
+			sub_visibility = 0.024
+
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 143
+
+	}
+	nrm_submarine_TRP_21_2_x10 = {
+		category = nrm_submarine_TRP_21_x10
+		gui_category = nrm_submarine_TRP_21
+
+		parent = nrm_submarine_TRP_21_2_x1
+
+
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 200
+			max_strength = 4
+			torpedo_attack = 31.93
+			sub_visibility = 0.3
+			naval_torpedo_hit_chance_factor = 0.075
+
+
+		
+		
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.006
+			reliability = -0.03
+			naval_speed = -0.075
+			fuel_consumption = 0.18
+			sub_visibility = 0.03
+
+			
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 165
+		
+	}
+	nrm_submarine_TRP_21_2_x12 = {
+		category = nrm_submarine_TRP_21_x12
+		gui_category = nrm_submarine_TRP_21
+		
+		
+		manpower = 26
+		add_stats = {
+			build_cost_ic = 240
+			max_strength = 4.8
+			torpedo_attack = 35.5
+			sub_visibility = 0.36
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0072
+			reliability = -0.036
+			naval_speed = -0.09
+			fuel_consumption = 0.216
+			sub_visibility = 0.036
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 190
+		
+	}
+		nrm_submarine_TRP_21_3_x1 = {
+		category = nrm_submarine_TRP_21_x1
+		gui_category = nrm_submarine_TRP_21
+		
+		
+		manpower = 2
+		add_stats = {
+			build_cost_ic = 20
+			max_strength = 0.4
+			torpedo_attack = 5.5
+			sub_visibility = 0.03
+			naval_torpedo_hit_chance_factor = -0.1
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0006
+			reliability = -0.003
+			naval_speed = -0.0075
+			fuel_consumption = 0.018
+			sub_visibility = 0.003
+			
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 35
+
+	}
+	nrm_submarine_TRP_21_3_x2 = {
+		category = nrm_submarine_TRP_21_x2
+		gui_category = nrm_submarine_TRP_21
+		parent = nrm_submarine_TRP_21_2_x2
+
+
+		manpower = 4
+		add_stats = {
+			build_cost_ic = 40
+			max_strength = 0.8
+
+		torpedo_attack = 10.41
+			sub_visibility = 0.06
+			naval_torpedo_hit_chance_factor = -0.05
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0012
+			reliability = -0.006
+			naval_speed = -0.015
+			fuel_consumption = 0.036
+			sub_visibility = 0.006
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 51
+
+	}
+	nrm_submarine_TRP_21_3_x3 = {
+		category = nrm_submarine_TRP_21_x3
+		gui_category = nrm_submarine_TRP_21
+		parent = nrm_submarine_TRP_21_2_x3
+
+		manpower = 7
+		add_stats = {
+			build_cost_ic = 60
+			max_strength = 1.2
+
+			torpedo_attack = 15.61
+			sub_visibility = 0.09
+			naval_torpedo_hit_chance_factor = -0.025
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0018
+			reliability = -0.009
+			naval_speed = -0.0225
+			fuel_consumption = 0.054
+			sub_visibility = 0.009
+
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 66
+
+	}
+	nrm_submarine_TRP_21_3_x4 = {
+		category = nrm_submarine_TRP_21_x4
+		gui_category = nrm_submarine_TRP_21
+		parent = nrm_submarine_TRP_21_2_x4
+
+
+		manpower = 9
+		add_stats = {
+			build_cost_ic = 80
+			max_strength = 1.6
+			torpedo_attack = 19.62
+			sub_visibility = 0.12
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.0024
+			reliability = -0.012
+			naval_speed = -0.03
+			fuel_consumption = 0.072
+			sub_visibility = 0.012
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 82
+
+	}
+	nrm_submarine_TRP_21_3_x5 = {
+		category = nrm_submarine_TRP_21_x5
+		gui_category = nrm_submarine_TRP_21
+
+		parent = nrm_submarine_TRP_21_2_x5
+
+
+		manpower = 11
+		add_stats = {
+			build_cost_ic = 100
+			max_strength = 2
+			torpedo_attack = 23.78
+			sub_visibility = 0.15
+			naval_torpedo_hit_chance_factor = 0.02
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+		build_cost_ic = 0.003
+			reliability = -0.015
+			naval_speed = -0.0375
+			fuel_consumption = 0.09
+			sub_visibility = 0.015
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 97
+
+	}
+	nrm_submarine_TRP_21_3_x6 = {
+		category = nrm_submarine_TRP_21_x6
+		gui_category = nrm_submarine_TRP_21
+
+		parent = nrm_submarine_TRP_21_2_x6
+
+		manpower = 13
+		add_stats = {
+			build_cost_ic = 120
+			max_strength = 2.4
+
+			torpedo_attack = 27.65
+			sub_visibility = 0.18
+			naval_torpedo_hit_chance_factor = 0.035
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+
+			build_cost_ic = 0.00
+			reliability = -0.018
+			naval_speed = -0.044
+			fuel_consumption = 0.108
+			sub_visibility = 0.018
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 113
+
+	}
+	nrm_submarine_TRP_21_3_x8 = {
+		category = nrm_submarine_TRP_21_x8
+		gui_category = nrm_submarine_TRP_21
+
+		parent = nrm_submarine_TRP_21_2_x8
+
+
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 160
+			max_strength = 3.2
+
+			torpedo_attack = 34.5
+			sub_visibility = 0.24
+			naval_torpedo_hit_chance_factor = 0.05
+
+
+		}
+		add_average_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.002
+			reliability = -0.024
+			naval_speed = -0.06
+			fuel_consumption = 0.144
+			sub_visibility = 0.024
+
+		}
+		build_cost_resources = {
+
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 143
+
+	}
+	nrm_submarine_TRP_21_3_x10 = {
+		category = nrm_submarine_TRP_21_x10
+		gui_category = nrm_submarine_TRP_21
+		
+		
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 200
+			max_strength = 4
+			torpedo_attack = 40.15
+			sub_visibility = 0.3
+			naval_torpedo_hit_chance_factor = 0.075
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.006
+			reliability = -0.03
+			naval_speed = -0.075
+			fuel_consumption = 0.18
+			sub_visibility = 0.03
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 165
+		
+	}
+	nrm_submarine_TRP_21_3_x12 = {
+		category = nrm_submarine_TRP_21_x12
+		gui_category = nrm_submarine_TRP_21
+		
+		
+		manpower = 26
+		add_stats = {
+			build_cost_ic = 240
+			max_strength = 4.8
+			torpedo_attack = 44.6
+			sub_visibility = 0.36
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0072
+			reliability = -0.036
+			naval_speed = -0.09
+			fuel_consumption = 0.216
+			sub_visibility = 0.036
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_torpedoes }
+		dismantle_cost_ic = 190
+		
+	}
+	nrm_sub_reloads_x0 = { 
+	    category = nrm_sub_reloads
+		gui_category = nrm_sub_reloads
+		
+		
+		add_stats = {
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			
+		    reliability = 0.025
+			build_cost_ic = -0.05
+			naval_speed = 0.1
+			torpedo_attack = -0.2
+			fuel_consumption = -0.1
+			sub_visibility = -0.1
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 200
+		
+	}
+	nrm_sub_reloads_x1 = { 
+	    category = nrm_sub_reloads
+		gui_category = nrm_sub_reloads
+		
+		
+		add_stats = {
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = -0.05
+			naval_speed = 0.05
+			torpedo_attack = -0.1
+			fuel_consumption = -0.05
+			sub_visibility = -0.05
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 200
+		
+	}
+	nrm_sub_reloads_x2 = { 
+	    category = nrm_sub_reloads
+		gui_category = nrm_sub_reloads
+		
+		
+		add_stats = {
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+		    reliability = -0.025
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 200
+		
+	}
+	nrm_sub_reloads_x3 = { 
+	    category = nrm_sub_reloads
+		gui_category = nrm_sub_reloads
+		
+		
+		add_stats = {
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+		    reliability = -0.05
+			build_cost_ic = 0.075
+			naval_speed = -0.05
+			torpedo_attack = 0.1
+			fuel_consumption = 0.05
+			sub_visibility = 0.05
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 200
+		
+	}
+	nrm_sub_reloads_x4 = { 
+	    category = nrm_sub_reloads
+		gui_category = nrm_sub_reloads
+		
+		
+		add_stats = {
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+		    reliability = -0.1
+			build_cost_ic = 0.125
+			naval_speed = -0.075
+			torpedo_attack = 0.15
+			fuel_consumption = 0.075
+			sub_visibility = 0.075
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 200
+		
+	}
+}
