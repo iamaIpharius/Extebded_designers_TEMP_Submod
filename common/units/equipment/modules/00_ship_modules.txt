@@ -1920,6 +1920,24 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 	}
+	small_ship_deck_space = {
+		abbreviation = "sda"
+		category = ship_deck_space
+		gfx = ship_deck_space
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 1
+			build_cost_ic = 750
+		}
+		manpower = 300		#outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 300
+	}
 	### #  # ### #       ###  ##  #  # # #  ## 
 	#   #  # #   #        #  #  # ## # # # #   
 	##  #  # ##  #        #  #### # ## ##   #  
