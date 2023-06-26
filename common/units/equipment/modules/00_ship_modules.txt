@@ -2214,4 +2214,126 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2500
 	}
+	# ╔╗─╔╗╔═══╗╔╗╔╗╔╗───╔══╗╔════╗╔╗╔╗╔══╗╔══╗
+	# ║╚═╝║║╔══╝║║║║║║───║╔═╝╚═╗╔═╝║║║║║╔═╝║╔═╝
+	# ║╔╗─║║╚══╗║║║║║║───║╚═╗──║║──║║║║║╚═╗║╚═╗
+	# ║║╚╗║║╔══╝║║║║║║───╚═╗║──║║──║║║║║╔═╝║╔═╝
+	# ║║─║║║╚══╗║╚╝╚╝║───╔═╝║──║║──║╚╝║║║──║║──
+	# ╚╝─╚╝╚═══╝╚═╝╚═╝───╚══╝──╚╝──╚══╝╚╝──╚╝──
+	###BARRELS###
+	short_barrels = {
+		abbreviation = "sbr"
+		category = barrels_lenght
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			hg_armor_piercing = -0.25
+			lg_armor_piercing = -0.25
+			build_cost_ic = -0.15
+		}
+	}
+	long_barrels = {
+		abbreviation = "lbr"
+		category = barrels_lenght
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			hg_armor_piercing = 0.15
+			lg_armor_piercing = 0.15
+			build_cost_ic = 0.15
+		}
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+	###BARRELS NUMBER###
+	barrels_1 = {
+		abbreviation = "abr"
+		category = barrels_number
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			lg_attack = -0.2
+			hg_attack = -0.2
+			build_cost_ic = -0.1
+		}
+		build_cost_resources = {
+			steel = -1
+		}
+	}
+	barrels_2 = {
+		abbreviation = "bbr"
+		category = barrels_number
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			lg_attack = -0.1
+			hg_attack = -0.1
+			build_cost_ic = -0.05
+		}
+		build_cost_resources = {
+		}
+	}
+	barrels_3 = {
+		abbreviation = "cbr"
+		category = barrels_number
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			lg_attack = 0.01
+			hg_attack = 0.01
+		}
+		build_cost_resources = {
+		}
+	}
+	barrels_4 = {
+		abbreviation = "dbr"
+		category = barrels_number
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+			build_cost_ic = 0.1
+		}
+		build_cost_resources = {
+		}
+	}
+	barrels_5 = {
+		abbreviation = "ebr"
+		category = barrels_number
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			lg_attack = 0.2
+			hg_attack = 0.2
+			build_cost_ic = 0.2
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+	}
+	###Steel Quality###
+	low_quality = {
+		abbreviation = "lsq"
+		category = steel_quality
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			build_cost_ic = -0.15
+			armor_value = -0.3
+			critical_receive_chance = 0.05
+			naval_critical_effect_factor = 0.05
+		}
+		build_cost_resources = {
+		}
+	}
+	high_quality = {
+		abbreviation = "hsq"
+		category = steel_quality
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			build_cost_ic = 0.1
+			armor_value = 0.15
+			critical_receive_chance = -0.05
+			naval_critical_effect_factor = -0.05
+		}
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	###Engine type###
+	###Design###
 }

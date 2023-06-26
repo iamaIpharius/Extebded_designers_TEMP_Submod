@@ -4,4 +4,49 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_EMI_long_barrels"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_long_barrels.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_short_barrels"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_short_barrels.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_low_quality"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_low_quality_steel.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_high_quality"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_high_quality_steel.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_barrels_1"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_1_barrel.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_barrels_2"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_2_barrel.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_barrels_3"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_3_barrel.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_barrels_4"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_4_barrel.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_barrels_5"
+		textureFile = "gfx/interface/equipmentdesigner/modules/icons/ed_5_barrel.dds"
+		legacy_lazy_load = no
+	}
 }

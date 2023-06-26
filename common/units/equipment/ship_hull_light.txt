@@ -58,61 +58,44 @@ equipments = {
 					light_ship_engine
 				}
 			}
-			fixed_ship_armor_slot = {
-			}
 			front_1_custom_slot = {
+			}
+			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
 					ship_mine_warfare
 					ship_mine_layer
-					ship_depth_charge
 					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					ship_depth_charge
 				}
 			}
-			mid_1_custom_slot = {
-				# required = no
-				# allowed_module_categories = {
-				# 	ship_torpedo
-				# 	ship_mine_warfare
-				# 	ship_mine_layer
-				# 	ship_depth_charge
-				# 	ship_anti_air
-				# 	ship_light_battery
-				# 	dp_light_battery
-				# }
+			mid_2_custom_slot = {
 			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				# required = no
-				# allowed_module_categories = {
-				# 	ship_torpedo
-				# 	ship_mine_warfare
-				# 	ship_mine_layer
-				# 	ship_depth_charge
-				# 	ship_anti_air
-				# 	ship_light_battery
-				# 	dp_light_battery
-				# }
+			mid_3_custom_slot = {
 			}
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
+			rear_1_custom_slot = mid_1_custom_slot
 			mid_6_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_lenght}
 			}
 			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_number}
 			}
 			mid_8_custom_slot = {
+				required = no
+				allowed_module_categories = {steel_quality}
 			}
 			mid_9_custom_slot = {
 			}
 			mid_10_custom_slot = {
 			}
 			mid_11_custom_slot = {
-			}
-			mid_12_custom_slot = {
 			}
 		}
 		module_count_limit = {
@@ -149,11 +132,11 @@ equipments = {
 		naval_range = 1500
 		max_strength = 25
 		fuel_consumption = 0
-		build_cost_ic = 350
+		build_cost_ic = 400
 		resources = {
 			steel = 2
 		}
-		manpower = 200
+		manpower = 250
 	}
 	ship_hull_light_1 = {
 		abbreviation = "hdb"
@@ -175,16 +158,81 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
-			fixed_ship_armor_slot = {
-			}
+			fixed_ship_engine_slot = inherit
 			front_1_custom_slot = {
+			}
+			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
 					ship_mine_warfare
 					ship_mine_layer
+					ship_depth_charge
+					ship_anti_air
+					ship_light_battery
+					dp_light_battery
+				}
+			}
+			mid_2_custom_slot = {
+			}
+			mid_3_custom_slot = {
+			}
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
+			rear_1_custom_slot = mid_1_custom_slot
+			mid_6_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_lenght}
+			}
+			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_number}
+			}
+			mid_8_custom_slot = {
+				required = no
+				allowed_module_categories = {steel_quality}
+			}
+			mid_9_custom_slot = {
+			}
+			mid_10_custom_slot = {
+			}
+			mid_11_custom_slot = {
+			}
+		}
+		default_modules = {
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+		}
+		reliability = 0.85
+		naval_range = 1800
+		max_strength = 40
+		build_cost_ic = 500
+		resources = {
+			steel = 2
+		}
+		manpower = 325
+	}
+	ship_hull_light_3 = {
+		abbreviation = "hdd"
+		year = 1940
+		archetype = ship_hull_light
+		priority = 2000
+		parent = ship_hull_light_2
+		#alias = destroyer_3
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
 					ship_depth_charge
 					ship_anti_air
 					ship_light_battery
@@ -220,108 +268,26 @@ equipments = {
 					ship_depth_charge
 					ship_anti_air
 					ship_light_battery
+					dp_light_battery
 				}
 			}
 			mid_6_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_lenght}
 			}
 			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_number}
 			}
 			mid_8_custom_slot = {
+				required = no
+				allowed_module_categories = {steel_quality}
 			}
 			mid_9_custom_slot = {
 			}
 			mid_10_custom_slot = {
 			}
 			mid_11_custom_slot = {
-			}
-			mid_12_custom_slot = {
-			}
-		}
-		default_modules = {
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
-		}
-		reliability = 0.85
-		naval_range = 1800
-		max_strength = 40
-		build_cost_ic = 400
-		resources = {
-			steel = 2
-		}
-		manpower = 300
-	}
-	ship_hull_light_3 = {
-		abbreviation = "hdd"
-		year = 1940
-		archetype = ship_hull_light
-		priority = 2000
-		parent = ship_hull_light_2
-		#alias = destroyer_3
-		module_slots = {
-			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
-			fixed_ship_fire_control_system_slot = inherit
-			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
-			fixed_ship_torpedo_slot = inherit
-			fixed_ship_armor_slot = {
-			}
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = {
-			}
-			mid_5_custom_slot = {
-			}
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
-				}
-			}
-			mid_6_custom_slot = {
-			}
-			mid_7_custom_slot = {
-			}
-			mid_8_custom_slot = {
-			}
-			mid_9_custom_slot = {
-			}
-			mid_10_custom_slot = {
-			}
-			mid_11_custom_slot = {
-			}
-			mid_12_custom_slot = {
 			}
 		}
 		resources = {
@@ -332,7 +298,7 @@ equipments = {
 		reliability = 0.9
 		naval_range = 2000
 		max_strength = 50
-		build_cost_ic = 500
+		build_cost_ic = 550
 		manpower = 400
 		default_modules = {
 			mid_1_custom_slot = empty
@@ -352,16 +318,11 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
-			fixed_ship_armor_slot = {
-			}
+			fixed_ship_engine_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
 					ship_depth_charge
 					ship_anti_air
 					ship_light_battery
@@ -381,9 +342,12 @@ equipments = {
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			mid_4_custom_slot = mid_1_custom_slot
-			mid_5_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = {
+			}
+			mid_4_custom_slot = {
+			}
+			mid_5_custom_slot = {
+			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -397,10 +361,16 @@ equipments = {
 				}
 			}
 			mid_6_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_lenght}
 			}
 			mid_7_custom_slot = {
+				required = no
+				allowed_module_categories = {barrels_number}
 			}
 			mid_8_custom_slot = {
+				required = no
+				allowed_module_categories = {steel_quality}
 			}
 			mid_9_custom_slot = {
 			}
@@ -408,14 +378,12 @@ equipments = {
 			}
 			mid_11_custom_slot = {
 			}
-			mid_12_custom_slot = {
-			}
 		}
 		surface_detection = 20
 		reliability = 0.92
 		naval_range = 2500
 		max_strength = 60
-		build_cost_ic = 500
+		build_cost_ic = 600
 		resources = {
 			steel = 4
 			chromium = 1
@@ -444,7 +412,7 @@ equipments = {
 		anti_air_attack = 0
 		armor_value = 0
 		surface_detection = 20
-		sub_detection = 50
+		sub_detection = 5
 		surface_visibility = 10
 		naval_speed = 30
 		reliability = 0.8
@@ -481,7 +449,7 @@ equipments = {
 		anti_air_attack = 0
 		armor_value = 0
 		surface_detection = 25
-		sub_detection = 60
+		sub_detection = 10
 		surface_visibility = 10
 		naval_speed = 30
 		reliability = 0.85
@@ -496,7 +464,7 @@ equipments = {
 			#oil = 1
 			steel = 3
 		}
-		manpower = 300
+		manpower = 325
 	}
 	destroyer_3 = {
 		year = 1940
@@ -520,10 +488,10 @@ equipments = {
 		sub_attack = 1
 		anti_air_attack = 0
 		armor_value = 0
-		surface_detection = 45
-		sub_detection = 100
+		surface_detection = 40
+		sub_detection = 10
 		surface_visibility = 10
-		naval_speed = 38
+		naval_speed = 30
 		reliability = 0.9
 		naval_range = 2000
 		max_strength = 50
@@ -560,10 +528,10 @@ equipments = {
 		sub_attack = 1
 		anti_air_attack = 5
 		armor_value = 0
-		surface_detection = 55
-		sub_detection = 140
+		surface_detection = 40
+		sub_detection = 10
 		surface_visibility = 10
-		naval_speed = 38
+		naval_speed = 30
 		reliability = 0.92
 		naval_range = 2500
 		max_strength = 60
