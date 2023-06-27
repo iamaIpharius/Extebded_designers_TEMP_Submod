@@ -35,11 +35,11 @@ technologies = {
 			barrels_number
 			long_barrels
 			short_barrels
-			1_barrels
-			2_barrels
-			3_barrels
-			4_barrels
-			5_barrels
+			barrels_1
+			barrels_2
+			barrels_3
+			barrels_4
+			barrels_5
 		}
 		folder = {
 			name = mtgnavalsupportfolder

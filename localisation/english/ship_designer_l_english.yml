@@ -19,7 +19,17 @@
   low_quality_desc:0 "Low quality steel"
   high_quality:0 "High quality steel"
   high_quality_desc:0 "High quality steel"
-#  EQ_MOD_CAT_plane_engine_type_TITLE:1 "1 Engine"
+
+
+  EQ_MOD_CAT_barrels_lenght_TITLE:1 "Barrels lenght category"
+  EQ_MOD_CAT_barrels_number_TITLE:1 "Barrels number category"
+  EQ_MOD_CAT_steel_quality_TITLE:1 "Steel quality category"
+
+
+	EQ_MOD_SLOT_mid_6_custom_slot_TITLE:0 "Barrels lenght slot"
+  EQ_MOD_SLOT_mid_7_custom_slot_TITLE:0 "Barrels number slot"
+  EQ_MOD_SLOT_mid_8_custom_slot_TITLE:0 "Steel quality slot"
+
 #  EQ_MOD_CAT_twin_plane_engine_type_TITLE:0 "2 Engines"
 #  EQ_MOD_CAT_medium_plane_engine_type_TITLE:0 "3 Engines"
 #  EQ_MOD_CAT_quad_large_plane_engine_type_TITLE:0 "4 Engines"

@@ -2229,6 +2229,7 @@ equipment_modules = {
 			hg_armor_piercing = -0.25
 			lg_armor_piercing = -0.25
 			build_cost_ic = -0.15
+			reliability = 0.1
 		}
 	}
 	long_barrels = {
@@ -2239,6 +2240,7 @@ equipment_modules = {
 			hg_armor_piercing = 0.15
 			lg_armor_piercing = 0.15
 			build_cost_ic = 0.15
+			reliability = -0.1
 		}
 		build_cost_resources = {
 			tungsten = 1
@@ -2253,6 +2255,7 @@ equipment_modules = {
 			lg_attack = -0.2
 			hg_attack = -0.2
 			build_cost_ic = -0.1
+			reliability = 0.1
 		}
 		build_cost_resources = {
 			steel = -1
@@ -2266,6 +2269,7 @@ equipment_modules = {
 			lg_attack = -0.1
 			hg_attack = -0.1
 			build_cost_ic = -0.05
+			reliability = 0.05
 		}
 		build_cost_resources = {
 		}
@@ -2289,6 +2293,7 @@ equipment_modules = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 			build_cost_ic = 0.1
+			reliability = -0.05
 		}
 		build_cost_resources = {
 		}
@@ -2301,6 +2306,7 @@ equipment_modules = {
 			lg_attack = 0.2
 			hg_attack = 0.2
 			build_cost_ic = 0.2
+			reliability = -0.1
 		}
 		build_cost_resources = {
 			steel = 1
@@ -2314,8 +2320,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = -0.15
 			armor_value = -0.3
-			critical_receive_chance = 0.05
-			naval_critical_effect_factor = 0.05
+			reliability = -0.2
 		}
 		build_cost_resources = {
 		}
@@ -2327,8 +2332,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			armor_value = 0.15
-			critical_receive_chance = -0.05
-			naval_critical_effect_factor = -0.05
+			reliability = 0.1
 		}
 		build_cost_resources = {
 			chromium = 1

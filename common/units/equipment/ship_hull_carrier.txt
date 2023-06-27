@@ -84,9 +84,9 @@ equipments = {
 			}
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = {
+			mid_6_custom_slot_car = {
 			}
-			mid_7_custom_slot = {
+			mid_7_custom_slot_car = {
 			}
 			mid_8_custom_slot = {
 				required = no
@@ -94,11 +94,11 @@ equipments = {
 					steel_quality
 				}
 			}
-			mid_9_custom_slot = {
+			mid_9_custom_slot_car = {
 			}
-			mid_10_custom_slot = {
+			mid_10_custom_slot_car = {
 			}
-			mid_11_custom_slot = {
+			mid_11_custom_slot_car = {
 			}
 		}
 		module_count_limit = {
@@ -193,9 +193,9 @@ equipments = {
 			}
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = {
+			mid_6_custom_slot_car = {
 			}
-			mid_7_custom_slot = {
+			mid_7_custom_slot_car = {
 			}
 			mid_8_custom_slot = {
 				required = no
@@ -203,11 +203,11 @@ equipments = {
 					steel_quality
 				}
 			}
-			mid_9_custom_slot = {
+			mid_9_custom_slot_car = {
 			}
-			mid_10_custom_slot = {
+			mid_10_custom_slot_car = {
 			}
-			mid_11_custom_slot = {
+			mid_11_custom_slot_car = {
 			}
 		}
 		default_modules = {
@@ -273,9 +273,9 @@ equipments = {
 			}
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = {
+			mid_6_custom_slot_car = {
 			}
-			mid_7_custom_slot = {
+			mid_7_custom_slot_car = {
 			}
 			mid_8_custom_slot = {
 				required = no
@@ -283,11 +283,11 @@ equipments = {
 					steel_quality
 				}
 			}
-			mid_9_custom_slot = {
+			mid_9_custom_slot_car = {
 			}
-			mid_10_custom_slot = {
+			mid_10_custom_slot_car = {
 			}
-			mid_11_custom_slot = {
+			mid_11_custom_slot_car = {
 			}
 		}
 		default_modules = {
@@ -352,9 +352,9 @@ equipments = {
 			}
 			rear_1_custom_slot = {
 			}
-			mid_6_custom_slot = {
+			mid_6_custom_slot_car = {
 			}
-			mid_7_custom_slot = {
+			mid_7_custom_slot_car = {
 			}
 			mid_8_custom_slot = {
 				required = no
@@ -362,11 +362,11 @@ equipments = {
 					steel_quality
 				}
 			}
-			mid_9_custom_slot = {
+			mid_9_custom_slot_car = {
 			}
-			mid_10_custom_slot = {
+			mid_10_custom_slot_car = {
 			}
-			mid_11_custom_slot = {
+			mid_11_custom_slot_car = {
 			}
 		}
 		default_modules = {
