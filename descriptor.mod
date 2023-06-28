@@ -3,6 +3,7 @@ dependencies={
 	"TEMP Mod"
 	"Kaiserreich"
 	"Universal TEMP Submod"
+	"Red Flood"
 }
 tags={
 	"Technologies"
