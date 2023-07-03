@@ -140,6 +140,7 @@ technologies = {
 			ship_radar_1
 			tank_radio_2
 			radio_navigation_2
+			leigh_light
 		}
 		folder = {
 			name = electronics_folder
@@ -182,6 +183,7 @@ technologies = {
 		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_2
+			asv_radar
 		}
 
 		path = {
@@ -230,6 +232,7 @@ technologies = {
 			ship_radar_3
 			air_air_radar_1
 			tank_radio_3
+			magnetic_anomaly_detector
 		}
 
 		static_anti_air_hit_chance_factor = 0.2
@@ -278,6 +281,7 @@ technologies = {
 		coordination_bonus = 0.01
 		enable_equipment_modules = {
 			air_ground_radar_1
+			sonobuoy
 		}
 
 		static_anti_air_hit_chance_factor = 0.2
@@ -373,6 +377,8 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			bomb_sights_1
+			reflex_gunsight_1
+			cas_reflex_gunsight_1
 		}
 		
 		research_cost = 2.5
@@ -413,6 +419,10 @@ technologies = {
 			leads_to_tech = improved_fire_control_system
 			research_cost_coeff = 1
 		}
+		enable_equipment_modules = {
+			reflex_gunsight_2
+			cas_reflex_gunsight_2
+		}		
 		research_cost = 2.5
 		start_year = 1938
 		
@@ -450,6 +460,7 @@ technologies = {
 		enable_equipment_modules = {
 			stabilizer
 			bomb_sights_2
+			gyro_gunsight_1
 		}
 		path = {
 			leads_to_tech = advanced_computing_machine 
@@ -517,7 +528,9 @@ technologies = {
 			leads_to_tech = advanced_decryption 
 			research_cost_coeff = 1
 		}
-		
+		enable_equipment_modules = {
+			gyro_gunsight_2
+		}		
 		research_cost = 2.5
 		start_year = 1942
 		
@@ -882,6 +895,7 @@ technologies = {
 
 		enable_equipment_modules = { 
 			ship_fire_control_system_3
+			remote_control_turret_system
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -927,8 +941,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
-		start_year = 1942
+		research_cost = 1.5
+		start_year = 1943
 		
 		folder = {
 			name = electronics_folder
@@ -986,7 +1000,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1942
+		start_year = 1944
 		
 		folder = {
 			name = electronics_folder
@@ -1025,8 +1039,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_2
-			guided_anti_ship_missile
-			aa_rocket_rails
 		}
 		
 		rocket_artillery = {
@@ -1047,8 +1059,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
-		start_year = 1943
+		research_cost = 1.5
+		start_year = 1945
 		
 		folder = {
 			name = electronics_folder
@@ -1082,6 +1094,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_3
+			guided_anti_ship_missile
 		}
 		
 		rocket_artillery = {
@@ -1097,8 +1110,8 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		research_cost = 2
-		start_year = 1945
+		research_cost = 1.5
+		start_year = 1946
 		
 		folder = {
 			name = electronics_folder
@@ -1121,12 +1134,13 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		start_year = 1942
-		research_cost = 1
+		start_year = 1944
+		research_cost = 2
 		enable_equipment_modules = {
 			tank_gas_turbine_engine
 			jet_engine_1x
 			jet_engine_2x
+			jet_engine_3x
 			jet_engine_4x
 			jet_engine_6x
 		}
@@ -1138,6 +1152,11 @@ technologies = {
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = -1 y = 11 }
+		}
+
+		path = {
+			leads_to_tech = jet_engine_improvements
+			research_cost_coeff = 1
 		}
 		
 		desc = "JET_ENGINES_SPECIAL"
@@ -1155,7 +1174,36 @@ technologies = {
 			jet_technology
 		}
 	}
-	
+
+	jet_engine_improvements = {
+
+		enable_equipment_modules = {
+		afterburner
+		supersonic_air_intake		
+		swept_wings
+		improved_compressor
+		}
+		
+		research_cost = 1
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 4 }
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_major = yes
+				factor = 100
+			}			
+		}
+	}	
 	atomic_research = {
 
 		research_speed_factor = 0.04

@@ -79,7 +79,6 @@ sub_units = {
 		land_air_wing_size = 100
 	}
 
-
 	# Medium airframe
 
 	tac_bomber = {
@@ -91,7 +90,18 @@ sub_units = {
 		categories = { category_tac_bomber }
 		land_air_wing_size = 100
 	}
-
+	
+	medium_nav_bomber = {
+		sprite = medium_plane
+		priority = 2
+		active = yes
+		type = naval_bomber
+		need = { medium_plane_naval_bomber_airframe = 1 }
+		categories = { medium_nav_bomber }
+		land_air_wing_size = 100
+		carrier_air_wing_size = 10
+	}
+	
 	heavy_fighter = {
 		sprite = medium_plane
 		priority = 1
@@ -110,16 +120,6 @@ sub_units = {
 		need = { medium_plane_scout_plane_airframe = 1 }
 		categories = { category_scout_plane }
 		land_air_wing_size = 10
-	}
-
-	medium_nav_bomber = {
-		sprite = medium_plane
-		priority = 2
-		active = yes
-		type = naval_bomber
-		need = { medium_plane_naval_bomber_airframe = 1 }
-		categories = { medium_nav_bomber }
-		land_air_wing_size = 100
 	}
 
 	# Large airframe
@@ -143,18 +143,6 @@ sub_units = {
 		categories = { category_strat_bomber }
 		land_air_wing_size = 100
 	}
-
-	small_scout_plane = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = scout_plane
-		need = { small_plane_scout_plane_airframe = 1 }
-		categories = { category_small_scout_plane }
-		land_air_wing_size = 10
-	}
-
-
 
 	# Non-BBA archetypes
 
