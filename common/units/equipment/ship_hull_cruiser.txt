@@ -111,7 +111,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty

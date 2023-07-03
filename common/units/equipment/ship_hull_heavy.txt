@@ -134,7 +134,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
@@ -559,7 +559,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_armor_slot = ship_armor_shbb
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
@@ -656,7 +656,7 @@ equipments = {
 		module_slots = inherit
 
 		default_modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
@@ -689,7 +689,7 @@ equipments = {
 		module_slots = inherit
 
 		default_modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
@@ -753,7 +753,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 4000
-		naval_speed = 32
+		naval_speed = 30
 		max_strength = 380
 		reliability = 0.9
 		fuel_consumption = 67
@@ -842,7 +842,7 @@ equipments = {
 		naval_range = 4500
 
 		max_strength = 420
-		naval_speed = 32
+		naval_speed = 29
 		fuel_consumption = 67
 		reliability = 0.95
 		build_cost_ic = 3300
@@ -953,7 +953,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_armor_slot = ship_armor_shbb
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
