@@ -127,8 +127,8 @@ ideas = {
 				}
 				custom_modifier_tooltip = asymmetrical_warfare_spirit_tt
 				equipment_capture_factor = 0.1
-				cas_damage_reduction = 0.25
-				terrain_penalty_reduction = 0.2 
+				cas_damage_reduction = 0.1
+				terrain_penalty_reduction = 0.1 
 			}
 			ai_will_do = {
 				factor = 0
