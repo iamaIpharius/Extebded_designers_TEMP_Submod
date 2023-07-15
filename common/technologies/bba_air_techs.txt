@@ -776,7 +776,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = photo_reconnaisance
+			leads_to_tech = armor_piercing_bombs
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = heavy_bombs
 			research_cost_coeff = 1
 		}
 		
@@ -799,8 +804,72 @@ technologies = {
 		}
 	}
 
-	photo_reconnaisance = {
+	heavy_bombs = {
+		enable_equipment_modules = {
+					heavy_bomb_locks
+		}
+			
+		research_cost = 1
+		start_year = 1940
 
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_bombs
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_tech = iw_small_airframe
+					has_tech = iw_medium_airframe
+					has_tech = iw_large_airframe
+				}
+				factor = 5
+			}
+		}
+	}
+
+
+	armor_piercing_bombs = {
+		enable_equipment_modules = {
+					armor_piercing_bomb_locks
+		}
+			
+		research_cost = 1
+		start_year = 1936
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_bombs
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_tech = iw_small_airframe
+					has_tech = iw_medium_airframe
+					has_tech = iw_large_airframe
+				}
+				factor = 5
+			}
+		}
+	}
+
+	photo_reconnaisance = {
 		enable_equipment_modules = {
 			recon_camera
 		}
@@ -810,7 +879,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 2 y = 2 }
+			position = { x = 0 y = 2 }
 		}
 
 		allow_branch = { has_dlc = "La Resistance" }
@@ -825,6 +894,112 @@ technologies = {
 			modifier = {
 				OR = {
 					has_tech = basic_medium_airframe
+				}
+				factor = 5
+			}
+		}
+	}
+
+	air_torpedoe_1 = {
+		enable_equipment_modules = {
+			torpedo_mounting
+		}
+			
+		research_cost = 1
+		start_year = 1936
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = air_torpedoe_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_bombs
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_tech = iw_small_airframe
+					has_tech = iw_medium_airframe
+					has_tech = iw_large_airframe
+				}
+				factor = 5
+			}
+		}
+	}
+
+	air_torpedoe_2 = {
+		enable_equipment_modules = {
+			torpedo_mounting_2
+		}
+			
+		research_cost = 1
+		start_year = 1940
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = air_torpedoe_3
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_bombs
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_tech = iw_small_airframe
+					has_tech = iw_medium_airframe
+					has_tech = iw_large_airframe
+				}
+				factor = 5
+			}
+		}
+	}
+
+	air_torpedoe_3 = {
+		enable_equipment_modules = {
+			torpedo_mounting_3
+		}
+			
+		research_cost = 1
+		start_year = 1944
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_bombs
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_tech = iw_small_airframe
+					has_tech = iw_medium_airframe
+					has_tech = iw_large_airframe
 				}
 				factor = 5
 			}
@@ -901,7 +1076,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = -2 y = 4 }
+			position = { x = -2 y = 5 }
 		}
 
 		categories = {
@@ -979,7 +1154,7 @@ technologies = {
 		enable_equipment_modules = {
 			aircraft_cannon_12_1x
 			aircraft_cannon_12_2x
-			fighter_heavy_cannon
+			
 			additional_cannons
 			schraege_musik
 		}
@@ -995,6 +1170,12 @@ technologies = {
 			leads_to_tech = aa_cannon_2
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = aa_cannon_3
+			research_cost_coeff = 1
+		}
+
 		categories = {
 			air_equipment
 			plane_modules_tech
@@ -1025,6 +1206,52 @@ technologies = {
 	aa_cannon_2 = {
 
 		enable_equipment_modules = {
+			fighter_heavy_cannon
+			large_aircraft_cannon_1x
+			large_aircraft_cannon_2x
+			cannon_defense_turret
+			cannon_defense_turret_2x
+			
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 0 y = 7 }
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_guns
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					has_tech = improved_small_airframe
+					has_tech = improved_medium_airframe
+					has_tech = improved_large_airframe
+				}
+				factor = 5
+			}
+			modifier = {
+				OR = {
+					tag = GER
+					tag = SOV
+					tag = ENG
+				}
+				factor = 3
+			}
+		}
+	}
+
+	aa_cannon_3 = {
+
+		enable_equipment_modules = {
 			aircraft_cannon_13_1x
 			aircraft_cannon_13_2x
 			aircraft_cannon_21_1x
@@ -1036,12 +1263,12 @@ technologies = {
 			cannon_defense_turret_2x
 		}
 		
-		research_cost = 1.5
-		start_year = 1943
+		research_cost = 2
+		start_year = 1945
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 2 y = 7 }
+			position = { x = 2 y = 12 }
 		}
 
 		categories = {
@@ -1314,7 +1541,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 2 y = 4 }
+			position = { x = -2 y = 4 }
 		}
 
 		categories = {
@@ -1373,7 +1600,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = -2 y = 4 }
+			position = { x = -2 y = 2 }
 		}
 
 		categories = {
