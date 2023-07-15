@@ -1415,7 +1415,7 @@ equipments = {
 		}
 		module_count_limit = {
 			module = schraege_musik
-			count < 1
+			count < 2
 		}
 		module_count_limit = {
 			module = fixed_explosive_charge
