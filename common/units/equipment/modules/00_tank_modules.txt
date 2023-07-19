@@ -713,7 +713,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 1.5
-			breakthrough = 16
+			breakthrough = 12
 		}
 		multiply_stats = {
 		}
@@ -725,7 +725,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2
 			maximum_speed = -0.25
-			breakthrough = 24
+			breakthrough = 16
 		}
 		multiply_stats = {
 		}
@@ -781,7 +781,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 5.5
 			maximum_speed = -0.25
-			breakthrough = 22
+			breakthrough = 20
 		}
 		multiply_stats = {
 		}
@@ -813,10 +813,10 @@ equipment_modules = {
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			build_cost_ic = 10
-			reliability = -0.1
-			maximum_speed = -0.2
-			breakthrough = 24
+			build_cost_ic = 12
+			reliability = -0.25
+			maximum_speed = -0.5
+			breakthrough = 30
 		}
 		multiply_stats = {
 			hard_attack = -0.1
@@ -827,10 +827,10 @@ equipment_modules = {
 		category = tank_super_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			build_cost_ic = 12
-			reliability = -0.25
-			maximum_speed = -0.5
-			breakthrough = 35
+			build_cost_ic = 10
+			reliability = -0.15
+			maximum_speed = -0.25
+			breakthrough = 25
 		}
 		multiply_stats = {
 		}
@@ -841,7 +841,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 8
-			breakthrough = 24
+			breakthrough = 25
 		}
 		multiply_stats = {
 		}
