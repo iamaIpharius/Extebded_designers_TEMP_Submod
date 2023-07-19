@@ -67,9 +67,8 @@ equipment_modules = {
 		category = mech_fully_wheeled
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 0.25
+			build_cost_ic = 0.5
 			hardness = -0.15
-			reliability = -0.175
 		}
 		multiply_stats = {
 			defense = -0.2
@@ -86,9 +85,8 @@ equipment_modules = {
 		category = mech_fully_wheeled
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 0.7
 			hardness = -0.1
-			reliability = -0.1
 		}
 		multiply_stats = {
 			defense = -0.15
@@ -104,9 +102,8 @@ equipment_modules = {
 		category = mech_fully_wheeled
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 0.75
+			build_cost_ic = 1
 			hardness = -0.05
-			reliability = -0.075
 		}
 		multiply_stats = {
 			defense = -0.1
@@ -124,9 +121,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 			build_cost_ic = 2
-			defense = 2
-			breakthrough = 4
-			hardness = 0.05
+			breakthrough = 2
+			hardness = -0.05
 		}
 		multiply_stats = {
 		}
@@ -139,10 +135,9 @@ equipment_modules = {
 		category = mech_half
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 1.25
-			defense = 1
-			breakthrough = 1
-			reliability = 0.1
+			build_cost_ic = 2
+			defense = 2
+			hardness = -0.05
 		}
 		multiply_stats = {
 		}
@@ -156,9 +151,8 @@ equipment_modules = {
 		category = mech_track
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 3
+			build_cost_ic = 2.5
 			breakthrough = 4
-			hardness = 0.15
 			reliability = -0.1
 		}
 		multiply_stats = {
@@ -166,6 +160,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
+			rubber = 1
 		}
 	}
 	boogie_suspension = {
@@ -173,15 +168,15 @@ equipment_modules = {
 		category = mech_track
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 3
+			build_cost_ic = 2.5
 			hardness = 0.1
-			reliability = 0.1
 		}
 		multiply_stats = {
 			maximum_speed = -0.2
 		}
 		build_cost_resources = {
 			steel = 1
+			rubber = 1
 		}
 	}
 	christie_suspension = {
@@ -189,13 +184,14 @@ equipment_modules = {
 		category = mech_track
 		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
-			build_cost_ic = 3
-			hardness = 0.1
+			build_cost_ic = 2.5
+			reliability = 0.1
 		}
 		multiply_stats = {
 		}
 		build_cost_resources = {
 			steel = 1
+			rubber = 1
 		}
 	}
 	###Hull Mod ### Shell type
