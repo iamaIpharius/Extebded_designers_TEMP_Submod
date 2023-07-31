@@ -601,10 +601,10 @@ NProduction = {
 	LICENSE_EQUIPMENT_UPGRADE_XP_FACTOR = 2.0,			-- XP cost for upgrading licensed equipment
 	LICENSE_EQUIPMENT_SPEED_NO_LICENSE = -0.50,			-- Penalty for producing non licensed equipment
 	CONVERSION_SPEED_BONUS = 0,							-- Modifier to the production speed when converting equipment
-	EQUIPMENT_MODULE_ADD_XP_COST = 5,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
-	EQUIPMENT_MODULE_REPLACE_XP_COST = 4,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
-	EQUIPMENT_MODULE_CONVERT_XP_COST = 3,				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
-	EQUIPMENT_MODULE_REMOVE_XP_COST = 3,				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
+	EQUIPMENT_MODULE_ADD_XP_COST = 0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
+	EQUIPMENT_MODULE_REPLACE_XP_COST = 0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+	EQUIPMENT_MODULE_CONVERT_XP_COST = 0,				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
+	EQUIPMENT_MODULE_REMOVE_XP_COST = 0,				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
 	BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.05,       -- Fraction of the hull industry cost which is always included in the refitting cost.
 	BASE_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.9,        -- Fraction of the chassis industry cost which is always included in the conversion cost.
 	MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.1,	-- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost.
@@ -3764,7 +3764,8 @@ NCharacter = {
 	DEFAULT_CP_COST_FOR_DYNAMIC_ADVISORS = 0,	-- For Advisors created during gameplay
 	ADVISOR_PROMOTION_COST = 5,	-- Cost to promote someone to advisor
 
-	COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH = 5, -- When creating a dynamic country leader if an expire date is not set it will have 5 years as a base expiration date
+	COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH = 5, -- When creating a dynamic country leader if an expire date is not set it will have 5 years as a base e
+	iration date
 	COUNTRY_LEADER_BASE_RANDOM_MAX_YEAR_LENGTH = 15, -- Max random value added to COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH
 
 	SPECIALIST_ADVISOR_MIN_RANK = 3,
