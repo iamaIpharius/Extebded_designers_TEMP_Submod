@@ -601,10 +601,10 @@ NProduction = {
 	LICENSE_EQUIPMENT_UPGRADE_XP_FACTOR = 2.0,			-- XP cost for upgrading licensed equipment
 	LICENSE_EQUIPMENT_SPEED_NO_LICENSE = -0.50,			-- Penalty for producing non licensed equipment
 	CONVERSION_SPEED_BONUS = 0,							-- Modifier to the production speed when converting equipment
-	EQUIPMENT_MODULE_ADD_XP_COST = 0,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
-	EQUIPMENT_MODULE_REPLACE_XP_COST = 0,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
-	EQUIPMENT_MODULE_CONVERT_XP_COST = 0,				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
-	EQUIPMENT_MODULE_REMOVE_XP_COST = 0,				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
+	EQUIPMENT_MODULE_ADD_XP_COST = 5,					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
+	EQUIPMENT_MODULE_REPLACE_XP_COST = 4,				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
+	EQUIPMENT_MODULE_CONVERT_XP_COST = 3,				-- XP cost for converting one equipment module to a related module when creating an equipment variant.
+	EQUIPMENT_MODULE_REMOVE_XP_COST = 3,				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
 	BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.05,       -- Fraction of the hull industry cost which is always included in the refitting cost.
 	BASE_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.9,        -- Fraction of the chassis industry cost which is always included in the conversion cost.
 	MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.1,	-- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost.
@@ -1471,8 +1471,8 @@ NNavy = {
 	NAVAL_SUPREMACY_CAN_INVADE = 0.5,								-- required naval supremacy to perform invasions on an area
 	CARRIER_STACK_PENALTY = 4,										-- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
 	CARRIER_STACK_PENALTY_EFFECT = 0.2,								-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
-	SHORE_BOMBARDMENT_CAP = 0.25,
-	ANTI_AIR_TARGETING = 1.1,                                       -- how good ships are at hitting aircraft
+	SHORE_BOMBARDMENT_CAP = 0.5,
+	ANTI_AIR_TARGETING = 1.2,                                       -- how good ships are at hitting aircraft
 	MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.05,							-- How much damage counts as assist damage
 	SUPPLY_NEED_FACTOR = 4,										    -- multiplies supply usage
 	DECRYPTION_SPOTTING_BONUS = 0.2,
@@ -1487,7 +1487,7 @@ NNavy = {
 
 	NAVAL_TRANSFER_DAMAGE_REDUCTION = 0.25,							-- its hard to specifically balance 1-tick naval strikes vs unit transports so here is a factor for it
 	CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 0,							-- hours from start of combat when carriers get to fight
-	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 24,                          -- hours from start of combat when only carriers, capitals and subs get to attack
+	CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 22,                          -- hours from start of combat when only carriers, capitals and subs get to attack
 	ALL_SHIPS_ACTIVATE_TIME = 26,                                    -- hours where all get to attack
 
 	MINIMUM_SHIP_SPEED = 1.0,										-- slowest speed a ship can have
@@ -1773,8 +1773,8 @@ NNavy = {
 	HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR					= 0.2;  -- penalty if other side has stronger carrier air force
 	MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR 					= 0.2;  -- max penalty from stronger carrier air force
 
-	POSITIONING_PENALTY_FOR_SHIPS_JOINED_COMBAT_AFTER_IT_STARTS		= 0.01, -- each ship that joins the combat will have this penalty to be added into positioning
-	MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS 					= 0.25,  -- the accumulated penalty from new ships will be clamped to this value
+	POSITIONING_PENALTY_FOR_SHIPS_JOINED_COMBAT_AFTER_IT_STARTS		= 0.02, -- each ship that joins the combat will have this penalty to be added into positioning
+	MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS 					= 0.4,  -- the accumulated penalty from new ships will be clamped to this value
 	POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 0.05,-- the accumulated penalty from new ships will decay hourly by this value
 
 	DAMAGE_PENALTY_ON_MINIMUM_POSITIONING 							= 0.8,	-- damage penalty at 0% positioning
@@ -2798,7 +2798,7 @@ NAI = {
 
 	MIN_CAPITALS_FOR_CARRIER_TASKFORCE = 6,			-- carrier fleets will at least have this amount of capitals
 	CAPITALS_TO_CARRIER_RATIO = 1.5,				-- capital to carrier count in carrier taskfoces
-	SCREENS_TO_CAPITAL_RATIO = 4.0,					-- screens to capital/carrier count in carrier & capital taskforces
+	SCREENS_TO_CAPITAL_RATIO = 4.5,					-- screens to capital/carrier count in carrier & capital taskforces
 
 	MIN_MAIN_SHIP_RATIO = 0.3,                      -- if main ship ratio is below this, steal other ships.
 	MIN_SUPPORT_SHIP_RATIO = 0.7,                   -- if support ship ratio is below this, steal other ships.
@@ -3616,21 +3616,21 @@ NIntel = {
 	NAVY_TASKFORCE_COUNT_INTEL_MAX = 0.7,
 	NAVY_TASKFORCE_COUNT_INTEL_RANGE_AT_LOWEST_INTEL = 0.5,
 
-	NAVY_SHIP_COUNT_INTEL_MIN = 0.1,
-	NAVY_SHIP_COUNT_INTEL_MAX = 0.8,
+	NAVY_SHIP_COUNT_INTEL_MIN = 0,
+	NAVY_SHIP_COUNT_INTEL_MAX = 0.4,
 	NAVY_SHIP_COUNT_INTEL_RANGE_AT_LOWEST_INTEL = 0.5,
 
-	NAVY_MIN_INTEL_TO_SHOW_EXISTING_CATEGORY_TYPES = 0.1,   --this is about disaplying ships by class category
-	NAVY_SHIP_TYPE_COUNT_INTEL_MIN = 0.3,					--this range is used both when for disaplying counts by class and counts by variant
-	NAVY_SHIP_TYPE_COUNT_INTEL_MAX = 0.7,
+	NAVY_MIN_INTEL_TO_SHOW_EXISTING_CATEGORY_TYPES = 0.01,   --this is about disaplying ships by class category
+	NAVY_SHIP_TYPE_COUNT_INTEL_MIN = 0.01,					--this range is used both when for disaplying counts by class and counts by variant
+	NAVY_SHIP_TYPE_COUNT_INTEL_MAX = 0.3,
 	NAVY_SHIP_TYPE_COUNT_INTEL_RANGE_AT_LOWEST_INTEL = 0.5,
 
-	NAVY_MIN_INTEL_TO_SHOW_SHIP_CLASSES = 0.5, --this unclocks the display of a given variant
+	NAVY_MIN_INTEL_TO_SHOW_SHIP_CLASSES = 0.15, --this unclocks the display of a given variant
 	NAVY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MIN = 0.05,
 	NAVY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MAX = 0.7,
 	NAVY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_RANGE_AT_LOWEST_INTEL = 0.5,
 
-	NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS = 0.8,
+	NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS = 0.5,
 
 	AIR_AIRWING_COUNT_INTEL_MIN = 0.0,
 	AIR_AIRWING_COUNT_INTEL_MAX = 0.7,
