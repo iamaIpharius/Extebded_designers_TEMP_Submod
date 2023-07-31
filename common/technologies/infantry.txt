@@ -380,10 +380,6 @@ technologies = {
 	paratroopers = {
 		enable_subunits = {
 			paratrooper
-			motorized_paratrooper
-			paradrop_artillery
-			paradrop_anti_air
-			paradrop_anti_tank
 		}
 		path = {
 			leads_to_tech = paratroopers2
@@ -434,10 +430,6 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.05
 		}
-		motorized_paratrooper = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
 		path = {
 			leads_to_tech = paratroopers3
 			research_cost_coeff = 1
@@ -473,9 +465,6 @@ technologies = {
 	}
 	paratroopers3 = {
 		paratrooper = {
-			max_organisation = 5
-		}
-		motorized_paratrooper = {
 			max_organisation = 5
 		}
 		research_cost = 2
