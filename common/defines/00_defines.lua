@@ -3764,8 +3764,7 @@ NCharacter = {
 	DEFAULT_CP_COST_FOR_DYNAMIC_ADVISORS = 0,	-- For Advisors created during gameplay
 	ADVISOR_PROMOTION_COST = 5,	-- Cost to promote someone to advisor
 
-	COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH = 5, -- When creating a dynamic country leader if an expire date is not set it will have 5 years as a base e
-	iration date
+	COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH = 5, -- When creating a dynamic country leader if an expire date is not set it will have 5 years as a base exiration date
 	COUNTRY_LEADER_BASE_RANDOM_MAX_YEAR_LENGTH = 15, -- Max random value added to COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH
 
 	SPECIALIST_ADVISOR_MIN_RANK = 3,
