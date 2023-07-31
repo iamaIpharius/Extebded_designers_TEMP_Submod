@@ -70,8 +70,8 @@ equipment_modules = {
 			build_cost_ic = 0.5
 		}
 		multiply_stats = {
-			defense = -0.1
-			breakthrough = -0.1
+			defense = -0.2
+			breakthrough = -0.2
 			maximum_speed = 0.25
 		}
 		build_cost_resources = {
@@ -86,8 +86,8 @@ equipment_modules = {
 			build_cost_ic = 0.7
 		}
 		multiply_stats = {
-			defense = -0.05
-			breakthrough = -0.05
+			defense = -0.15
+			breakthrough = -0.15
 			maximum_speed = 0.15
 		}
 		build_cost_resources = {
@@ -102,6 +102,8 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 		multiply_stats = {
+			defense = -0.1
+			breakthrough = -0.1
 			maximum_speed = 0.1
 		}
 		build_cost_resources = {
