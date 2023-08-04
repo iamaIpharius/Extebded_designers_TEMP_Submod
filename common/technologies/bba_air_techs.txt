@@ -903,6 +903,7 @@ technologies = {
 	air_torpedoe_1 = {
 		enable_equipment_modules = {
 			torpedo_mounting
+			maritime_weaponary
 		}
 			
 		research_cost = 1
