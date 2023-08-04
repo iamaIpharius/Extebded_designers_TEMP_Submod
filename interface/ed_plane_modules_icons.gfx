@@ -52,7 +52,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_bomb_lock_icon.dds"
 		legacy_lazy_load = no
 	}
-
+	
 	spriteType = {
 		name = "GFX_EMI_engine_1_1x"
 		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_engine_1_1_icon.dds"
@@ -720,6 +720,40 @@ spriteTypes = {
 		name = "GFX_plane_niche_icon_strip_selected"
 		textureFile = "gfx/interface/equipmentdesigner/planes/Niche_icon_strip_glow.dds"
 		noOfFrames = 8
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_bomb_locks"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_bomb_lock_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_bombs_medium"
+		textureFile = "gfx/interface/technologies/bba_tech_bombs.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_armor_piercing_bomb_locks"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/airplane_bomb_lock_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_armor_piercing_bombs_medium"
+		textureFile = "gfx/interface/technologies/bba_tech_bombs.dds"
+	}
+	spriteType = {
+		name = "GFX_air_torpedoe_1_medium"
+		textureFile = "gfx/interface/technologies/basic_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_air_torpedoe_2_medium"
+		textureFile = "gfx/interface/technologies/basic_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_air_torpedoe_3_medium"
+		textureFile = "gfx/interface/technologies/basic_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_aa_cannon_3_medium"
+		textureFile = "gfx/interface/technologies/bba_tech_aa_cannon_3.dds"
 	}
 
 }
